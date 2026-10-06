@@ -1,0 +1,97 @@
+name: Update waiver wire
+
+# Cron runs in UTC and ignores daylight saving time, so every Eastern-time slot
+# is scheduled at BOTH of its possible UTC times. run.py checks the real Eastern
+# time and exits quietly when nothing is due (the "wrong DST" run does nothing).
+on:
+  schedule:
+    # Sunday 11:45 PM ET -> preliminary waiver list (Mon 03:45 UTC in EDT, 04:45 in EST)
+    - cron: "45 3,4 * * 1"
+    # Monday 11:30 PM -> Tuesday 2:00 AM ET, every 30 min: final list once all games are final
+    - cron: "0,30 3-7 * * 2"
+    # Tuesday-Saturday 8 AM -> midnight ET, every 2 hours (hourly in UTC to cover both offsets)
+    - cron: "0 12-23 * * 2-6"
+    - cron: "0 0-5 * * 0,3-6"
+    # Sunday game day: 10:00 AM and 11:45 AM ET
+    - cron: "0 14,15 * * 0"
+    - cron: "45 15,16 * * 0"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "What to build"
+        type: choice
+        default: auto
+        options: [auto, waiver_prelim, waiver_final, free_agent, game_day]
+      dry_run:
+        description: "Test only: print the list in the log, don't publish"
+        type: boolean
+        default: false
+      now:
+        description: "Test only: pretend it's this time (e.g. 2026-10-11T11:50-04:00). Leave blank."
+        type: string
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: waiver-wire
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # The Sleeper player list is large, so it's cached and refreshed at most every 12 hours.
+      - name: Cache key
+        id: key
+        run: echo "half=$(date -u +%Y%m%d)-$(( $(date -u +%-H) / 12 ))" >> "$GITHUB_OUTPUT"
+      - uses: actions/cache@v4
+        with:
+          path: state/cache
+          key: players-${{ steps.key.outputs.half }}
+          restore-keys: players-
+
+      - name: Build list
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        run: |
+          ARGS=""
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            ARGS="--mode ${{ inputs.mode }}"
+            if [ "${{ inputs.dry_run }}" = "true" ]; then ARGS="$ARGS --dry-run --out preview"; fi
+            if [ -n "${{ inputs.now }}" ]; then ARGS="$ARGS --now ${{ inputs.now }}"; fi
+          fi
+          python run.py $ARGS
+
+      - name: Upload preview (dry runs)
+        if: ${{ inputs.dry_run }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: preview-${{ inputs.mode }}
+          path: preview/
+
+      - name: Publish if the page changed
+        if: ${{ !inputs.dry_run }}
+        run: |
+          if [ -n "$(git status --porcelain docs)" ]; then
+            git config user.name "waiver-wire-bot"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add docs
+            git commit -m "Update waiver wire ($(TZ=America/New_York date '+%a %-I:%M %p ET'))"
+            git push
+          else
+            echo "No changes to publish."
+          fi

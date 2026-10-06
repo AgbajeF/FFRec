@@ -1,0 +1,36 @@
+{
+  "sleeper_username": "YurrbingbongFYL",
+  "league_id": "1389710448437264384",
+  "season": "auto",
+  "my_roster_id": "auto",
+
+  "waivers": {
+    "day": "Tuesday",
+    "hour_et": 3,
+    "minute_et": 0
+  },
+
+  "site": {
+    "title": "Waiver Wire",
+    "url": ""
+  },
+
+  "notifications": {
+    "enabled": false,
+    "discord_webhook_env": "DISCORD_WEBHOOK_URL",
+    "email": {
+      "enabled": false,
+      "to": "",
+      "smtp_host_env": "SMTP_HOST",
+      "smtp_port_env": "SMTP_PORT",
+      "smtp_user_env": "SMTP_USER",
+      "smtp_password_env": "SMTP_PASSWORD"
+    }
+  },
+
+  "tuning": {
+    "players_cache_hours": 12,
+    "trending_spike_min_adds": 10000,
+    "list_size": 20
+  }
+}
