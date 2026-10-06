@@ -1,0 +1,1862 @@
+{
+ "generated_at": "2026-10-06T05:53:11.076365+00:00",
+ "generated_et": "Tue 1:53 AM ET",
+ "mode": "waiver",
+ "list_type": "final",
+ "badge": {
+  "text": "WAIVER CLAIMS: Final list",
+  "color": "green"
+ },
+ "week": 5,
+ "stats_week": 4,
+ "season": "2026",
+ "league_name": "Bruce League",
+ "team_name": "Sharpe Allegations",
+ "countdown": [
+  {
+   "label": "Waivers run in",
+   "iso": "2026-10-06T03:00:00-04:00"
+  }
+ ],
+ "alert": null,
+ "notices": [],
+ "picks": [
+  {
+   "rank": 1,
+   "player_id": "5844",
+   "name": "T.J. Hockenson",
+   "pos": "TE",
+   "team": "MIN",
+   "injury": null,
+   "availability": "waivers",
+   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
+   "claim_by": "2026-10-06T03:00:00-04:00",
+   "reason": "Role is growing: 83% of snaps last week (up from 77%) with 13 targets.",
+   "drop": "LV D/ST (DEF)",
+   "advice": "Bid $5\u2013$10 (10\u201318% of your $54 left)",
+   "tags": [],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 2,
+      "pts": 4.4,
+      "snap": 69,
+      "targets": 4,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 3,
+      "pts": 2.1,
+      "snap": 85,
+      "targets": 4,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 4,
+      "pts": 18.4,
+      "snap": 83,
+      "targets": 13,
+      "carries": 0,
+      "rz": 2
+     }
+    ],
+    "proj": 8.0,
+    "avg": 8.3,
+    "adds_24h": 22993,
+    "opponent": "@ NO",
+    "score": 63.9
+   }
+  },
+  {
+   "rank": 2,
+   "player_id": "11577",
+   "name": "Will Shipley",
+   "pos": "RB",
+   "team": "PHI",
+   "injury": null,
+   "availability": "waivers",
+   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
+   "claim_by": "2026-10-06T03:00:00-04:00",
+   "reason": "Starter Saquon Barkley was ruled Out (Hamstring) last night; Shipley is next on the depth chart.",
+   "drop": "LV D/ST (DEF)",
+   "advice": "Bid $5\u2013$10 (10\u201318% of your $54 left)",
+   "tags": [],
+   "news_iso": "2026-10-06T01:25:39.104000+00:00",
+   "trending_spike": true,
+   "opportunity": true,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 2,
+      "pts": 3.9,
+      "snap": 51,
+      "targets": 2,
+      "carries": 7,
+      "rz": 3
+     },
+     {
+      "week": 3,
+      "pts": 1.6,
+      "snap": 26,
+      "targets": 2,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 4,
+      "pts": 2.3,
+      "snap": 48,
+      "targets": 1,
+      "carries": 6,
+      "rz": 3
+     }
+    ],
+    "proj": 6.1,
+    "avg": 2.6,
+    "adds_24h": 234166,
+    "opponent": "@ JAX",
+    "score": 63.7
+   }
+  },
+  {
+   "rank": 3,
+   "player_id": "4993",
+   "name": "Mike Gesicki",
+   "pos": "TE",
+   "team": "CIN",
+   "injury": null,
+   "availability": "waivers",
+   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
+   "claim_by": "2026-10-06T03:00:00-04:00",
+   "reason": "Role is growing: 62% of snaps last week (up from 43%) with 5 targets.",
+   "drop": "LV D/ST (DEF)",
+   "advice": "Bid $2\u2013$6 (4\u201310% of your $54 left)",
+   "tags": [],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 2,
+      "pts": 0.0,
+      "snap": 35,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 3,
+      "pts": 11.2,
+      "snap": 51,
+      "targets": 3,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 4,
+      "pts": 11.5,
+      "snap": 62,
+      "targets": 5,
+      "carries": 0,
+      "rz": 1
+     }
+    ],
+    "proj": 6.7,
+    "avg": 7.6,
+    "adds_24h": 100096,
+    "opponent": "@ MIA",
+    "score": 52.9
+   }
+  },
+  {
+   "rank": 4,
+   "player_id": "11637",
+   "name": "Keon Coleman",
+   "pos": "WR",
+   "team": "BUF",
+   "injury": null,
+   "availability": "waivers",
+   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
+   "claim_by": "2026-10-06T03:00:00-04:00",
+   "reason": "Trending: likely news. Added in 1,052,874 Sleeper leagues in the last day.",
+   "drop": "LV D/ST (DEF)",
+   "advice": "Bid $2\u2013$6 (4\u201310% of your $54 left)",
+   "tags": [],
+   "news_iso": "2026-10-05T18:05:27.452000+00:00",
+   "trending_spike": true,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 2,
+      "pts": 9.3,
+      "snap": 74,
+      "targets": 6,
+      "carries": 0,
+      "rz": 1
+     },
+     {
+      "week": 3,
+      "pts": 4.2,
+      "snap": 48,
+      "targets": 2,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 4,
+      "pts": 20.6,
+      "snap": 78,
+      "targets": 7,
+      "carries": 0,
+      "rz": 1
+     }
+    ],
+    "proj": 7.6,
+    "avg": 11.4,
+    "adds_24h": 1052874,
+    "opponent": "@ LAR",
+    "score": 52.7
+   }
+  },
+  {
+   "rank": 5,
+   "player_id": "3271",
+   "name": "Tyler Higbee",
+   "pos": "TE",
+   "team": "LAR",
+   "injury": null,
+   "availability": "waivers",
+   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
+   "claim_by": "2026-10-06T03:00:00-04:00",
+   "reason": "Projects 7.4 pts next week vs BUF in your scoring.",
+   "drop": "LV D/ST (DEF)",
+   "advice": "Bid $2\u2013$6 (4\u201310% of your $54 left)",
+   "tags": [],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 2,
+      "pts": 0.0,
+      "snap": 26,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 3,
+      "pts": 16.2,
+      "snap": 71,
+      "targets": 11,
+      "carries": 0,
+      "rz": 2
+     },
+     {
+      "week": 4,
+      "pts": 9.2,
+      "snap": 65,
+      "targets": 6,
+      "carries": 0,
+      "rz": 0
+     }
+    ],
+    "proj": 7.4,
+    "avg": 8.5,
+    "adds_24h": 84690,
+    "opponent": "vs BUF",
+    "score": 49.4
+   }
+  },
+  {
+   "rank": 6,
+   "player_id": "11610",
+   "name": "Malik Washington",
+   "pos": "WR",
+   "team": "MIA",
+   "injury": null,
+   "availability": "waivers",
+   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
+   "claim_by": "2026-10-06T03:00:00-04:00",
+   "reason": "Locked-in role: 87% of snaps and 29% target share last week, averaging 8.3 pts in your scoring.",
+   "drop": "LV D/ST (DEF)",
+   "advice": "Bid $2\u2013$6 (4\u201310% of your $54 left)",
+   "tags": [],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 2,
+      "pts": 6.7,
+      "snap": 73,
+      "targets": 5,
+      "carries": 1,
+      "rz": 1
+     },
+     {
+      "week": 3,
+      "pts": 8.6,
+      "snap": 86,
+      "targets": 10,
+      "carries": 2,
+      "rz": 1
+     },
+     {
+      "week": 4,
+      "pts": 9.5,
+      "snap": 87,
+      "targets": 5,
+      "carries": 2,
+      "rz": 1
+     }
+    ],
+    "proj": 8.9,
+    "avg": 8.3,
+    "adds_24h": 34152,
+    "opponent": "vs CIN",
+    "score": 48.4
+   }
+  },
+  {
+   "rank": 7,
+   "player_id": "9511",
+   "name": "Keaton Mitchell",
+   "pos": "RB",
+   "team": "LAC",
+   "injury": null,
+   "availability": "waivers",
+   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
+   "claim_by": "2026-10-06T03:00:00-04:00",
+   "reason": "Trending: likely news. Added in 147,681 Sleeper leagues in the last day.",
+   "drop": "LV D/ST (DEF)",
+   "advice": "Bid $0\u2013$3 (1\u20134% of your $54 left)",
+   "tags": [],
+   "news_iso": "2026-10-05T17:35:27.258000+00:00",
+   "trending_spike": true,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 2,
+      "pts": 4.4,
+      "snap": 25,
+      "targets": 1,
+      "carries": 5,
+      "rz": 0
+     },
+     {
+      "week": 3,
+      "pts": 12.2,
+      "snap": 38,
+      "targets": 3,
+      "carries": 8,
+      "rz": 2
+     },
+     {
+      "week": 4,
+      "pts": 8.8,
+      "snap": 37,
+      "targets": 6,
+      "carries": 10,
+      "rz": 0
+     }
+    ],
+    "proj": 8.7,
+    "avg": 8.5,
+    "adds_24h": 147681,
+    "opponent": "vs DEN",
+    "score": 47.2
+   }
+  },
+  {
+   "rank": 8,
+   "player_id": "8111",
+   "name": "Cade Otton",
+   "pos": "TE",
+   "team": "TB",
+   "injury": null,
+   "availability": "waivers",
+   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
+   "claim_by": "2026-10-06T03:00:00-04:00",
+   "reason": "Locked-in role: 94% of snaps and 23% target share last week, averaging 6.4 pts in your scoring.",
+   "drop": "LV D/ST (DEF)",
+   "advice": "Bid $0\u2013$3 (1\u20134% of your $54 left)",
+   "tags": [],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 2,
+      "pts": 6.3,
+      "snap": 89,
+      "targets": 6,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 3,
+      "pts": 7.1,
+      "snap": 94,
+      "targets": 6,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 4,
+      "pts": 5.7,
+      "snap": 94,
+      "targets": 6,
+      "carries": 0,
+      "rz": 0
+     }
+    ],
+    "proj": 6.7,
+    "avg": 6.4,
+    "adds_24h": 0,
+    "opponent": "@ DAL",
+    "score": 44.4
+   }
+  },
+  {
+   "rank": 9,
+   "player_id": "11630",
+   "name": "Roman Wilson",
+   "pos": "WR",
+   "team": "PIT",
+   "injury": null,
+   "availability": "waivers",
+   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
+   "claim_by": "2026-10-06T03:00:00-04:00",
+   "reason": "Trending: likely news. Added in 515,655 Sleeper leagues in the last day.",
+   "drop": "LV D/ST (DEF)",
+   "advice": "Bid $0\u2013$3 (1\u20134% of your $54 left)",
+   "tags": [],
+   "news_iso": "2026-10-06T01:55:39.529000+00:00",
+   "trending_spike": true,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 2,
+      "pts": 5.3,
+      "snap": 79,
+      "targets": 6,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 3,
+      "pts": 13.5,
+      "snap": 39,
+      "targets": 6,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 4,
+      "pts": 15.4,
+      "snap": 31,
+      "targets": 6,
+      "carries": 0,
+      "rz": 2
+     }
+    ],
+    "proj": 5.3,
+    "avg": 11.4,
+    "adds_24h": 515655,
+    "opponent": "vs IND",
+    "score": 44.3
+   }
+  },
+  {
+   "rank": 10,
+   "player_id": "8126",
+   "name": "Wan'Dale Robinson",
+   "pos": "WR",
+   "team": "TEN",
+   "injury": null,
+   "availability": "waivers",
+   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
+   "claim_by": "2026-10-06T03:00:00-04:00",
+   "reason": "Locked-in role: 67% of snaps and 18% target share last week, averaging 8.7 pts in your scoring.",
+   "drop": "LV D/ST (DEF)",
+   "advice": "Bid $0\u2013$3 (1\u20134% of your $54 left)",
+   "tags": [],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 2,
+      "pts": 1.4,
+      "snap": 53,
+      "targets": 1,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 3,
+      "pts": 15.2,
+      "snap": 63,
+      "targets": 11,
+      "carries": 0,
+      "rz": 3
+     },
+     {
+      "week": 4,
+      "pts": 9.5,
+      "snap": 67,
+      "targets": 5,
+      "carries": 1,
+      "rz": 1
+     }
+    ],
+    "proj": 8.1,
+    "avg": 8.7,
+    "adds_24h": 0,
+    "opponent": "vs HOU",
+    "score": 42.6
+   }
+  },
+  {
+   "rank": 11,
+   "player_id": "13150",
+   "name": "Darius Cooper",
+   "pos": "WR",
+   "team": "PHI",
+   "injury": null,
+   "availability": "waivers",
+   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
+   "claim_by": "2026-10-06T03:00:00-04:00",
+   "reason": "Trending: likely news. Added in 109,368 Sleeper leagues in the last day.",
+   "drop": "LV D/ST (DEF)",
+   "advice": "Bid $0\u2013$3 (1\u20134% of your $54 left)",
+   "tags": [],
+   "news_iso": "2026-10-05T16:15:20.828000+00:00",
+   "trending_spike": true,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 2,
+      "pts": 9.6,
+      "snap": 41,
+      "targets": 3,
+      "carries": 0,
+      "rz": 1
+     },
+     {
+      "week": 3,
+      "pts": 0.0,
+      "snap": 10,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 4,
+      "pts": 16.8,
+      "snap": 90,
+      "targets": 7,
+      "carries": 0,
+      "rz": 3
+     }
+    ],
+    "proj": 0.4,
+    "avg": 8.8,
+    "adds_24h": 109368,
+    "opponent": "@ JAX",
+    "score": 42.4
+   }
+  },
+  {
+   "rank": 12,
+   "player_id": "96",
+   "name": "Aaron Rodgers",
+   "pos": "QB",
+   "team": "PIT",
+   "injury": null,
+   "availability": "waivers",
+   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
+   "claim_by": "2026-10-06T03:00:00-04:00",
+   "reason": "Locked-in role: 100% of snaps and a full-time role last week, averaging 18.0 pts in your scoring.",
+   "drop": "LV D/ST (DEF)",
+   "advice": "Bid $0\u2013$3 (1\u20134% of your $54 left)",
+   "tags": [],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 2,
+      "pts": 5.0,
+      "snap": 96,
+      "targets": 0,
+      "carries": 1,
+      "rz": 0
+     },
+     {
+      "week": 3,
+      "pts": 24.2,
+      "snap": 100,
+      "targets": 0,
+      "carries": 3,
+      "rz": 0
+     },
+     {
+      "week": 4,
+      "pts": 25.0,
+      "snap": 100,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     }
+    ],
+    "proj": 17.1,
+    "avg": 18.0,
+    "adds_24h": 40052,
+    "opponent": "vs IND",
+    "score": 42.4
+   }
+  },
+  {
+   "rank": 13,
+   "player_id": "3214",
+   "name": "Hunter Henry",
+   "pos": "TE",
+   "team": "NE",
+   "injury": null,
+   "availability": "waivers",
+   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
+   "claim_by": "2026-10-06T03:00:00-04:00",
+   "reason": "Locked-in role: 64% of snaps and 14% target share last week, averaging 5.1 pts in your scoring.",
+   "drop": "LV D/ST (DEF)",
+   "advice": "Bid $0\u2013$3 (1\u20134% of your $54 left)",
+   "tags": [],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 2,
+      "pts": 5.5,
+      "snap": 91,
+      "targets": 5,
+      "carries": 0,
+      "rz": 1
+     },
+     {
+      "week": 3,
+      "pts": 1.0,
+      "snap": 70,
+      "targets": 2,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 4,
+      "pts": 8.7,
+      "snap": 64,
+      "targets": 5,
+      "carries": 0,
+      "rz": 0
+     }
+    ],
+    "proj": 7.8,
+    "avg": 5.1,
+    "adds_24h": 0,
+    "opponent": "vs LV",
+    "score": 42.1
+   }
+  },
+  {
+   "rank": 14,
+   "player_id": "7600",
+   "name": "Pat Freiermuth",
+   "pos": "TE",
+   "team": "PIT",
+   "injury": null,
+   "availability": "waivers",
+   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
+   "claim_by": "2026-10-06T03:00:00-04:00",
+   "reason": "Role is growing: 75% of snaps last week (up from 63%) with 5 targets.",
+   "drop": "LV D/ST (DEF)",
+   "advice": "Bid $0\u2013$3 (1\u20134% of your $54 left)",
+   "tags": [],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 2,
+      "pts": 5.4,
+      "snap": 66,
+      "targets": 5,
+      "carries": 1,
+      "rz": 0
+     },
+     {
+      "week": 3,
+      "pts": 4.1,
+      "snap": 60,
+      "targets": 4,
+      "carries": 1,
+      "rz": 0
+     },
+     {
+      "week": 4,
+      "pts": 9.2,
+      "snap": 75,
+      "targets": 5,
+      "carries": 0,
+      "rz": 1
+     }
+    ],
+    "proj": 7.0,
+    "avg": 6.2,
+    "adds_24h": 0,
+    "opponent": "vs IND",
+    "score": 41.6
+   }
+  },
+  {
+   "rank": 15,
+   "player_id": "9479",
+   "name": "Darnell Washington",
+   "pos": "TE",
+   "team": "PIT",
+   "injury": null,
+   "availability": "waivers",
+   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
+   "claim_by": "2026-10-06T03:00:00-04:00",
+   "reason": "Role is growing: 71% of snaps last week (up from 64%) with 5 targets.",
+   "drop": "LV D/ST (DEF)",
+   "advice": "Bid $0\u2013$3 (1\u20134% of your $54 left)",
+   "tags": [],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 2,
+      "pts": 1.2,
+      "snap": 53,
+      "targets": 2,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 3,
+      "pts": 8.7,
+      "snap": 76,
+      "targets": 4,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 4,
+      "pts": 10.2,
+      "snap": 71,
+      "targets": 5,
+      "carries": 0,
+      "rz": 2
+     }
+    ],
+    "proj": 5.1,
+    "avg": 6.7,
+    "adds_24h": 0,
+    "opponent": "vs IND",
+    "score": 41.1
+   }
+  },
+  {
+   "rank": 16,
+   "player_id": "3257",
+   "name": "Jacoby Brissett",
+   "pos": "QB",
+   "team": "ARI",
+   "injury": null,
+   "availability": "waivers",
+   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
+   "claim_by": "2026-10-06T03:00:00-04:00",
+   "reason": "Locked-in role: 100% of snaps and a full-time role last week, averaging 15.5 pts in your scoring.",
+   "drop": "LV D/ST (DEF)",
+   "advice": "Bid $0\u2013$3 (1\u20134% of your $54 left)",
+   "tags": [],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 2,
+      "pts": 7.5,
+      "snap": 100,
+      "targets": 0,
+      "carries": 1,
+      "rz": 1
+     },
+     {
+      "week": 3,
+      "pts": 25.6,
+      "snap": 100,
+      "targets": 0,
+      "carries": 4,
+      "rz": 2
+     },
+     {
+      "week": 4,
+      "pts": 13.4,
+      "snap": 100,
+      "targets": 0,
+      "carries": 4,
+      "rz": 1
+     }
+    ],
+    "proj": 18.6,
+    "avg": 15.5,
+    "adds_24h": 0,
+    "opponent": "vs DET",
+    "score": 40.7
+   }
+  },
+  {
+   "rank": 17,
+   "player_id": "12509",
+   "name": "Tre' Harris",
+   "pos": "WR",
+   "team": "LAC",
+   "injury": null,
+   "availability": "waivers",
+   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
+   "claim_by": "2026-10-06T03:00:00-04:00",
+   "reason": "Locked-in role: 93% of snaps and 16% target share last week, averaging 8.1 pts in your scoring.",
+   "drop": "LV D/ST (DEF)",
+   "advice": "Bid $0\u2013$3 (1\u20134% of your $54 left)",
+   "tags": [],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 2,
+      "pts": 6.3,
+      "snap": 82,
+      "targets": 3,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 3,
+      "pts": 10.6,
+      "snap": 58,
+      "targets": 7,
+      "carries": 0,
+      "rz": 3
+     },
+     {
+      "week": 4,
+      "pts": 7.5,
+      "snap": 93,
+      "targets": 5,
+      "carries": 0,
+      "rz": 0
+     }
+    ],
+    "proj": 7.0,
+    "avg": 8.1,
+    "adds_24h": 20044,
+    "opponent": "vs DEN",
+    "score": 40.4
+   }
+  },
+  {
+   "rank": 18,
+   "player_id": "4037",
+   "name": "Chris Godwin",
+   "pos": "WR",
+   "team": "TB",
+   "injury": null,
+   "availability": "waivers",
+   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
+   "claim_by": "2026-10-06T03:00:00-04:00",
+   "reason": "Role is growing: 88% of snaps last week (up from 74%) with 7 targets.",
+   "drop": "LV D/ST (DEF)",
+   "advice": "Bid $0\u2013$3 (1\u20134% of your $54 left)",
+   "tags": [],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 2,
+      "pts": 7.3,
+      "snap": 86,
+      "targets": 3,
+      "carries": 1,
+      "rz": 0
+     },
+     {
+      "week": 3,
+      "pts": 4.0,
+      "snap": 62,
+      "targets": 4,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 4,
+      "pts": 6.1,
+      "snap": 88,
+      "targets": 7,
+      "carries": 0,
+      "rz": 0
+     }
+    ],
+    "proj": 8.1,
+    "avg": 5.8,
+    "adds_24h": 0,
+    "opponent": "@ DAL",
+    "score": 40.3
+   }
+  },
+  {
+   "rank": 19,
+   "player_id": "12493",
+   "name": "Oronde Gadsden",
+   "pos": "TE",
+   "team": "LAC",
+   "injury": null,
+   "availability": "waivers",
+   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
+   "claim_by": "2026-10-06T03:00:00-04:00",
+   "reason": "Role is growing: 55% of snaps last week (up from 50%) with 8 targets.",
+   "drop": "LV D/ST (DEF)",
+   "advice": "Bid $0\u2013$3 (1\u20134% of your $54 left)",
+   "tags": [],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 2,
+      "pts": 8.8,
+      "snap": 44,
+      "targets": 2,
+      "carries": 0,
+      "rz": 1
+     },
+     {
+      "week": 3,
+      "pts": 0.0,
+      "snap": 57,
+      "targets": 3,
+      "carries": 0,
+      "rz": 1
+     },
+     {
+      "week": 4,
+      "pts": 6.3,
+      "snap": 55,
+      "targets": 8,
+      "carries": 1,
+      "rz": 1
+     }
+    ],
+    "proj": 4.7,
+    "avg": 5.0,
+    "adds_24h": 0,
+    "opponent": "vs DEN",
+    "score": 40.2
+   }
+  },
+  {
+   "rank": 20,
+   "player_id": "11608",
+   "name": "Isaiah Williams",
+   "pos": "WR",
+   "team": "NYJ",
+   "injury": null,
+   "availability": "waivers",
+   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
+   "claim_by": "2026-10-06T03:00:00-04:00",
+   "reason": "Role is growing: 94% of snaps last week (up from 86%) with 3 targets.",
+   "drop": "LV D/ST (DEF)",
+   "advice": "Bid $0\u2013$3 (1\u20134% of your $54 left)",
+   "tags": [],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 2,
+      "pts": 7.8,
+      "snap": 82,
+      "targets": 6,
+      "carries": 1,
+      "rz": 1
+     },
+     {
+      "week": 3,
+      "pts": 2.6,
+      "snap": 89,
+      "targets": 2,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 4,
+      "pts": 14.8,
+      "snap": 94,
+      "targets": 3,
+      "carries": 0,
+      "rz": 0
+     }
+    ],
+    "proj": 5.4,
+    "avg": 8.4,
+    "adds_24h": 0,
+    "opponent": "vs CLE",
+    "score": 40.0
+   }
+  },
+  {
+   "rank": null,
+   "player_id": "9758",
+   "name": "C.J. Stroud",
+   "pos": "QB",
+   "team": "HOU",
+   "injury": null,
+   "availability": "waivers",
+   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
+   "claim_by": "2026-10-06T03:00:00-04:00",
+   "reason": "Locked-in role: 100% of snaps and a full-time role last week, averaging 17.6 pts in your scoring.",
+   "drop": "LV D/ST (DEF)",
+   "advice": "Bid $0\u2013$3 (1\u20134% of your $54 left)",
+   "tags": [],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 2,
+      "pts": 17.0,
+      "snap": 100,
+      "targets": 0,
+      "carries": 3,
+      "rz": 0
+     },
+     {
+      "week": 3,
+      "pts": 11.7,
+      "snap": 100,
+      "targets": 0,
+      "carries": 2,
+      "rz": 0
+     },
+     {
+      "week": 4,
+      "pts": 24.1,
+      "snap": 100,
+      "targets": 0,
+      "carries": 2,
+      "rz": 0
+     }
+    ],
+    "proj": 15.8,
+    "avg": 17.6,
+    "adds_24h": 89964,
+    "opponent": "@ TEN",
+    "score": 39.3
+   }
+  },
+  {
+   "rank": null,
+   "player_id": "8154",
+   "name": "Brian Robinson",
+   "pos": "RB",
+   "team": "ATL",
+   "injury": null,
+   "availability": "waivers",
+   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
+   "claim_by": "2026-10-06T03:00:00-04:00",
+   "reason": "Trending: likely news. Added in 201,726 Sleeper leagues in the last day.",
+   "drop": "LV D/ST (DEF)",
+   "advice": "Bid $0\u2013$3 (1\u20134% of your $54 left)",
+   "tags": [],
+   "news_iso": null,
+   "trending_spike": true,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 2,
+      "pts": 7.7,
+      "snap": 48,
+      "targets": 2,
+      "carries": 11,
+      "rz": 0
+     },
+     {
+      "week": 3,
+      "pts": 11.0,
+      "snap": 27,
+      "targets": 0,
+      "carries": 10,
+      "rz": 1
+     },
+     {
+      "week": 4,
+      "pts": 25.2,
+      "snap": null,
+      "targets": 1,
+      "carries": 14,
+      "rz": 5
+     }
+    ],
+    "proj": 4.6,
+    "avg": 14.6,
+    "adds_24h": 201726,
+    "opponent": "vs BAL",
+    "score": 38.8
+   }
+  },
+  {
+   "rank": null,
+   "player_id": "11792",
+   "name": "Will Reichard",
+   "pos": "K",
+   "team": "MIN",
+   "injury": null,
+   "availability": "waivers",
+   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
+   "claim_by": "2026-10-06T03:00:00-04:00",
+   "reason": "Projects 8.8 pts next week @ NO in your scoring.",
+   "drop": "Tyler Loop (K)",
+   "advice": "Bid $0\u2013$2 (minimal; 0\u20132% of your $54)",
+   "tags": [],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 2,
+      "pts": 10.0,
+      "snap": 0,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 3,
+      "pts": 16.0,
+      "snap": 0,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 4,
+      "pts": 19.0,
+      "snap": 0,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     }
+    ],
+    "proj": 8.8,
+    "avg": 15.0,
+    "adds_24h": 36120,
+    "opponent": "@ NO",
+    "score": 27.6
+   }
+  },
+  {
+   "rank": null,
+   "player_id": "CLE",
+   "name": "Cleveland Browns",
+   "pos": "DEF",
+   "team": "CLE",
+   "injury": null,
+   "availability": "waivers",
+   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
+   "claim_by": "2026-10-06T03:00:00-04:00",
+   "reason": "Projects 7.6 pts next week @ NYJ in your scoring.",
+   "drop": "LV D/ST (DEF)",
+   "advice": "Bid $0\u2013$2 (minimal; 0\u20132% of your $54)",
+   "tags": [],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 2,
+      "pts": 7.7,
+      "snap": null,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 3,
+      "pts": 6.6,
+      "snap": null,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 4,
+      "pts": 9.7,
+      "snap": null,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     }
+    ],
+    "proj": 7.6,
+    "avg": 8.0,
+    "adds_24h": 52423,
+    "opponent": "@ NYJ",
+    "score": 27.4
+   }
+  },
+  {
+   "rank": null,
+   "player_id": "CIN",
+   "name": "Cincinnati Bengals",
+   "pos": "DEF",
+   "team": "CIN",
+   "injury": null,
+   "availability": "waivers",
+   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
+   "claim_by": "2026-10-06T03:00:00-04:00",
+   "reason": "Streaming option: projects 9.4 pts @ MIA, 2.6 more than your current defense.",
+   "drop": "LV D/ST (DEF)",
+   "advice": "Bid $0\u2013$2 (minimal; 0\u20132% of your $54)",
+   "tags": [],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 2,
+      "pts": 11.8,
+      "snap": null,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 3,
+      "pts": 3.3,
+      "snap": null,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 4,
+      "pts": 5.7,
+      "snap": null,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     }
+    ],
+    "proj": 9.4,
+    "avg": 6.9,
+    "adds_24h": 0,
+    "opponent": "@ MIA",
+    "score": 27.3
+   }
+  },
+  {
+   "rank": null,
+   "player_id": "NYJ",
+   "name": "New York Jets",
+   "pos": "DEF",
+   "team": "NYJ",
+   "injury": null,
+   "availability": "waivers",
+   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
+   "claim_by": "2026-10-06T03:00:00-04:00",
+   "reason": "Streaming option: projects 8.7 pts vs CLE, 1.9 more than your current defense.",
+   "drop": "LV D/ST (DEF)",
+   "advice": "Bid $0\u2013$2 (minimal; 0\u20132% of your $54)",
+   "tags": [],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 2,
+      "pts": 10.6,
+      "snap": null,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 3,
+      "pts": 1.5,
+      "snap": null,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 4,
+      "pts": 6.2,
+      "snap": null,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     }
+    ],
+    "proj": 8.7,
+    "avg": 6.1,
+    "adds_24h": 0,
+    "opponent": "vs CLE",
+    "score": 23.8
+   }
+  },
+  {
+   "rank": null,
+   "player_id": "WAS",
+   "name": "Washington Commanders",
+   "pos": "DEF",
+   "team": "WAS",
+   "injury": null,
+   "availability": "waivers",
+   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
+   "claim_by": "2026-10-06T03:00:00-04:00",
+   "reason": "Streaming option: projects 8.4 pts vs NYG, 1.6 more than your current defense.",
+   "drop": "LV D/ST (DEF)",
+   "advice": "Bid $0\u2013$2 (minimal; 0\u20132% of your $54)",
+   "tags": [],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 2,
+      "pts": -1.7,
+      "snap": null,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 3,
+      "pts": 13.3,
+      "snap": null,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 4,
+      "pts": 6.2,
+      "snap": null,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     }
+    ],
+    "proj": 8.4,
+    "avg": 5.9,
+    "adds_24h": 0,
+    "opponent": "vs NYG",
+    "score": 22.9
+   }
+  },
+  {
+   "rank": null,
+   "player_id": "DAL",
+   "name": "Dallas Cowboys",
+   "pos": "DEF",
+   "team": "DAL",
+   "injury": null,
+   "availability": "waivers",
+   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
+   "claim_by": "2026-10-06T03:00:00-04:00",
+   "reason": "Streaming option: projects 9.1 pts vs TB, 2.3 more than your current defense.",
+   "drop": "LV D/ST (DEF)",
+   "advice": "Bid $0\u2013$2 (minimal; 0\u20132% of your $54)",
+   "tags": [],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 2,
+      "pts": 5.3,
+      "snap": null,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 3,
+      "pts": -0.6,
+      "snap": null,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 4,
+      "pts": 1.3,
+      "snap": null,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     }
+    ],
+    "proj": 9.1,
+    "avg": 2.0,
+    "adds_24h": 0,
+    "opponent": "vs TB",
+    "score": 22.8
+   }
+  },
+  {
+   "rank": null,
+   "player_id": "6083",
+   "name": "Matt Gay",
+   "pos": "K",
+   "team": "LV",
+   "injury": null,
+   "availability": "waivers",
+   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
+   "claim_by": "2026-10-06T03:00:00-04:00",
+   "reason": "Projects 7.9 pts next week @ NE in your scoring.",
+   "drop": "Tyler Loop (K)",
+   "advice": "Bid $0\u2013$2 (minimal; 0\u20132% of your $54)",
+   "tags": [],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 2,
+      "pts": 8.0,
+      "snap": 0,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 3,
+      "pts": 12.0,
+      "snap": 0,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 4,
+      "pts": 16.0,
+      "snap": 0,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     }
+    ],
+    "proj": 7.9,
+    "avg": 12.0,
+    "adds_24h": 77005,
+    "opponent": "@ NE",
+    "score": 13.8
+   }
+  },
+  {
+   "rank": null,
+   "player_id": "2020",
+   "name": "Cairo Santos",
+   "pos": "K",
+   "team": "CHI",
+   "injury": null,
+   "availability": "waivers",
+   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
+   "claim_by": "2026-10-06T03:00:00-04:00",
+   "reason": "Projects 7.6 pts next week @ GB in your scoring.",
+   "drop": "Tyler Loop (K)",
+   "advice": "Bid $0\u2013$2 (minimal; 0\u20132% of your $54)",
+   "tags": [],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 2,
+      "pts": 4.0,
+      "snap": 0,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 3,
+      "pts": 10.0,
+      "snap": 0,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 4,
+      "pts": 11.0,
+      "snap": 0,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     }
+    ],
+    "proj": 7.6,
+    "avg": 8.3,
+    "adds_24h": 0,
+    "opponent": "@ GB",
+    "score": 11.2
+   }
+  },
+  {
+   "rank": null,
+   "player_id": "7042",
+   "name": "Tyler Bass",
+   "pos": "K",
+   "team": "BUF",
+   "injury": null,
+   "availability": "waivers",
+   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
+   "claim_by": "2026-10-06T03:00:00-04:00",
+   "reason": "Projects 7.2 pts next week @ LAR in your scoring.",
+   "drop": "Tyler Loop (K)",
+   "advice": "Bid $0\u2013$2 (minimal; 0\u20132% of your $54)",
+   "tags": [],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 2,
+      "pts": 4.0,
+      "snap": 0,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 3,
+      "pts": 6.0,
+      "snap": 0,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 4,
+      "pts": 8.0,
+      "snap": 0,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     }
+    ],
+    "proj": 7.2,
+    "avg": 6.0,
+    "adds_24h": 0,
+    "opponent": "@ LAR",
+    "score": 11.1
+   }
+  },
+  {
+   "rank": null,
+   "player_id": "5189",
+   "name": "Eddy Pineiro",
+   "pos": "K",
+   "team": "SF",
+   "injury": null,
+   "availability": "waivers",
+   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
+   "claim_by": "2026-10-06T03:00:00-04:00",
+   "reason": "Projects 7.5 pts next week @ SEA in your scoring.",
+   "drop": "Tyler Loop (K)",
+   "advice": "Bid $0\u2013$2 (minimal; 0\u20132% of your $54)",
+   "tags": [],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 2,
+      "pts": 5.0,
+      "snap": 0,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 3,
+      "pts": 6.0,
+      "snap": 0,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 4,
+      "pts": 5.0,
+      "snap": 0,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     }
+    ],
+    "proj": 7.5,
+    "avg": 5.3,
+    "adds_24h": 0,
+    "opponent": "@ SEA",
+    "score": 10.8
+   }
+  }
+ ],
+ "faab": {
+  "type": "faab",
+  "budget": 100,
+  "remaining": 54
+ },
+ "my_roster": [
+  {
+   "player_id": "11576",
+   "name": "Braelon Allen",
+   "pos": "RB",
+   "status": ""
+  },
+  {
+   "player_id": "12501",
+   "name": "Matthew Golden",
+   "pos": "WR",
+   "status": ""
+  },
+  {
+   "player_id": "12507",
+   "name": "Omarion Hampton",
+   "pos": "RB",
+   "status": ""
+  },
+  {
+   "player_id": "12711",
+   "name": "Tyler Loop",
+   "pos": "K",
+   "status": ""
+  },
+  {
+   "player_id": "3294",
+   "name": "Dak Prescott",
+   "pos": "QB",
+   "status": ""
+  },
+  {
+   "player_id": "4035",
+   "name": "Alvin Kamara",
+   "pos": "RB",
+   "status": "Questionable"
+  },
+  {
+   "player_id": "6804",
+   "name": "Jordan Love",
+   "pos": "QB",
+   "status": ""
+  },
+  {
+   "player_id": "6813",
+   "name": "Jonathan Taylor",
+   "pos": "RB",
+   "status": ""
+  },
+  {
+   "player_id": "7526",
+   "name": "Jaylen Waddle",
+   "pos": "WR",
+   "status": ""
+  },
+  {
+   "player_id": "8146",
+   "name": "Garrett Wilson",
+   "pos": "WR",
+   "status": ""
+  },
+  {
+   "player_id": "8408",
+   "name": "Jordan Mason",
+   "pos": "RB",
+   "status": "IR"
+  },
+  {
+   "player_id": "9224",
+   "name": "Chase Brown",
+   "pos": "RB",
+   "status": ""
+  },
+  {
+   "player_id": "9484",
+   "name": "Tucker Kraft",
+   "pos": "TE",
+   "status": ""
+  },
+  {
+   "player_id": "9487",
+   "name": "Parker Washington",
+   "pos": "WR",
+   "status": ""
+  },
+  {
+   "player_id": "GB",
+   "name": "GB D/ST",
+   "pos": "DEF",
+   "status": ""
+  },
+  {
+   "player_id": "LV",
+   "name": "LV D/ST",
+   "pos": "DEF",
+   "status": ""
+  }
+ ],
+ "my_roster_status": {
+  "11576": "",
+  "12501": "",
+  "12507": "",
+  "12711": "",
+  "3294": "",
+  "4035": "Questionable",
+  "6804": "",
+  "6813": "",
+  "7526": "",
+  "8146": "",
+  "8408": "IR",
+  "9224": "",
+  "9484": "",
+  "9487": "",
+  "GB": "",
+  "LV": ""
+ },
+ "my_lineup": [
+  {
+   "slot": "QB",
+   "player": "Dak Prescott",
+   "proj": 20.2
+  },
+  {
+   "slot": "RB",
+   "player": "Jonathan Taylor",
+   "proj": 17.6
+  },
+  {
+   "slot": "RB",
+   "player": "Chase Brown",
+   "proj": 15.9
+  },
+  {
+   "slot": "WR",
+   "player": "Garrett Wilson",
+   "proj": 12.6
+  },
+  {
+   "slot": "WR",
+   "player": "Parker Washington",
+   "proj": 12.0
+  },
+  {
+   "slot": "TE",
+   "player": "Tucker Kraft",
+   "proj": 9.0
+  },
+  {
+   "slot": "FLEX",
+   "player": "Matthew Golden",
+   "proj": 10.8
+  },
+  {
+   "slot": "K",
+   "player": "Tyler Loop",
+   "proj": 8.2
+  },
+  {
+   "slot": "DEF",
+   "player": "GB D/ST",
+   "proj": 6.8
+  }
+ ],
+ "site_url": "https://AgbajeF.github.io/FFRec/",
+ "job": "waiver_final_check",
+ "change_reasons": [
+  "First list published."
+ ]
+}
