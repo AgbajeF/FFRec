@@ -34,8 +34,9 @@ on:
 permissions:
   contents: write
 
+# Publishing runs queue one at a time; dry runs don't block each other.
 concurrency:
-  group: waiver-wire
+  group: waiver-wire-${{ inputs.dry_run && github.run_id || 'publish' }}
   cancel-in-progress: false
 
 jobs:

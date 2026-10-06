@@ -66,18 +66,24 @@ def main():
         print(f"Skipped: {s}")
         return 0
 
-    print(f"\n{data['badge']['text']} | week {data['week']} | stats through week {data['stats_week']}")
+    lines = [f"{data['badge']['text']} | week {data['week']} | stats through week {data['stats_week']}"]
     if data.get("alert"):
-        print("ALERT:", data["alert"]["text"])
+        lines.append("ALERT: " + data["alert"]["text"])
     for n in data.get("notices") or []:
-        print("notice:", n)
+        lines.append("notice: " + n)
     for p in data["picks"]:
         if p.get("rank"):
             tags = " ".join(t["text"] for t in p["tags"])
-            print(f"{p['rank']:>2}. {p['name']} ({p['pos']}, {p['team']}) [{p['availability_label']}] {tags}")
-            print(f"    {p['reason']}")
-            print(f"    Drop: {p['drop']} | {p['advice']}")
-    print("\nChange reasons:", reasons or "none")
+            lines.append(f"{p['rank']:>2}. {p['name']} ({p['pos']}, {p['team']}) [{p['availability_label']}] {tags}")
+            lines.append(f"    {p['reason']}")
+            lines.append(f"    Drop: {p['drop']} | {p['advice']}")
+    lines.append(f"Change reasons: {reasons or 'none'}")
+    summary = "\n".join(lines)
+    print("\n" + summary)
+    if args.dry_run and os.environ.get("GITHUB_ACTIONS"):
+        # Show the list as an annotation on the run page too.
+        esc = summary.replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
+        print(f"::notice title=Preview ({job})::{esc}")
 
     if args.dry_run:
         if args.out:
