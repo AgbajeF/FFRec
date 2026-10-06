@@ -26,7 +26,7 @@ SEVERITY = {None: 0, "": 0, "Questionable": 1, "Doubtful": 2, "Out": 3, "PUP": 3
 
 WEIGHTS = {
     # usage is deliberately weighted above raw points
-    "waiver":     {"usage": .30, "points": .15, "proj": .20, "opp": .15, "trend": .10, "matchup": .10},
+    "waiver":     {"usage": .30, "points": .10, "proj": .20, "opp": .20, "trend": .10, "matchup": .10},
     "free_agent": {"usage": .20, "points": .10, "proj": .25, "opp": .25, "trend": .10, "matchup": .10},
     "game_day":   {"usage": .15, "points": .10, "proj": .30, "opp": .30, "trend": .05, "matchup": .10},
 }
@@ -286,7 +286,9 @@ class Engine:
         if p.get("news_updated"):
             news_time = datetime.fromtimestamp(p["news_updated"] / 1000, tz=timezone.utc)
         art = self.news_by_espn.get(str(p.get("espn_id") or ""))
-        if art and art.get("published") and (not news_time or art["published"] >= news_time - timedelta(hours=6)):
+        last = (p.get("last_name") or "").lower()
+        if (art and art.get("published") and last and last in art["headline"].lower()
+                and (not news_time or art["published"] >= news_time - timedelta(hours=6))):
             news_time, news_text = art["published"], art["headline"]
 
         kickoff = self.kick_next.get(team)
@@ -445,7 +447,7 @@ class Engine:
             scale = POS_SCALE.get(pos, 15)
             dedicated = sum(1 for s in self.slots if SLOT_ELIG[s] == {pos})
             flex = 0.5 if any(pos in SLOT_ELIG[s] and len(SLOT_ELIG[s]) > 1 for s in self.slots) else 0
-            thin = dedicated + flex + (1 if pos not in ("K", "DEF") else 0) - depth_count.get(pos, 0)
+            thin = dedicated + flex + (1 if pos in ("RB", "WR") else 0) - depth_count.get(pos, 0)
             mult = 1 + 0.10 * clamp(thin, 0, 3)
             if thin <= -2:
                 mult *= 0.9
@@ -460,7 +462,7 @@ class Engine:
                 mult += 0.25
             elif replaces:
                 mult += 0.15
-            streamer = pos in ("QB", "TE", "K", "DEF") and upgrade > 0 and not f["bye"]
+            streamer = pos in ("QB", "TE", "K", "DEF") and upgrade >= 1.0 and not f["bye"]
             if streamer and self.mode != "waiver":
                 mult += 0.1
 
@@ -482,6 +484,10 @@ class Engine:
                 mult *= 0.5 if self.mode == "waiver" else 0.65
 
             score = comp * mult
+            # A clear path to starting (the starter ahead is out) is the strongest waiver signal there is.
+            if (f["opp_c"] >= 100 and pos in ("RB", "QB", "TE") and inj not in BAD_STATUSES
+                    and (pos != "QB" or upgrade > 0)):
+                score += 12 * min(mult, 1.0)
             results.append({"f": f, "score": score, "comp": comp, "contrib": contrib,
                             "upgrade": upgrade, "streamer": streamer, "replaces": replaces})
 
