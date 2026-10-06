@@ -144,7 +144,9 @@ def build(config, now, job, manual=False, force_publish=False):
         stats_week = cur_week if any_started else cur_week - 1
         next_week = stats_week + 1
     else:
-        next_week = cur_week + 1 if all_final else cur_week
+        # Once every game of Sleeper's current week has kicked off, the next lineup is next week's.
+        all_started = bool(cur_games) and all(g.get("kickoff") and g["kickoff"] <= now for g in cur_games)
+        next_week = cur_week + 1 if (all_final or all_started) else cur_week
         stats_week = next_week - 1
     stats_week = max(1, stats_week)
     games_this = cur_games if stats_week == cur_week else _games_for(stats_week, season, sched_rows, notices)[0]
