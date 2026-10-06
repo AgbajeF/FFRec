@@ -18,22 +18,6 @@ preliminary and Monday final lists always publish.
 
 ---
 
-## Setup (about 10 minutes, no coding)
-
-1. **Make the repository public.** Free GitHub accounts can only host Pages from public repos.
-   On GitHub: *Settings → General → Danger Zone → Change visibility → Public*.
-   (Nothing private is stored here. Your league data is already visible to anyone with the league ID.)
-2. **Check `config.json`.** It already has your Sleeper username and league ID. Change them here if you
-   ever switch leagues. `season` and `my_roster_id` can stay `"auto"`.
-3. **Allow the workflow to save the page.** *Settings → Actions → General → Workflow permissions →*
-   choose **Read and write permissions** → Save.
-4. **Turn on GitHub Pages.** *Settings → Pages → Build and deployment → Source: Deploy from a branch →*
-   Branch **main**, folder **/docs** → Save. Your site will be at
-   `https://<your-github-name>.github.io/<repo-name>/` (e.g. `https://agbajef.github.io/FFRec/`).
-5. **Run it once now.** *Actions → Update waiver wire → Run workflow → Run workflow*. After a minute
-   the page appears at the address above. Add it to your phone's home screen.
-
-That's it. The schedule takes over from there.
 
 ### Optional: notifications
 
