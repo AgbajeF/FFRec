@@ -635,7 +635,7 @@ class Engine:
                     when = f" {ago_words(dt, self.now)}"
             body = f" ({b.get('injury_body_part')})" if b.get("injury_body_part") and st not in ("suspended",) else ""
             verb = "was ruled" if st in ("Out", "Doubtful") else "is"
-            return f"Starter {short_name(b)} {verb} {st}{body}{when}; {short_name(p).split(' ')[0]} is next on the depth chart.", True
+            return f"Starter {short_name(b)} {verb} {st}{body}{when}; {short_name(p).split(' ')[-1]} is next on the depth chart.", True
         # 3. trending spike
         if f["trend_rank"] and f["trend_rank"] <= 15 and f["trend_count"] >= self.ctx.get("spike_min", 10000):
             extra = f" ({f['news_text']})" if f["news_text"] else ""
