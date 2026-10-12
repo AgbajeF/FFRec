@@ -1,9 +1,9 @@
 """When to run, and which mode the site is in. All times are US Eastern.
 
-GitHub Actions cron runs in UTC and does not know about daylight saving time,
-so the workflow fires at BOTH possible UTC times for every slot (EDT and EST)
-and `due_job()` checks the real Eastern time before doing anything. The run
-that lands on the wrong side of the DST shift simply finds nothing due and exits.
+GitHub Actions cron runs in UTC, ignores daylight saving time, and often starts
+runs late. So the workflow fires every 30 minutes and `due_job()` works out, in
+real Eastern time, which slot is open and hasn't run yet. That handles EDT/EST
+automatically and lets a late run catch up instead of missing the slot.
 """
 from datetime import datetime, time, timedelta
 from zoneinfo import ZoneInfo
@@ -11,10 +11,6 @@ from zoneinfo import ZoneInfo
 ET = ZoneInfo("America/New_York")
 MON, TUE, WED, THU, FRI, SAT, SUN = range(7)
 DAY_NAMES = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-
-# How long after a slot's start a (possibly delayed) cron run still counts for it.
-# Less than 60 min so the "other DST" hourly run doesn't double up.
-SLOT_WINDOW = timedelta(minutes=55)
 
 PRELIM_TIME = time(23, 45)          # Sunday night
 FINAL_CHECK_START = time(23, 30)    # Monday night
@@ -56,45 +52,48 @@ def display_mode(now, waiver_day=TUE, waiver_hour=3):
     return "free_agent"
 
 
-def _fa_slots(n):
-    """All free-agent check slot datetimes on the ET calendar day of n."""
-    wd = n.weekday()
-    slots = []
+def _slots_on(day):
+    """Scheduled slots that start on the ET calendar day of `day`: (start, expires, job)."""
+    wd = day.weekday()
+    out = []
     if TUE <= wd <= SAT:
-        slots += [_at(n, time(h, 0)) for h in FA_HOURS]
+        for h in FA_HOURS:
+            start = _at(day, time(h, 0))
+            out.append((start, start + timedelta(hours=2), "free_agent"))
     if WED <= wd <= SAT or wd == SUN:  # midnight check closing out Tue..Sat
-        slots.append(_at(n, time(0, 0)))
-    return slots
+        start = _at(day, time(0, 0))
+        end = _at(day, GAME_DAY_TIMES[0]) if wd == SUN else _at(day, time(FA_HOURS[0], 0))
+        out.append((start, end, "free_agent"))
+    if wd == SUN:
+        g1, g2 = (_at(day, t) for t in GAME_DAY_TIMES)
+        out.append((g1, g2, "game_day"))
+        out.append((g2, _at(day, time(13, 0)), "game_day"))
+        out.append((_at(day, PRELIM_TIME), _at(day, FINAL_CHECK_START) + timedelta(days=1), "waiver_prelim"))
+    if wd == MON:
+        out.append((_at(day, FINAL_CHECK_START), _at(day, time(3, 0)) + timedelta(days=1), "waiver_final_check"))
+    return out
 
 
-def due_job(now):
-    """Return the scheduled job due at `now`, or None.
+def due_job(now, done=()):
+    """Return (job, slot_id) for the most recent slot that is still useful and hasn't run yet,
+    or (None, None).
 
+    GitHub often starts scheduled runs late (sometimes by hours) and occasionally skips them,
+    so the workflow fires frequently and a late run catches up on whatever slot is open.
+    `done` holds slot ids that already ran (kept in the Actions cache between runs).
     Jobs: 'waiver_prelim', 'waiver_final_check', 'free_agent', 'game_day'.
     """
     n = to_et(now)
-    wd, t = n.weekday(), n.time()
-
-    # Sunday-night preliminary list. Window runs into early Monday so a dropped
-    # cron can be caught by the next one; duplicates are prevented by the caller
-    # (it skips if this week's preliminary list is already published).
-    if (wd == SUN and t >= time(23, 30)) or (wd == MON and t < time(6, 0)):
-        return "waiver_prelim"
-
-    # Monday 23:30 -> Tuesday ~03:00: poll for "all games final + stats posted".
-    if (wd == MON and t >= FINAL_CHECK_START) or (wd == TUE and t < time(3, 0)):
-        return "waiver_final_check"
-
-    if wd == SUN:
-        for gt in GAME_DAY_TIMES:
-            start = _at(n, gt)
-            if start <= n < start + SLOT_WINDOW:
-                return "game_day"
-
-    for s in _fa_slots(n):
-        if s <= n < s + SLOT_WINDOW:
-            return "free_agent"
-    return None
+    active = []
+    for back in (1, 0):
+        for start, end, job in _slots_on(n - timedelta(days=back)):
+            if start <= n < end:
+                active.append((start, job))
+    for start, job in sorted(active, reverse=True):
+        slot_id = f"{job}@{start.strftime('%Y-%m-%dT%H:%M')}"
+        if slot_id not in done:
+            return job, slot_id
+    return None, None
 
 
 def final_deadline_passed(now):

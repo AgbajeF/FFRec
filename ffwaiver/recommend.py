@@ -645,8 +645,8 @@ class Engine:
         if len(ws) >= 2 and pos in ("RB", "WR", "TE") and f["usage_trend"] >= 8:
             last, prev = ws[-1], ws[:-1]
             prev_snap = [w["snap"] for w in prev if w.get("snap") is not None]
-            if last.get("snap") is not None and prev_snap:
-                ps = sum(prev_snap) / len(prev_snap)
+            ps = sum(prev_snap) / len(prev_snap) if prev_snap else None
+            if last.get("snap") is not None and ps is not None and last["snap"] - ps >= 0.05:
                 touches = f"{last['targets']:.0f} targets" if pos != "RB" else f"{last['carries']:.0f} carries and {last['targets']:.0f} targets"
                 return f"Role is growing: {last['snap']*100:.0f}% of snaps last week (up from {ps*100:.0f}%) with {touches}.", False
         # 5. streamer

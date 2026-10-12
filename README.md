@@ -93,11 +93,14 @@ ffwaiver/notify.py          optional Discord / email
 docs/                       the published site; docs/data.json is also the "previous list" used to spot changes
 ```
 
-### Daylight saving time
+### Timing, daylight saving and late runs
 
-GitHub's cron runs in UTC, so each Eastern-time slot is scheduled at both of its possible UTC times.
-The script checks the real Eastern time and the run that doesn't match simply exits, so the schedule
-is right in both EDT and EST without any changes.
+GitHub's cron runs in UTC, ignores daylight saving time, and often starts scheduled runs late
+(sometimes by hours). So the workflow wakes up every 30 minutes and the script works out, in real
+Eastern time, which slot is open and hasn't run yet. A late run catches up instead of missing the
+slot (for example, a game-day check that starts at 12:15 PM still runs before the 1 PM games), and
+each slot runs only once. Most wake-ups find nothing to do and finish in seconds. Public repos get
+these minutes free.
 
 ### Troubleshooting
 

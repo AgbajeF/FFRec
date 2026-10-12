@@ -23,7 +23,11 @@ JOB_MODE = {"waiver_prelim": "waiver", "waiver_final_check": "waiver", "waiver_f
 
 
 class Skip(Exception):
-    """Nothing to do this run (not an error)."""
+    """Nothing to do this run (not an error). retry=True means try this slot again next run."""
+
+    def __init__(self, msg, retry=False):
+        super().__init__(msg)
+        self.retry = retry
 
 
 def log(msg):
@@ -180,7 +184,7 @@ def build(config, now, job, manual=False, force_publish=False):
             if not manual and same_week and prev.get("list_type") == "final":
                 raise Skip("final list already published this week")
             if not complete and not schedule.final_deadline_passed(now) and not manual:
-                raise Skip(f"waiting for final stats ({detail})")
+                raise Skip(f"waiting for final stats ({detail})", retry=True)
             list_type = "final" if complete or not manual else "preliminary"
             if list_type == "final" and not complete:
                 notices.append("Monday stats may be incomplete: this final list was made at the 2 AM deadline.")

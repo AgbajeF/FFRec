@@ -15,20 +15,38 @@ def et(*a):
 
 
 class ScheduleTests(unittest.TestCase):
+    def job(self, *a, done=()):
+        return schedule.due_job(et(*a), done)[0]
+
     def test_slots_edt_and_est(self):
         # October (EDT) and late November (EST) give the same Eastern-time behavior.
         for month, day in ((10, 4), (11, 29)):  # both Sundays
-            self.assertEqual(schedule.due_job(et(2026, month, day, 23, 50)), "waiver_prelim")
-            self.assertEqual(schedule.due_job(et(2026, month, day, 10, 10)), "game_day")
-            self.assertEqual(schedule.due_job(et(2026, month, day, 11, 50)), "game_day")
-            self.assertIsNone(schedule.due_job(et(2026, month, day, 11, 0)))
-            self.assertEqual(schedule.due_job(et(2026, month, day + 1, 23, 35)), "waiver_final_check")
+            self.assertEqual(self.job(2026, month, day, 23, 50), "waiver_prelim")
+            self.assertEqual(self.job(2026, month, day, 10, 10), "game_day")
+            self.assertEqual(self.job(2026, month, day, 11, 50), "game_day")
+            self.assertEqual(self.job(2026, month, day + 1, 23, 35), "waiver_final_check")
 
-    def test_free_agent_slots(self):
-        self.assertEqual(schedule.due_job(et(2026, 10, 8, 18, 5)), "free_agent")    # Thursday 6 PM
-        self.assertIsNone(schedule.due_job(et(2026, 10, 8, 9, 5)))                  # odd hour: the other-DST cron
-        self.assertEqual(schedule.due_job(et(2026, 10, 10, 0, 10)), "free_agent")   # Fri midnight check
-        self.assertIsNone(schedule.due_job(et(2026, 10, 6, 6, 0)))                  # Tue before 8 AM
+    def test_late_runs_catch_up(self):
+        # Sunday preliminary list still runs if GitHub starts the run Monday morning.
+        self.assertEqual(self.job(2026, 10, 12, 7, 19), "waiver_prelim")
+        # Game day check that starts 2 hours late still runs before the 1 PM games.
+        self.assertEqual(self.job(2026, 10, 11, 12, 15), "game_day")
+        self.assertIsNone(self.job(2026, 10, 11, 14, 30))
+        # Thursday 6 PM check delayed to 7:40 PM still runs.
+        self.assertEqual(self.job(2026, 10, 8, 19, 40), "free_agent")
+
+    def test_slot_runs_once(self):
+        job, slot = schedule.due_job(et(2026, 10, 8, 18, 7))
+        self.assertEqual(job, "free_agent")
+        self.assertIsNone(self.job(2026, 10, 8, 18, 37, done={slot: 1}))
+        self.assertEqual(self.job(2026, 10, 8, 20, 7, done={slot: 1}), "free_agent")
+        # The 10 AM game-day slot ran; the 11:45 one is still due.
+        g1 = schedule.due_job(et(2026, 10, 11, 10, 7))[1]
+        self.assertEqual(self.job(2026, 10, 11, 11, 50, done={g1: 1}), "game_day")
+
+    def test_quiet_times(self):
+        self.assertIsNone(self.job(2026, 10, 6, 6, 0))     # Tue before 8 AM
+        self.assertIsNone(self.job(2026, 10, 11, 14, 0))   # Sunday afternoon
 
     def test_display_mode(self):
         self.assertEqual(schedule.display_mode(et(2026, 10, 5, 12, 0)), "waiver")

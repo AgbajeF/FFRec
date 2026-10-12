@@ -1,20 +1,13 @@
 name: Update waiver wire
 
-# Cron runs in UTC and ignores daylight saving time, so every Eastern-time slot
-# is scheduled at BOTH of its possible UTC times. run.py checks the real Eastern
-# time and exits quietly when nothing is due (the "wrong DST" run does nothing).
+# GitHub cron runs in UTC, ignores daylight saving time, and often starts runs
+# late (sometimes by hours). So it fires every 30 minutes and run.py works out,
+# in real Eastern time, which slot (Sunday preliminary, Monday final checks,
+# free-agent checks every 2 hours, Sunday game day) is open and hasn't run yet.
+# Most runs find nothing to do and exit in a few seconds.
 on:
   schedule:
-    # Sunday 11:45 PM ET -> preliminary waiver list (Mon 03:45 UTC in EDT, 04:45 in EST)
-    - cron: "45 3,4 * * 1"
-    # Monday 11:30 PM -> Tuesday 2:00 AM ET, every 30 min: final list once all games are final
-    - cron: "0,30 3-7 * * 2"
-    # Tuesday-Saturday 8 AM -> midnight ET, every 2 hours (hourly in UTC to cover both offsets)
-    - cron: "0 12-23 * * 2-6"
-    - cron: "0 0-5 * * 0,3-6"
-    # Sunday game day: 10:00 AM and 11:45 AM ET
-    - cron: "0 14,15 * * 0"
-    - cron: "45 15,16 * * 0"
+    - cron: "7,37 * * * *"
   workflow_dispatch:
     inputs:
       mode:
@@ -56,9 +49,15 @@ jobs:
         run: echo "half=$(date -u +%Y%m%d)-$(( $(date -u +%-H) / 12 ))" >> "$GITHUB_OUTPUT"
       - uses: actions/cache@v4
         with:
-          path: state/cache
+          path: state/cache/players_nfl.json
           key: players-${{ steps.key.outputs.half }}
           restore-keys: players-
+      # Remembers which scheduled slots already ran, so late runs don't repeat them.
+      - uses: actions/cache@v4
+        with:
+          path: state/cache/run_log.json
+          key: runlog-${{ github.run_id }}
+          restore-keys: runlog-
 
       - name: Build list
         env:

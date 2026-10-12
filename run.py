@@ -35,6 +35,26 @@ def load_config():
     return cfg
 
 
+RUN_LOG = os.path.join(ROOT, "state", "cache", "run_log.json")
+
+
+def load_run_log():
+    """Slots that already ran (kept between runs by the Actions cache)."""
+    try:
+        with open(RUN_LOG) as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return {}
+
+
+def save_run_log(done, slot_id, now):
+    done = {k: v for k, v in done.items() if v >= (now.timestamp() - 8 * 86400)}  # keep ~a week
+    done[slot_id] = now.timestamp()
+    os.makedirs(os.path.dirname(RUN_LOG), exist_ok=True)
+    with open(RUN_LOG, "w") as f:
+        json.dump(done, f)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--mode", default="scheduled",
@@ -48,8 +68,10 @@ def main():
     now = datetime.fromisoformat(args.now).astimezone(timezone.utc) if args.now else datetime.now(timezone.utc)
     manual = args.mode != "scheduled"
 
+    slot_id = None
+    done = load_run_log()
     if args.mode == "scheduled":
-        job = schedule.due_job(now)
+        job, slot_id = schedule.due_job(now, done)
         if not job:
             print(f"Nothing scheduled at {schedule.fmt_et(now)}. Exiting quietly.")
             return 0
@@ -64,6 +86,8 @@ def main():
         data, publish, reasons, should_notify = build(cfg, now, job, manual=manual)
     except Skip as s:
         print(f"Skipped: {s}")
+        if slot_id and not s.retry and not args.dry_run:
+            save_run_log(done, slot_id, now)
         return 0
 
     lines = [f"{data['badge']['text']} | week {data['week']} | stats through week {data['stats_week']}"]
@@ -92,6 +116,8 @@ def main():
         return 0
     render.write(data, args.out or DOCS)
     print(f"Published to {args.out or DOCS}")
+    if slot_id:
+        save_run_log(done, slot_id, now)
     if should_notify:
         print("Notification:", notify.send(cfg, data, reasons))
     return 0
