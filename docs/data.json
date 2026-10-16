@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-16T01:14:53.642749+00:00",
- "generated_et": "Thu 9:14 PM ET",
+ "generated_at": "2026-10-16T06:19:20.485779+00:00",
+ "generated_et": "Fri 2:19 AM ET",
  "mode": "free_agent",
  "list_type": "free_agent",
  "badge": {
@@ -51,15 +51,10 @@
    "availability": "fa",
    "availability_label": "Free agent: add now",
    "claim_by": null,
-   "reason": "Trending: likely news. Added in 234,123 Sleeper leagues in the last day.",
+   "reason": "Trending: likely news. Added in 213,177 Sleeper leagues in the last day.",
    "drop": "SF D/ST (DEF)",
    "advice": "No bid needed. Add him directly.",
-   "tags": [
-    {
-     "kind": "up",
-     "text": "\u25b2 moved up"
-    }
-   ],
+   "tags": [],
    "news_iso": null,
    "trending_spike": true,
    "opportunity": false,
@@ -93,9 +88,9 @@
     ],
     "proj": 9.5,
     "avg": 4.6,
-    "adds_24h": 234123,
+    "adds_24h": 213177,
     "opponent": "vs TEN",
-    "score": 41.3
+    "score": 41.1
    }
   },
   {
@@ -111,12 +106,7 @@
    "reason": "Role is growing: 31% of snaps last week (up from 22%) with 10 carries and 0 targets.",
    "drop": "Tyreek Hill (WR) \u2014 close call",
    "advice": "No bid needed. Add him directly.",
-   "tags": [
-    {
-     "kind": "up",
-     "text": "\u25b2 moved up"
-    }
-   ],
+   "tags": [],
    "news_iso": null,
    "trending_spike": false,
    "opportunity": false,
@@ -150,62 +140,13 @@
     ],
     "proj": 8.6,
     "avg": 4.3,
-    "adds_24h": 98048,
+    "adds_24h": 87000,
     "opponent": "@ NYG",
-    "score": 41.0
+    "score": 40.8
    }
   },
   {
    "rank": 3,
-   "player_id": "9230",
-   "name": "Tanner McKee",
-   "pos": "QB",
-   "team": "PHI",
-   "injury": null,
-   "availability": "fa",
-   "availability_label": "Free agent: add now",
-   "claim_by": null,
-   "reason": "Starter Jalen Hurts was ruled Out today; McKee is next on the depth chart.",
-   "drop": "Tyreek Hill (WR)",
-   "advice": "No bid needed. Add him directly.",
-   "tags": [
-    {
-     "kind": "up",
-     "text": "\u25b2 moved up"
-    }
-   ],
-   "news_iso": "2026-10-15T17:11:00+00:00",
-   "trending_spike": true,
-   "opportunity": true,
-   "replaces": null,
-   "stats": {
-    "weeks": [
-     {
-      "week": 4,
-      "pts": 0.0,
-      "snap": 0,
-      "targets": 0,
-      "carries": 0,
-      "rz": 0
-     },
-     {
-      "week": 5,
-      "pts": 0.0,
-      "snap": 0,
-      "targets": 0,
-      "carries": 0,
-      "rz": 0
-     }
-    ],
-    "proj": 11.3,
-    "avg": 0.0,
-    "adds_24h": 1033656,
-    "opponent": "vs CAR",
-    "score": 39.9
-   }
-  },
-  {
-   "rank": 4,
    "player_id": "3214",
    "name": "Hunter Henry",
    "pos": "TE",
@@ -254,15 +195,15 @@
       "rz": 3
      }
     ],
-    "proj": 7.3,
+    "proj": 7.4,
     "avg": 7.2,
     "adds_24h": 0,
     "opponent": "vs NYJ",
-    "score": 37.4
+    "score": 37.6
    }
   },
   {
-   "rank": 5,
+   "rank": 4,
    "player_id": "7042",
    "name": "Tyler Bass",
    "pos": "K",
@@ -313,88 +254,31 @@
     ],
     "proj": 8.1,
     "avg": 8.7,
-    "adds_24h": 158425,
+    "adds_24h": 156195,
     "opponent": "@ LV",
-    "score": 37.1
-   }
-  },
-  {
-   "rank": 6,
-   "player_id": "9758",
-   "name": "C.J. Stroud",
-   "pos": "QB",
-   "team": "HOU",
-   "injury": null,
-   "availability": "fa",
-   "availability_label": "Free agent: add now",
-   "claim_by": null,
-   "reason": "Trending: likely news. Added in 186,585 Sleeper leagues in the last day.",
-   "drop": "Tyreek Hill (WR)",
-   "advice": "No bid needed. Add him directly.",
-   "tags": [
-    {
-     "kind": "up",
-     "text": "\u25b2 moved up"
-    }
-   ],
-   "news_iso": "2026-10-13T01:25:05.134000+00:00",
-   "trending_spike": true,
-   "opportunity": false,
-   "replaces": null,
-   "stats": {
-    "weeks": [
-     {
-      "week": 3,
-      "pts": 11.7,
-      "snap": 100,
-      "targets": 0,
-      "carries": 2,
-      "rz": 0
-     },
-     {
-      "week": 4,
-      "pts": 24.1,
-      "snap": 100,
-      "targets": 0,
-      "carries": 2,
-      "rz": 0
-     },
-     {
-      "week": 5,
-      "pts": 20.9,
-      "snap": 100,
-      "targets": 0,
-      "carries": 6,
-      "rz": 1
-     }
-    ],
-    "proj": 15.3,
-    "avg": 18.9,
-    "adds_24h": 186585,
-    "opponent": "@ JAX",
     "score": 37.0
    }
   },
   {
-   "rank": 7,
+   "rank": 5,
    "player_id": "96",
    "name": "Aaron Rodgers",
    "pos": "QB",
    "team": "PIT",
    "injury": null,
-   "availability": "fa",
-   "availability_label": "Free agent: add now",
-   "claim_by": null,
-   "reason": "Trending: likely news. Added in 207,912 Sleeper leagues in the last day.",
+   "availability": "waivers",
+   "availability_label": "On waivers: claim by Sat 3:00 AM ET",
+   "claim_by": "2026-10-17T03:00:00-04:00",
+   "reason": "Trending: likely news. Added in 216,636 Sleeper leagues in the last day.",
    "drop": "Tyreek Hill (WR)",
-   "advice": "No bid needed. Add him directly.",
+   "advice": "Bid $0\u2013$1 (minimal; 0\u20131% of your $39)",
    "tags": [
     {
      "kind": "up",
      "text": "\u25b2 moved up"
     }
    ],
-   "news_iso": "2026-10-13T02:50:07.202000+00:00",
+   "news_iso": null,
    "trending_spike": true,
    "opportunity": false,
    "replaces": null,
@@ -427,13 +311,13 @@
     ],
     "proj": 16.1,
     "avg": 23.9,
-    "adds_24h": 207912,
+    "adds_24h": 216636,
     "opponent": "@ TB",
     "score": 36.9
    }
   },
   {
-   "rank": 8,
+   "rank": 6,
    "player_id": "650",
    "name": "Nick Folk",
    "pos": "K",
@@ -442,7 +326,7 @@
    "availability": "fa",
    "availability_label": "Free agent: add now",
    "claim_by": null,
-   "reason": "Trending: likely news. Added in 491,052 Sleeper leagues in the last day.",
+   "reason": "Trending: likely news. Added in 453,282 Sleeper leagues in the last day.",
    "drop": "Tyler Loop (K)",
    "advice": "No bid needed. Add him directly.",
    "tags": [
@@ -484,13 +368,13 @@
     ],
     "proj": 8.4,
     "avg": 10.3,
-    "adds_24h": 491052,
+    "adds_24h": 453282,
     "opponent": "vs CHI",
-    "score": 36.6
+    "score": 36.5
    }
   },
   {
-   "rank": 9,
+   "rank": 7,
    "player_id": "7553",
    "name": "Kyle Pitts",
    "pos": "TE",
@@ -547,7 +431,7 @@
    }
   },
   {
-   "rank": 10,
+   "rank": 8,
    "player_id": "4454",
    "name": "Kendrick Bourne",
    "pos": "WR",
@@ -598,13 +482,13 @@
     ],
     "proj": 6.8,
     "avg": 4.2,
-    "adds_24h": 97872,
+    "adds_24h": 82791,
     "opponent": "@ LAR",
-    "score": 35.9
+    "score": 35.7
    }
   },
   {
-   "rank": 11,
+   "rank": 9,
    "player_id": "11559",
    "name": "Michael Penix",
    "pos": "QB",
@@ -655,13 +539,13 @@
     ],
     "proj": 14.6,
     "avg": 14.4,
-    "adds_24h": 110064,
+    "adds_24h": 106380,
     "opponent": "vs CHI",
-    "score": 35.6
+    "score": 35.5
    }
   },
   {
-   "rank": 12,
+   "rank": 10,
    "player_id": "11647",
    "name": "Kimani Vidal",
    "pos": "RB",
@@ -670,7 +554,7 @@
    "availability": "fa",
    "availability_label": "Free agent: add now",
    "claim_by": null,
-   "reason": "Trending: likely news. Added in 187,965 Sleeper leagues in the last day.",
+   "reason": "Trending: likely news. Added in 164,845 Sleeper leagues in the last day.",
    "drop": "Tyreek Hill (WR) \u2014 close call",
    "advice": "No bid needed. Add him directly.",
    "tags": [
@@ -710,15 +594,15 @@
       "rz": 0
      }
     ],
-    "proj": 6.0,
+    "proj": 6.1,
     "avg": 8.6,
-    "adds_24h": 187965,
+    "adds_24h": 164845,
     "opponent": "@ KC",
-    "score": 35.2
+    "score": 35.3
    }
   },
   {
-   "rank": 13,
+   "rank": 11,
    "player_id": "2197",
    "name": "Brandin Cooks",
    "pos": "WR",
@@ -769,13 +653,13 @@
     ],
     "proj": 5.1,
     "avg": 2.4,
-    "adds_24h": 111912,
+    "adds_24h": 106352,
     "opponent": "vs WAS",
-    "score": 35.2
+    "score": 35.1
    }
   },
   {
-   "rank": 14,
+   "rank": 12,
    "player_id": "8111",
    "name": "Cade Otton",
    "pos": "TE",
@@ -832,7 +716,7 @@
    }
   },
   {
-   "rank": 15,
+   "rank": 13,
    "player_id": "3257",
    "name": "Jacoby Brissett",
    "pos": "QB",
@@ -889,7 +773,7 @@
    }
   },
   {
-   "rank": 16,
+   "rank": 14,
    "player_id": "11783",
    "name": "Ryan Flournoy",
    "pos": "WR",
@@ -940,13 +824,13 @@
     ],
     "proj": 6.4,
     "avg": 6.6,
-    "adds_24h": 149904,
+    "adds_24h": 146136,
     "opponent": "@ GB",
-    "score": 33.4
+    "score": 33.3
    }
   },
   {
-   "rank": 17,
+   "rank": 15,
    "player_id": "8116",
    "name": "Pierre Strong",
    "pos": "RB",
@@ -960,8 +844,8 @@
    "advice": "No bid needed. Add him directly.",
    "tags": [
     {
-     "kind": "new",
-     "text": "NEW"
+     "kind": "up",
+     "text": "\u25b2 moved up"
     }
    ],
    "news_iso": null,
@@ -997,13 +881,13 @@
     ],
     "proj": 4.7,
     "avg": 1.1,
-    "adds_24h": 61326,
+    "adds_24h": 67221,
     "opponent": "vs DAL",
     "score": 32.9
    }
   },
   {
-   "rank": 18,
+   "rank": 16,
    "player_id": "8210",
    "name": "Chig Okonkwo",
    "pos": "TE",
@@ -1017,8 +901,8 @@
    "advice": "No bid needed. Add him directly.",
    "tags": [
     {
-     "kind": "new",
-     "text": "NEW"
+     "kind": "up",
+     "text": "\u25b2 moved up"
     }
    ],
    "news_iso": null,
@@ -1052,7 +936,7 @@
    }
   },
   {
-   "rank": 19,
+   "rank": 17,
    "player_id": "2306",
    "name": "Jameis Winston",
    "pos": "QB",
@@ -1066,8 +950,8 @@
    "advice": "No bid needed. Add him directly.",
    "tags": [
     {
-     "kind": "new",
-     "text": "NEW"
+     "kind": "up",
+     "text": "\u25b2 moved up"
     }
    ],
    "news_iso": null,
@@ -1109,7 +993,7 @@
    }
   },
   {
-   "rank": 20,
+   "rank": 18,
    "player_id": "8127",
    "name": "Charlie Kolar",
    "pos": "TE",
@@ -1123,8 +1007,8 @@
    "advice": "No bid needed. Add him directly.",
    "tags": [
     {
-     "kind": "new",
-     "text": "NEW"
+     "kind": "up",
+     "text": "\u25b2 moved up"
     }
    ],
    "news_iso": null,
@@ -1142,11 +1026,125 @@
       "rz": 0
      }
     ],
-    "proj": 2.7,
+    "proj": 2.8,
     "avg": 3.2,
     "adds_24h": 0,
     "opponent": "@ KC",
     "score": 31.5
+   }
+  },
+  {
+   "rank": 19,
+   "player_id": "9479",
+   "name": "Darnell Washington",
+   "pos": "TE",
+   "team": "PIT",
+   "injury": null,
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Projects 5.0 pts next week @ TB in your scoring.",
+   "drop": "Tyreek Hill (WR) \u2014 close call",
+   "advice": "No bid needed. Add him directly.",
+   "tags": [
+    {
+     "kind": "new",
+     "text": "NEW"
+    }
+   ],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 3,
+      "pts": 8.7,
+      "snap": 76,
+      "targets": 4,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 4,
+      "pts": 10.2,
+      "snap": 71,
+      "targets": 5,
+      "carries": 0,
+      "rz": 2
+     },
+     {
+      "week": 5,
+      "pts": 2.2,
+      "snap": 63,
+      "targets": 3,
+      "carries": 0,
+      "rz": 0
+     }
+    ],
+    "proj": 5.0,
+    "avg": 7.0,
+    "adds_24h": 0,
+    "opponent": "@ TB",
+    "score": 30.7
+   }
+  },
+  {
+   "rank": 20,
+   "player_id": "12522",
+   "name": "Cam Ward",
+   "pos": "QB",
+   "team": "TEN",
+   "injury": null,
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Locked-in role: 100% of snaps and a full-time role last week, averaging 11.0 pts in your scoring.",
+   "drop": "Tyreek Hill (WR)",
+   "advice": "No bid needed. Add him directly.",
+   "tags": [
+    {
+     "kind": "new",
+     "text": "NEW"
+    }
+   ],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 3,
+      "pts": 10.4,
+      "snap": 100,
+      "targets": 0,
+      "carries": 1,
+      "rz": 0
+     },
+     {
+      "week": 4,
+      "pts": 16.6,
+      "snap": 100,
+      "targets": 0,
+      "carries": 4,
+      "rz": 1
+     },
+     {
+      "week": 5,
+      "pts": 6.0,
+      "snap": 100,
+      "targets": 0,
+      "carries": 1,
+      "rz": 0
+     }
+    ],
+    "proj": 15.5,
+    "avg": 11.0,
+    "adds_24h": 0,
+    "opponent": "@ IND",
+    "score": 30.5
    }
   },
   {
@@ -1196,9 +1194,9 @@
     ],
     "proj": 7.9,
     "avg": 7.0,
-    "adds_24h": 59780,
+    "adds_24h": 49882,
     "opponent": "@ ATL",
-    "score": 29.9
+    "score": 29.8
    }
   },
   {
@@ -1248,7 +1246,7 @@
     ],
     "proj": 7.2,
     "avg": 5.0,
-    "adds_24h": 101165,
+    "adds_24h": 96165,
     "opponent": "@ NYG",
     "score": 16.0
    }
@@ -1422,7 +1420,7 @@
    "player_id": "7526",
    "name": "Jaylen Waddle",
    "pos": "WR",
-   "status": ""
+   "status": "Questionable"
   },
   {
    "player_id": "8146",
@@ -1471,7 +1469,7 @@
   "3321": "",
   "6804": "",
   "6813": "",
-  "7526": "",
+  "7526": "Questionable",
   "8146": "",
   "8408": "IR",
   "9224": "",
@@ -1493,17 +1491,17 @@
   {
    "slot": "RB",
    "player": "Braelon Allen",
-   "proj": 12.7
+   "proj": 12.5
+  },
+  {
+   "slot": "WR",
+   "player": "Garrett Wilson",
+   "proj": 13.0
   },
   {
    "slot": "WR",
    "player": "Parker Washington",
    "proj": 13.0
-  },
-  {
-   "slot": "WR",
-   "player": "Garrett Wilson",
-   "proj": 12.8
   },
   {
    "slot": "TE",
@@ -1529,6 +1527,6 @@
  "site_url": "https://AgbajeF.github.io/FFRec/",
  "job": "free_agent",
  "change_reasons": [
-  "Tyler Bass entered the top 5 (#5)."
+  "Aaron Rodgers entered the top 5 (#5)."
  ]
 }
