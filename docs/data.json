@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-24T16:55:12.748907+00:00",
- "generated_et": "Sat 12:55 PM ET",
+ "generated_at": "2026-10-24T21:51:17.846793+00:00",
+ "generated_et": "Sat 5:51 PM ET",
  "mode": "free_agent",
  "list_type": "free_agent",
  "badge": {
@@ -51,12 +51,12 @@
    "availability": "fa",
    "availability_label": "Free agent: add now",
    "claim_by": null,
-   "reason": "Trending: likely news. Added in 79,784 Sleeper leagues in the last day.",
+   "reason": "Role is growing: 87% of snaps last week (up from 71%) with 9 targets.",
    "drop": "SF D/ST (DEF)",
    "advice": "No bid needed. Add him directly.",
    "tags": [],
-   "news_iso": "2026-10-24T16:40:57.839000+00:00",
-   "trending_spike": true,
+   "news_iso": null,
+   "trending_spike": false,
    "opportunity": false,
    "replaces": null,
    "stats": {
@@ -88,9 +88,9 @@
     ],
     "proj": 5.7,
     "avg": 10.1,
-    "adds_24h": 79784,
+    "adds_24h": 47008,
     "opponent": "@ PHI",
-    "score": 52.5
+    "score": 52.0
    }
   },
   {
@@ -140,9 +140,9 @@
     ],
     "proj": 7.8,
     "avg": 12.2,
-    "adds_24h": 41634,
+    "adds_24h": 30966,
     "opponent": "vs LAR",
-    "score": 51.6
+    "score": 51.2
    }
   },
   {
@@ -192,13 +192,70 @@
     ],
     "proj": 7.9,
     "avg": 5.3,
-    "adds_24h": 52992,
+    "adds_24h": 46872,
     "opponent": "@ TEN",
-    "score": 50.7
+    "score": 50.5
    }
   },
   {
    "rank": 4,
+   "player_id": "7083",
+   "name": "Tyler Huntley",
+   "pos": "QB",
+   "team": "BAL",
+   "injury": null,
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Starter Lamar Jackson was ruled Out (Ankle) in the last hour; Huntley is next on the depth chart.",
+   "drop": "SF D/ST (DEF)",
+   "advice": "No bid needed. Add him directly.",
+   "tags": [
+    {
+     "kind": "new",
+     "text": "NEW"
+    }
+   ],
+   "news_iso": "2026-10-24T21:26:00.892000+00:00",
+   "trending_spike": false,
+   "opportunity": true,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 4,
+      "pts": 4.1,
+      "snap": 48,
+      "targets": 0,
+      "carries": 4,
+      "rz": 0
+     },
+     {
+      "week": 5,
+      "pts": 24.0,
+      "snap": 100,
+      "targets": 0,
+      "carries": 6,
+      "rz": 1
+     },
+     {
+      "week": 6,
+      "pts": 13.4,
+      "snap": 100,
+      "targets": 0,
+      "carries": 5,
+      "rz": 1
+     }
+    ],
+    "proj": 14.8,
+    "avg": 13.9,
+    "adds_24h": 0,
+    "opponent": "vs CIN",
+    "score": 48.8
+   }
+  },
+  {
+   "rank": 5,
    "player_id": "12536",
    "name": "Jaylin Noel",
    "pos": "WR",
@@ -212,8 +269,8 @@
    "advice": "No bid needed. Add him directly.",
    "tags": [
     {
-     "kind": "up",
-     "text": "\u25b2 moved up"
+     "kind": "down",
+     "text": "\u25bc moved down"
     }
    ],
    "news_iso": null,
@@ -249,13 +306,13 @@
     ],
     "proj": 7.6,
     "avg": 14.3,
-    "adds_24h": 25299,
+    "adds_24h": 32415,
     "opponent": "vs NYG",
-    "score": 48.4
+    "score": 48.5
    }
   },
   {
-   "rank": 5,
+   "rank": 6,
    "player_id": "6865",
    "name": "Colby Parkinson",
    "pos": "TE",
@@ -298,13 +355,13 @@
     ],
     "proj": 5.5,
     "avg": 6.2,
-    "adds_24h": 59316,
+    "adds_24h": 37842,
     "opponent": "@ LV",
-    "score": 48.2
+    "score": 47.8
    }
   },
   {
-   "rank": 6,
+   "rank": 7,
    "player_id": "11610",
    "name": "Malik Washington",
    "pos": "WR",
@@ -313,12 +370,17 @@
    "availability": "fa",
    "availability_label": "Free agent: add now",
    "claim_by": null,
-   "reason": "Trending: likely news. Added in 74,680 Sleeper leagues in the last day.",
+   "reason": "Locked-in role: 80% of snaps and 31% target share last week, averaging 9.3 pts in your scoring.",
    "drop": "SF D/ST (DEF)",
    "advice": "No bid needed. Add him directly.",
-   "tags": [],
-   "news_iso": "2026-10-24T13:25:56.846000+00:00",
-   "trending_spike": true,
+   "tags": [
+    {
+     "kind": "down",
+     "text": "\u25bc moved down"
+    }
+   ],
+   "news_iso": null,
+   "trending_spike": false,
    "opportunity": false,
    "replaces": null,
    "stats": {
@@ -342,13 +404,221 @@
     ],
     "proj": 8.0,
     "avg": 9.3,
-    "adds_24h": 74680,
+    "adds_24h": 47816,
     "opponent": "@ NYJ",
-    "score": 47.5
+    "score": 47.0
    }
   },
   {
-   "rank": 7,
+   "rank": 8,
+   "player_id": "5045",
+   "name": "Courtland Sutton",
+   "pos": "WR",
+   "team": "DEN",
+   "injury": null,
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Projects 7.7 pts next week @ ARI in your scoring.",
+   "drop": "SF D/ST (DEF)",
+   "advice": "No bid needed. Add him directly.",
+   "tags": [],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 4,
+      "pts": 0.9,
+      "snap": 74,
+      "targets": 6,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 5,
+      "pts": 8.8,
+      "snap": 81,
+      "targets": 3,
+      "carries": 0,
+      "rz": 1
+     },
+     {
+      "week": 6,
+      "pts": 2.9,
+      "snap": 77,
+      "targets": 3,
+      "carries": 0,
+      "rz": 0
+     }
+    ],
+    "proj": 7.7,
+    "avg": 4.2,
+    "adds_24h": 32958,
+    "opponent": "@ ARI",
+    "score": 44.7
+   }
+  },
+  {
+   "rank": 9,
+   "player_id": "8122",
+   "name": "Zonovan Knight",
+   "pos": "RB",
+   "team": "ARI",
+   "injury": null,
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Trending: likely news. Added in 69,332 Sleeper leagues in the last day.",
+   "drop": "SF D/ST (DEF)",
+   "advice": "No bid needed. Add him directly.",
+   "tags": [],
+   "news_iso": "2026-10-24T16:10:57.738000+00:00",
+   "trending_spike": true,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 4,
+      "pts": 0.0,
+      "snap": 0,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 5,
+      "pts": 0.8,
+      "snap": 8,
+      "targets": 0,
+      "carries": 1,
+      "rz": 0
+     },
+     {
+      "week": 6,
+      "pts": 10.8,
+      "snap": 44,
+      "targets": 2,
+      "carries": 15,
+      "rz": 3
+     }
+    ],
+    "proj": 7.2,
+    "avg": 3.9,
+    "adds_24h": 69332,
+    "opponent": "vs DEN",
+    "score": 41.8
+   }
+  },
+  {
+   "rank": 10,
+   "player_id": "2197",
+   "name": "Brandin Cooks",
+   "pos": "WR",
+   "team": "SF",
+   "injury": null,
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Trending: likely news. Added in 89,864 Sleeper leagues in the last day.",
+   "drop": "SF D/ST (DEF)",
+   "advice": "No bid needed. Add him directly.",
+   "tags": [],
+   "news_iso": "2026-10-24T19:25:58.836000+00:00",
+   "trending_spike": true,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 4,
+      "pts": 0.0,
+      "snap": 12,
+      "targets": 1,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 5,
+      "pts": 7.2,
+      "snap": 40,
+      "targets": 2,
+      "carries": 0,
+      "rz": 1
+     },
+     {
+      "week": 6,
+      "pts": 1.8,
+      "snap": 52,
+      "targets": 2,
+      "carries": 0,
+      "rz": 1
+     }
+    ],
+    "proj": 6.8,
+    "avg": 3.0,
+    "adds_24h": 89864,
+    "opponent": "@ ATL",
+    "score": 41.4
+   }
+  },
+  {
+   "rank": 11,
+   "player_id": "11563",
+   "name": "Bo Nix",
+   "pos": "QB",
+   "team": "DEN",
+   "injury": null,
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Locked-in role: 100% of snaps and a full-time role last week, averaging 8.7 pts in your scoring.",
+   "drop": "SF D/ST (DEF)",
+   "advice": "No bid needed. Add him directly.",
+   "tags": [],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 4,
+      "pts": 13.6,
+      "snap": 100,
+      "targets": 0,
+      "carries": 2,
+      "rz": 0
+     },
+     {
+      "week": 5,
+      "pts": 7.9,
+      "snap": 100,
+      "targets": 0,
+      "carries": 4,
+      "rz": 1
+     },
+     {
+      "week": 6,
+      "pts": 4.5,
+      "snap": 100,
+      "targets": 0,
+      "carries": 4,
+      "rz": 1
+     }
+    ],
+    "proj": 19.4,
+    "avg": 8.7,
+    "adds_24h": 47916,
+    "opponent": "@ ARI",
+    "score": 40.6
+   }
+  },
+  {
+   "rank": 12,
    "player_id": "9479",
    "name": "Darnell Washington",
    "pos": "TE",
@@ -362,8 +632,8 @@
    "advice": "No bid needed. Add him directly.",
    "tags": [
     {
-     "kind": "up",
-     "text": "\u25b2 moved up"
+     "kind": "down",
+     "text": "\u25bc moved down"
     }
    ],
    "news_iso": null,
@@ -399,241 +669,13 @@
     ],
     "proj": 5.9,
     "avg": 7.6,
-    "adds_24h": 20920,
+    "adds_24h": 0,
     "opponent": "@ NO",
-    "score": 47.3
+    "score": 39.6
    }
   },
   {
-   "rank": 8,
-   "player_id": "5045",
-   "name": "Courtland Sutton",
-   "pos": "WR",
-   "team": "DEN",
-   "injury": null,
-   "availability": "fa",
-   "availability_label": "Free agent: add now",
-   "claim_by": null,
-   "reason": "Projects 7.7 pts next week @ ARI in your scoring.",
-   "drop": "SF D/ST (DEF)",
-   "advice": "No bid needed. Add him directly.",
-   "tags": [
-    {
-     "kind": "down",
-     "text": "\u25bc moved down"
-    }
-   ],
-   "news_iso": null,
-   "trending_spike": false,
-   "opportunity": false,
-   "replaces": null,
-   "stats": {
-    "weeks": [
-     {
-      "week": 4,
-      "pts": 0.9,
-      "snap": 74,
-      "targets": 6,
-      "carries": 0,
-      "rz": 0
-     },
-     {
-      "week": 5,
-      "pts": 8.8,
-      "snap": 81,
-      "targets": 3,
-      "carries": 0,
-      "rz": 1
-     },
-     {
-      "week": 6,
-      "pts": 2.9,
-      "snap": 77,
-      "targets": 3,
-      "carries": 0,
-      "rz": 0
-     }
-    ],
-    "proj": 7.7,
-    "avg": 4.2,
-    "adds_24h": 44991,
-    "opponent": "@ ARI",
-    "score": 45.0
-   }
-  },
-  {
-   "rank": 9,
-   "player_id": "8122",
-   "name": "Zonovan Knight",
-   "pos": "RB",
-   "team": "ARI",
-   "injury": null,
-   "availability": "fa",
-   "availability_label": "Free agent: add now",
-   "claim_by": null,
-   "reason": "Trending: likely news. Added in 99,560 Sleeper leagues in the last day.",
-   "drop": "SF D/ST (DEF)",
-   "advice": "No bid needed. Add him directly.",
-   "tags": [
-    {
-     "kind": "down",
-     "text": "\u25bc moved down"
-    }
-   ],
-   "news_iso": "2026-10-24T16:10:57.738000+00:00",
-   "trending_spike": true,
-   "opportunity": false,
-   "replaces": null,
-   "stats": {
-    "weeks": [
-     {
-      "week": 4,
-      "pts": 0.0,
-      "snap": 0,
-      "targets": 0,
-      "carries": 0,
-      "rz": 0
-     },
-     {
-      "week": 5,
-      "pts": 0.8,
-      "snap": 8,
-      "targets": 0,
-      "carries": 1,
-      "rz": 0
-     },
-     {
-      "week": 6,
-      "pts": 10.8,
-      "snap": 44,
-      "targets": 2,
-      "carries": 15,
-      "rz": 3
-     }
-    ],
-    "proj": 7.2,
-    "avg": 3.9,
-    "adds_24h": 99560,
-    "opponent": "vs DEN",
-    "score": 42.2
-   }
-  },
-  {
-   "rank": 10,
-   "player_id": "2197",
-   "name": "Brandin Cooks",
-   "pos": "WR",
-   "team": "SF",
-   "injury": null,
-   "availability": "fa",
-   "availability_label": "Free agent: add now",
-   "claim_by": null,
-   "reason": "Trending: likely news. Added in 96,900 Sleeper leagues in the last day.",
-   "drop": "SF D/ST (DEF)",
-   "advice": "No bid needed. Add him directly.",
-   "tags": [
-    {
-     "kind": "down",
-     "text": "\u25bc moved down"
-    }
-   ],
-   "news_iso": "2026-10-24T09:30:55.275000+00:00",
-   "trending_spike": true,
-   "opportunity": false,
-   "replaces": null,
-   "stats": {
-    "weeks": [
-     {
-      "week": 4,
-      "pts": 0.0,
-      "snap": 12,
-      "targets": 1,
-      "carries": 0,
-      "rz": 0
-     },
-     {
-      "week": 5,
-      "pts": 7.2,
-      "snap": 40,
-      "targets": 2,
-      "carries": 0,
-      "rz": 1
-     },
-     {
-      "week": 6,
-      "pts": 1.8,
-      "snap": 52,
-      "targets": 2,
-      "carries": 0,
-      "rz": 1
-     }
-    ],
-    "proj": 7.0,
-    "avg": 3.0,
-    "adds_24h": 96900,
-    "opponent": "@ ATL",
-    "score": 41.9
-   }
-  },
-  {
-   "rank": 11,
-   "player_id": "11563",
-   "name": "Bo Nix",
-   "pos": "QB",
-   "team": "DEN",
-   "injury": null,
-   "availability": "fa",
-   "availability_label": "Free agent: add now",
-   "claim_by": null,
-   "reason": "Locked-in role: 100% of snaps and a full-time role last week, averaging 8.7 pts in your scoring.",
-   "drop": "SF D/ST (DEF)",
-   "advice": "No bid needed. Add him directly.",
-   "tags": [
-    {
-     "kind": "down",
-     "text": "\u25bc moved down"
-    }
-   ],
-   "news_iso": null,
-   "trending_spike": false,
-   "opportunity": false,
-   "replaces": null,
-   "stats": {
-    "weeks": [
-     {
-      "week": 4,
-      "pts": 13.6,
-      "snap": 100,
-      "targets": 0,
-      "carries": 2,
-      "rz": 0
-     },
-     {
-      "week": 5,
-      "pts": 7.9,
-      "snap": 100,
-      "targets": 0,
-      "carries": 4,
-      "rz": 1
-     },
-     {
-      "week": 6,
-      "pts": 4.5,
-      "snap": 100,
-      "targets": 0,
-      "carries": 4,
-      "rz": 1
-     }
-    ],
-    "proj": 19.4,
-    "avg": 8.7,
-    "adds_24h": 30432,
-    "opponent": "@ ARI",
-    "score": 40.4
-   }
-  },
-  {
-   "rank": 12,
+   "rank": 13,
    "player_id": "8111",
    "name": "Cade Otton",
    "pos": "TE",
@@ -684,35 +726,40 @@
     ],
     "proj": 6.7,
     "avg": 3.5,
-    "adds_24h": 47454,
+    "adds_24h": 31512,
     "opponent": "@ CAR",
-    "score": 39.8
+    "score": 39.4
    }
   },
   {
-   "rank": 13,
-   "player_id": "12634",
-   "name": "Jordan Watkins",
+   "rank": 14,
+   "player_id": "7596",
+   "name": "Elijah Moore",
    "pos": "WR",
-   "team": "SF",
+   "team": "PHI",
    "injury": null,
    "availability": "fa",
    "availability_label": "Free agent: add now",
    "claim_by": null,
-   "reason": "Trending: likely news. Added in 67,876 Sleeper leagues in the last day.",
+   "reason": "Starter DeVonta Smith was ruled Out (Hamstring) in the last hour; Moore is next on the depth chart.",
    "drop": "SF D/ST (DEF)",
    "advice": "No bid needed. Add him directly.",
-   "tags": [],
-   "news_iso": "2026-10-24T09:40:55.362000+00:00",
-   "trending_spike": true,
-   "opportunity": false,
+   "tags": [
+    {
+     "kind": "new",
+     "text": "NEW"
+    }
+   ],
+   "news_iso": "2026-10-24T21:26:00.867000+00:00",
+   "trending_spike": false,
+   "opportunity": true,
    "replaces": null,
    "stats": {
     "weeks": [
      {
       "week": 4,
       "pts": 0.0,
-      "snap": 38,
+      "snap": 16,
       "targets": 0,
       "carries": 0,
       "rz": 0
@@ -720,29 +767,29 @@
      {
       "week": 5,
       "pts": 0.0,
-      "snap": 37,
+      "snap": 19,
       "targets": 0,
       "carries": 0,
       "rz": 0
      },
      {
       "week": 6,
-      "pts": 2.7,
-      "snap": 76,
-      "targets": 1,
+      "pts": 0.9,
+      "snap": 12,
+      "targets": 2,
       "carries": 0,
       "rz": 0
      }
     ],
-    "proj": 6.1,
-    "avg": 0.9,
-    "adds_24h": 67876,
-    "opponent": "@ ATL",
+    "proj": 0.3,
+    "avg": 0.3,
+    "adds_24h": 0,
+    "opponent": "vs DAL",
     "score": 38.7
    }
   },
   {
-   "rank": 14,
+   "rank": 15,
    "player_id": "13317",
    "name": "Ted Hurst III",
    "pos": "WR",
@@ -751,10 +798,15 @@
    "availability": "fa",
    "availability_label": "Free agent: add now",
    "claim_by": null,
-   "reason": "Trending: likely news. Added in 144,936 Sleeper leagues in the last day.",
+   "reason": "Trending: likely news. Added in 116,178 Sleeper leagues in the last day.",
    "drop": "SF D/ST (DEF)",
    "advice": "No bid needed. Add him directly.",
-   "tags": [],
+   "tags": [
+    {
+     "kind": "down",
+     "text": "\u25bc moved down"
+    }
+   ],
    "news_iso": "2026-10-24T15:10:57.331000+00:00",
    "trending_spike": true,
    "opportunity": false,
@@ -788,53 +840,9 @@
     ],
     "proj": 6.8,
     "avg": 3.0,
-    "adds_24h": 144936,
+    "adds_24h": 116178,
     "opponent": "@ CAR",
-    "score": 38.3
-   }
-  },
-  {
-   "rank": 15,
-   "player_id": "4993",
-   "name": "Mike Gesicki",
-   "pos": "TE",
-   "team": "CIN",
-   "injury": null,
-   "availability": "fa",
-   "availability_label": "Free agent: add now",
-   "claim_by": null,
-   "reason": "Projects 7.0 pts next week @ BAL in your scoring.",
-   "drop": "SF D/ST (DEF)",
-   "advice": "No bid needed. Add him directly.",
-   "tags": [],
-   "news_iso": null,
-   "trending_spike": false,
-   "opportunity": false,
-   "replaces": null,
-   "stats": {
-    "weeks": [
-     {
-      "week": 4,
-      "pts": 11.5,
-      "snap": 62,
-      "targets": 5,
-      "carries": 0,
-      "rz": 1
-     },
-     {
-      "week": 5,
-      "pts": 6.9,
-      "snap": 45,
-      "targets": 2,
-      "carries": 0,
-      "rz": 1
-     }
-    ],
-    "proj": 7.0,
-    "avg": 9.2,
-    "adds_24h": 38064,
-    "opponent": "@ BAL",
-    "score": 37.8
+    "score": 38.0
    }
   },
   {
@@ -884,13 +892,119 @@
     ],
     "proj": 16.6,
     "avg": 10.9,
-    "adds_24h": 20632,
+    "adds_24h": 34492,
     "opponent": "vs MIA",
-    "score": 37.4
+    "score": 37.7
    }
   },
   {
    "rank": 17,
+   "player_id": "12634",
+   "name": "Jordan Watkins",
+   "pos": "WR",
+   "team": "SF",
+   "injury": null,
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Trending: likely news. Added in 62,756 Sleeper leagues in the last day.",
+   "drop": "SF D/ST (DEF)",
+   "advice": "No bid needed. Add him directly.",
+   "tags": [
+    {
+     "kind": "down",
+     "text": "\u25bc moved down"
+    }
+   ],
+   "news_iso": "2026-10-24T09:40:55.362000+00:00",
+   "trending_spike": true,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 4,
+      "pts": 0.0,
+      "snap": 38,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 5,
+      "pts": 0.0,
+      "snap": 37,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 6,
+      "pts": 2.7,
+      "snap": 76,
+      "targets": 1,
+      "carries": 0,
+      "rz": 0
+     }
+    ],
+    "proj": 5.4,
+    "avg": 0.9,
+    "adds_24h": 62756,
+    "opponent": "@ ATL",
+    "score": 37.6
+   }
+  },
+  {
+   "rank": 18,
+   "player_id": "4993",
+   "name": "Mike Gesicki",
+   "pos": "TE",
+   "team": "CIN",
+   "injury": null,
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Projects 6.9 pts next week @ BAL in your scoring.",
+   "drop": "SF D/ST (DEF)",
+   "advice": "No bid needed. Add him directly.",
+   "tags": [
+    {
+     "kind": "down",
+     "text": "\u25bc moved down"
+    }
+   ],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 4,
+      "pts": 11.5,
+      "snap": 62,
+      "targets": 5,
+      "carries": 0,
+      "rz": 1
+     },
+     {
+      "week": 5,
+      "pts": 6.9,
+      "snap": 45,
+      "targets": 2,
+      "carries": 0,
+      "rz": 1
+     }
+    ],
+    "proj": 6.9,
+    "avg": 9.2,
+    "adds_24h": 25152,
+    "opponent": "@ BAL",
+    "score": 37.4
+   }
+  },
+  {
+   "rank": 19,
    "player_id": "7694",
    "name": "Tommy Tremble",
    "pos": "TE",
@@ -902,7 +1016,12 @@
    "reason": "Role is growing: 68% of snaps last week (up from 51%) with 4 targets.",
    "drop": "SF D/ST (DEF)",
    "advice": "No bid needed. Add him directly.",
-   "tags": [],
+   "tags": [
+    {
+     "kind": "down",
+     "text": "\u25bc moved down"
+    }
+   ],
    "news_iso": null,
    "trending_spike": false,
    "opportunity": false,
@@ -934,7 +1053,7 @@
    }
   },
   {
-   "rank": 18,
+   "rank": 20,
    "player_id": "13285",
    "name": "Malachi Fields",
    "pos": "WR",
@@ -946,7 +1065,12 @@
    "reason": "Role is growing: 94% of snaps last week (up from 69%) with 8 targets.",
    "drop": "SF D/ST (DEF)",
    "advice": "No bid needed. Add him directly.",
-   "tags": [],
+   "tags": [
+    {
+     "kind": "down",
+     "text": "\u25bc moved down"
+    }
+   ],
    "news_iso": null,
    "trending_spike": false,
    "opportunity": false,
@@ -986,20 +1110,20 @@
    }
   },
   {
-   "rank": 19,
-   "player_id": "12718",
-   "name": "Konata Mumpfield",
-   "pos": "WR",
-   "team": "LAR",
+   "rank": null,
+   "player_id": "5995",
+   "name": "Justice Hill",
+   "pos": "RB",
+   "team": "BAL",
    "injury": null,
    "availability": "fa",
    "availability_label": "Free agent: add now",
    "claim_by": null,
-   "reason": "Trending: likely news. Added in 392,274 Sleeper leagues in the last day.",
+   "reason": "Trending: likely news. Added in 127,827 Sleeper leagues in the last day.",
    "drop": "SF D/ST (DEF)",
    "advice": "No bid needed. Add him directly.",
    "tags": [],
-   "news_iso": "2026-10-24T16:30:57.746000+00:00",
+   "news_iso": null,
    "trending_spike": true,
    "opportunity": false,
    "replaces": null,
@@ -1007,138 +1131,34 @@
     "weeks": [
      {
       "week": 4,
-      "pts": 1.2,
-      "snap": 27,
+      "pts": 3.5,
+      "snap": 38,
       "targets": 3,
-      "carries": 0,
-      "rz": 0
-     },
-     {
-      "week": 5,
-      "pts": 0.0,
-      "snap": 7,
-      "targets": 0,
-      "carries": 0,
-      "rz": 0
-     },
-     {
-      "week": 6,
-      "pts": 2.5,
-      "snap": 47,
-      "targets": 3,
-      "carries": 0,
-      "rz": 0
-     }
-    ],
-    "proj": 4.3,
-    "avg": 1.2,
-    "adds_24h": 392274,
-    "opponent": "@ LV",
-    "score": 36.0
-   }
-  },
-  {
-   "rank": 20,
-   "player_id": "7002",
-   "name": "Juwan Johnson",
-   "pos": "TE",
-   "team": "NO",
-   "injury": null,
-   "availability": "fa",
-   "availability_label": "Free agent: add now",
-   "claim_by": null,
-   "reason": "Streaming option: projects 8.6 pts vs PIT, 1.1 more than your current TE.",
-   "drop": "SF D/ST (DEF)",
-   "advice": "No bid needed. Add him directly.",
-   "tags": [],
-   "news_iso": null,
-   "trending_spike": false,
-   "opportunity": false,
-   "replaces": null,
-   "stats": {
-    "weeks": [
-     {
-      "week": 4,
-      "pts": 8.9,
-      "snap": 78,
-      "targets": 8,
-      "carries": 0,
-      "rz": 1
-     },
-     {
-      "week": 5,
-      "pts": 3.6,
-      "snap": 64,
-      "targets": 5,
-      "carries": 0,
-      "rz": 0
-     },
-     {
-      "week": 6,
-      "pts": 0.0,
-      "snap": 58,
-      "targets": 2,
-      "carries": 0,
-      "rz": 0
-     }
-    ],
-    "proj": 8.6,
-    "avg": 4.2,
-    "adds_24h": 0,
-    "opponent": "vs PIT",
-    "score": 35.4
-   }
-  },
-  {
-   "rank": null,
-   "player_id": "9230",
-   "name": "Tanner McKee",
-   "pos": "QB",
-   "team": "PHI",
-   "injury": null,
-   "availability": "fa",
-   "availability_label": "Free agent: add now",
-   "claim_by": null,
-   "reason": "Projects 14.4 pts next week vs DAL in your scoring.",
-   "drop": "SF D/ST (DEF)",
-   "advice": "No bid needed. Add him directly.",
-   "tags": [],
-   "news_iso": null,
-   "trending_spike": false,
-   "opportunity": false,
-   "replaces": null,
-   "stats": {
-    "weeks": [
-     {
-      "week": 4,
-      "pts": 0.0,
-      "snap": 0,
-      "targets": 0,
-      "carries": 0,
-      "rz": 0
-     },
-     {
-      "week": 5,
-      "pts": 0.0,
-      "snap": 0,
-      "targets": 0,
-      "carries": 0,
-      "rz": 0
-     },
-     {
-      "week": 6,
-      "pts": 12.6,
-      "snap": 100,
-      "targets": 0,
       "carries": 1,
       "rz": 0
+     },
+     {
+      "week": 5,
+      "pts": 9.3,
+      "snap": 46,
+      "targets": 4,
+      "carries": 4,
+      "rz": 0
+     },
+     {
+      "week": 6,
+      "pts": 2.4,
+      "snap": 42,
+      "targets": 3,
+      "carries": 0,
+      "rz": 0
      }
     ],
-    "proj": 14.4,
-    "avg": 4.2,
-    "adds_24h": 24832,
-    "opponent": "vs DAL",
-    "score": 32.5
+    "proj": 6.5,
+    "avg": 5.1,
+    "adds_24h": 127827,
+    "opponent": "vs CIN",
+    "score": 30.6
    }
   },
   {
@@ -1180,61 +1200,9 @@
     ],
     "proj": 5.0,
     "avg": 7.8,
-    "adds_24h": 31560,
+    "adds_24h": 23628,
     "opponent": "@ BAL",
-    "score": 30.9
-   }
-  },
-  {
-   "rank": null,
-   "player_id": "5995",
-   "name": "Justice Hill",
-   "pos": "RB",
-   "team": "BAL",
-   "injury": null,
-   "availability": "fa",
-   "availability_label": "Free agent: add now",
-   "claim_by": null,
-   "reason": "Projects 6.9 pts next week vs CIN in your scoring.",
-   "drop": "SF D/ST (DEF)",
-   "advice": "No bid needed. Add him directly.",
-   "tags": [],
-   "news_iso": null,
-   "trending_spike": false,
-   "opportunity": false,
-   "replaces": null,
-   "stats": {
-    "weeks": [
-     {
-      "week": 4,
-      "pts": 3.5,
-      "snap": 38,
-      "targets": 3,
-      "carries": 1,
-      "rz": 0
-     },
-     {
-      "week": 5,
-      "pts": 9.3,
-      "snap": 46,
-      "targets": 4,
-      "carries": 4,
-      "rz": 0
-     },
-     {
-      "week": 6,
-      "pts": 2.4,
-      "snap": 42,
-      "targets": 3,
-      "carries": 0,
-      "rz": 0
-     }
-    ],
-    "proj": 6.9,
-    "avg": 5.1,
-    "adds_24h": 41967,
-    "opponent": "vs CIN",
-    "score": 30.3
+    "score": 30.6
    }
   },
   {
@@ -1278,7 +1246,7 @@
     "avg": 8.0,
     "adds_24h": 0,
     "opponent": "vs TB",
-    "score": 29.0
+    "score": 29.2
    }
   },
   {
@@ -1330,7 +1298,7 @@
     "avg": 10.7,
     "adds_24h": 0,
     "opponent": "@ HOU",
-    "score": 28.0
+    "score": 28.1
    }
   },
   {
@@ -1382,7 +1350,59 @@
     "avg": 6.0,
     "adds_24h": 0,
     "opponent": "vs PIT",
-    "score": 27.9
+    "score": 28.1
+   }
+  },
+  {
+   "rank": null,
+   "player_id": "10955",
+   "name": "Chad Ryland",
+   "pos": "K",
+   "team": "ARI",
+   "injury": null,
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Projects 7.5 pts next week vs DEN in your scoring.",
+   "drop": "Tyler Loop (K)",
+   "advice": "No bid needed. Add him directly.",
+   "tags": [],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 4,
+      "pts": 8.0,
+      "snap": 0,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 5,
+      "pts": 2.0,
+      "snap": 0,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 6,
+      "pts": 19.0,
+      "snap": 0,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     }
+    ],
+    "proj": 7.5,
+    "avg": 9.7,
+    "adds_24h": 0,
+    "opponent": "vs DEN",
+    "score": 25.9
    }
   },
   {
@@ -1434,34 +1454,7 @@
     "avg": 9.0,
     "adds_24h": 0,
     "opponent": "vs MIA",
-    "score": 25.7
-   }
-  },
-  {
-   "rank": null,
-   "player_id": "1433",
-   "name": "Brandon McManus",
-   "pos": "K",
-   "team": "LAR",
-   "injury": null,
-   "availability": "fa",
-   "availability_label": "Free agent: add now",
-   "claim_by": null,
-   "reason": "Projects 7.7 pts next week @ LV in your scoring.",
-   "drop": "Tyler Loop (K)",
-   "advice": "No bid needed. Add him directly.",
-   "tags": [],
-   "news_iso": null,
-   "trending_spike": false,
-   "opportunity": false,
-   "replaces": null,
-   "stats": {
-    "weeks": [],
-    "proj": 7.7,
-    "avg": 0.0,
-    "adds_24h": 25328,
-    "opponent": "@ LV",
-    "score": 25.7
+    "score": 25.9
    }
   },
   {
@@ -1839,7 +1832,7 @@
    "player_id": "8408",
    "name": "Jordan Mason",
    "pos": "RB",
-   "status": "IR"
+   "status": ""
   },
   {
    "player_id": "9224",
@@ -1883,7 +1876,7 @@
   "7553": "",
   "8138": "",
   "8146": "",
-  "8408": "IR",
+  "8408": "",
   "9224": "",
   "9484": "",
   "9487": "",
@@ -1899,7 +1892,7 @@
   {
    "slot": "RB",
    "player": "Chase Brown",
-   "proj": 13.3
+   "proj": 13.4
   },
   {
    "slot": "RB",
@@ -1914,7 +1907,7 @@
   {
    "slot": "WR",
    "player": "Matthew Golden",
-   "proj": 13.1
+   "proj": 13.2
   },
   {
    "slot": "TE",
@@ -1929,7 +1922,7 @@
   {
    "slot": "K",
    "player": "Tyler Loop",
-   "proj": 7.5
+   "proj": 7.4
   },
   {
    "slot": "DEF",
@@ -1940,6 +1933,8 @@
  "site_url": "https://AgbajeF.github.io/FFRec/",
  "job": "free_agent",
  "change_reasons": [
-  "Trending spike: Jordan Watkins is being added everywhere."
+  "Role opened up: Tyler Huntley (QB, BAL).",
+  "Role opened up: Elijah Moore (WR, PHI).",
+  "Tyler Huntley entered the top 5 (#4)."
  ]
 }
