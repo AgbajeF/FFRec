@@ -68,6 +68,29 @@ python -m unittest discover tests            # run the tests
 6. **FAAB**: a bid range as a % of your remaining budget. (Priority leagues get "worth a high priority?" advice.)
 7. **Drop suggestion**: your least valuable bench player, protecting injured stars. K/DEF pickups swap with your current K/DEF.
 
+## Trades tab
+
+The page has a second tab, **Trades**, rebuilt with every list:
+
+- **Suggested trades**: 1-for-1, 2-for-1 and 1-for-2 deals with every team in your league that make
+  your starting lineup better, don't make theirs worse (or give them enough extra value to say yes),
+  and are within about 10% on market value. Each one says who would start for you and for them.
+- **Trade analyzer**: pick a team, tap players on each side, and see the value on each side, a verdict
+  (fair / you win / you overpay), how each starting lineup changes, and who you'd have to drop.
+- **Recent trades in your league**, graded with today's values.
+
+How it judges a trade:
+1. **Value** of every player. Redraft and keeper leagues use FantasyPros' rest-of-season consensus ranks;
+   dynasty leagues use DynastyProcess's dynasty values (1QB or superflex). Ranks become values on
+   DynastyProcess's curve (#1 is about 10,000, #50 about 3,200, #100 about 1,000), so stars cost more than depth.
+   When FantasyCalc answers, its ranks (based on real trades) are averaged in.
+2. **Market value** of each side: best player at full value, the next at 85%, then 72%, and so on.
+3. **Team impact**: each team's best starting lineup by value plus a little bench depth, before and after.
+   If a team receives more players than it sends, its weakest bench players are dropped first.
+
+Trade suggestions stop after your league's trade deadline. If the value source is down, the Trades
+tab says so and the waiver list is unaffected.
+
 ### Data sources
 
 - **Sleeper official API**: league, rosters, users, transactions, players, trending, NFL state.
@@ -75,6 +98,10 @@ python -m unittest discover tests            # run the tests
 - **Unofficial endpoints** (`ffwaiver/unofficial_sources.py`): Sleeper weekly stats and projections, and
   ESPN's scoreboard, injuries and news. These aren't officially supported and could change. If one fails,
   the page still builds and shows a small note such as "Projections unavailable this week."
+- **DynastyProcess data** (`ffwaiver/trades.py`): free CSVs on GitHub, updated weekly: FantasyPros
+  consensus ranks, dynasty values and a FantasyPros-to-Sleeper player id map (cached for 3 days).
+  The ranks belong to FantasyPros, so keep this site for personal / league use.
+- **FantasyCalc** (`ffwaiver/trades.py`): unofficial, keyless API. Optional; the page builds without it.
 - **nflverse** (`ffwaiver/nflverse.py`): season-long weekly stats (target share, opponent points allowed)
   and the schedule. nflverse often posts a week's data on Tuesday; a missing update never breaks a run.
 
@@ -86,6 +113,7 @@ run.py                      entry point (scheduled or manual)
 ffwaiver/schedule.py        Eastern-time schedule, modes, daylight saving handling
 ffwaiver/pipeline.py        fetches data, decides preliminary/final, decides whether to publish
 ffwaiver/recommend.py       scoring, roster needs, reasons, drops, FAAB advice
+ffwaiver/trades.py          trade values, analyzer math, trade suggestions
 ffwaiver/changes.py         "is this a material change?" rules
 ffwaiver/render.py          the page (docs/index.html) and docs/data.json
 ffwaiver/notify.py          optional Discord / email

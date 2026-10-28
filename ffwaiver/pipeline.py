@@ -3,7 +3,7 @@ import json
 import os
 from datetime import datetime, timedelta, timezone
 
-from . import nflverse, schedule, sleeper_api
+from . import nflverse, schedule, sleeper_api, trades
 from . import unofficial_sources as uo
 from .changes import material_changes
 from .recommend import player_name, recommend, short_name
@@ -11,6 +11,7 @@ from .recommend import player_name, recommend, short_name
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DOCS = os.path.join(ROOT, "docs")
 PLAYERS_CACHE = os.path.join(ROOT, "state", "cache", "players_nfl.json")
+TRADE_IDS_CACHE = os.path.join(ROOT, "state", "cache", "fp_sleeper_ids.json")
 
 BADGES = {
     "preliminary": {"text": "WAIVER CLAIMS: Preliminary list", "color": "yellow"},
@@ -252,6 +253,15 @@ def build(config, now, job, manual=False, force_publish=False):
     }
     result = recommend(ctx)
 
+    # ---- trades (optional: the waiver list never depends on it) -----------
+    try:
+        trade_data = trades.build(config["league_id"], league, rosters, users, players, my_roster,
+                                  next_week, TRADE_IDS_CACHE)
+        log(f"trades: {len(trade_data['suggestions'])} suggestions ({trade_data['source']})")
+    except Exception as e:
+        trade_data = None
+        log(f"trades unavailable: {e}")
+
     if mode == "waiver":
         countdown = [{"label": "Waivers run in", "iso": deadline.isoformat()}]
     else:
@@ -279,6 +289,7 @@ def build(config, now, job, manual=False, force_publish=False):
                       for pid in my_roster.get("players") or []],
         "my_roster_status": result["my_roster_status"],
         "my_lineup": result["my_lineup"],
+        "trades": trade_data,
         "site_url": (config.get("site") or {}).get("url") or "",
         "job": job,
     }
