@@ -52,6 +52,12 @@ jobs:
           path: state/cache/players_nfl.json
           key: players-${{ steps.key.outputs.half }}
           restore-keys: players-
+      # FantasyPros -> Sleeper id map for trade values (refreshed every few days).
+      - uses: actions/cache@v4
+        with:
+          path: state/cache/fp_sleeper_ids.json
+          key: fpids-${{ github.run_id }}
+          restore-keys: fpids-
       # Remembers which scheduled slots already ran, so late runs don't repeat them.
       - uses: actions/cache@v4
         with:
