@@ -83,7 +83,10 @@ How it judges a trade:
 1. **Value** of every player. Redraft and keeper leagues use FantasyPros' rest-of-season consensus ranks;
    dynasty leagues use DynastyProcess's dynasty values (1QB or superflex). Ranks become values on
    DynastyProcess's curve (#1 is about 10,000, #50 about 3,200, #100 about 1,000), so stars cost more than depth.
-   When FantasyCalc answers, its ranks (based on real trades) are averaged in.
+   FantasyPros' ranks are full PPR, so for half PPR (or standard) they're re-ordered using each player's
+   season so far: pass catchers slide down and runners and QBs move up. `config.json` → `trades.league_format`
+   is `redraft` (the default); set it to `dynasty` or `auto` (use Sleeper's league type) to change.
+   When FantasyCalc answers, its redraft ranks for your scoring (based on real trades) are averaged in.
 2. **Market value** of each side: best player at full value, the next at 85%, then 72%, and so on.
 3. **Team impact**: each team's best starting lineup by value plus a little bench depth, before and after.
    If a team receives more players than it sends, its weakest bench players are dropped first.

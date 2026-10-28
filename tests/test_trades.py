@@ -98,6 +98,25 @@ class ValueSourceTests(unittest.TestCase):
         self.assertIn("rest-of-season", label)
         self.assertTrue(notices)
 
+    def test_half_ppr_moves_catchers_down_and_runners_up(self):
+        # 30 filler players with ordinary ratios, plus a pure pass catcher and a pure runner.
+        players, rows, vals = {}, [], {}
+        for i in range(30):
+            pid = f"f{i}"
+            players[pid] = {"gsis_id": f"g{i}"}
+            vals[pid] = 5000 - i
+            rows += [{"gsis_id": f"g{i}", "fantasy_points": 12.0, "receptions": 3.0}] * 4
+        players["catch"], players["run"] = {"gsis_id": "gc"}, {"gsis_id": "gr"}
+        vals["catch"], vals["run"] = 4990, 4980
+        rows += [{"gsis_id": "gc", "fantasy_points": 6.0, "receptions": 9.0}] * 4
+        rows += [{"gsis_id": "gr", "fantasy_points": 14.0, "receptions": 0.0}] * 4
+        out, n = trades.scoring_adjust(vals, players, rows, 0.5)
+        self.assertEqual(n, 32)
+        self.assertEqual(sorted(out.values()), sorted(vals.values()))   # same scale, new order
+        self.assertGreater(out["run"], vals["run"])
+        self.assertLess(out["catch"], vals["catch"])
+        self.assertEqual(trades.scoring_adjust(vals, players, rows, 1), (vals, 0))
+
 
 if __name__ == "__main__":
     unittest.main()

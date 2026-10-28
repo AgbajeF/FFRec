@@ -256,7 +256,8 @@ def build(config, now, job, manual=False, force_publish=False):
     # ---- trades (optional: the waiver list never depends on it) -----------
     try:
         trade_data = trades.build(config["league_id"], league, rosters, users, players, my_roster,
-                                  next_week, TRADE_IDS_CACHE)
+                                  next_week, TRADE_IDS_CACHE, nfl_rows,
+                                  (config.get("trades") or {}).get("league_format", "redraft"))
         log(f"trades: {len(trade_data['suggestions'])} suggestions ({trade_data['source']})")
     except Exception as e:
         trade_data = None

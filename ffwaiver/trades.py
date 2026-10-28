@@ -133,11 +133,42 @@ def fantasycalc_values(dynasty, superflex, teams, ppr):
     return out
 
 
-def load_values(league, players, ids_cache):
-    """Returns (values {sleeper_id: int}, source label, notices)."""
+def scoring_adjust(vals, players, nfl_rows, rec_pts):
+    """FantasyPros ranks are full PPR. Re-order them for the league's points per catch using each
+    player's season so far (nflverse), then hand the same set of values back out in the new order,
+    so the value scale doesn't change. Half PPR moves pass catchers down and runners/QBs up a bit."""
+    if rec_pts == 1 or not nfl_rows:
+        return vals, 0
+    tot = {}
+    for r in nfl_rows:
+        if r.get("gsis_id"):
+            a = tot.setdefault(r["gsis_id"], [0.0, 0.0, 0])
+            a[0] += r["fantasy_points"]
+            a[1] += r["receptions"]
+            a[2] += 1
+    ratio = {}
+    for sid in vals:
+        a = tot.get(((players.get(sid) or {}).get("gsis_id") or "").strip())
+        if not a or a[2] < 2:
+            continue
+        ppr, league_pts = a[0] + a[1], a[0] + rec_pts * a[1]
+        if ppr / a[2] >= 3:
+            ratio[sid] = max(0.0, league_pts) / ppr
+    if len(ratio) < 20:
+        return vals, 0
+    mid = sorted(ratio.values())[len(ratio) // 2]
+    order = sorted(vals, key=lambda sid: -vals[sid] * ratio.get(sid, mid) / mid)
+    scale = sorted(vals.values(), reverse=True)
+    return dict(zip(order, scale)), len(ratio)
+
+
+def load_values(league, players, ids_cache, nfl_rows=None, league_format="redraft"):
+    """Returns (values {sleeper_id: int}, source label, notices).
+    league_format: "redraft", "dynasty", or "auto" (use Sleeper's league type)."""
     notices = []
     settings = league.get("settings") or {}
-    dynasty = settings.get("type") == 2
+    dynasty = league_format == "dynasty" or (league_format == "auto" and settings.get("type") == 2)
+    rec_pts = (league.get("scoring_settings") or {}).get("rec", 1)
     slots = league.get("roster_positions") or []
     superflex = "SUPER_FLEX" in slots or slots.count("QB") >= 2
     ids = fp_to_sleeper(ids_cache)
@@ -149,9 +180,15 @@ def load_values(league, players, ids_cache):
         label = "FantasyPros rest-of-season ranks"
     if scraped:
         label += f" ({scraped})"
+    if not dynasty and rec_pts != 1:
+        vals, n = scoring_adjust(vals, players, nfl_rows, rec_pts)
+        fmt = {0: "standard", 0.5: "half PPR"}.get(rec_pts, f"{rec_pts:g} PPR")
+        if n:
+            label += f", adjusted for {fmt}"
+        else:
+            notices.append(f"Values are full PPR this week (season stats unavailable to adjust for {fmt}).")
     try:
-        fc = fantasycalc_values(dynasty, superflex, league.get("total_rosters") or 12,
-                                (league.get("scoring_settings") or {}).get("rec", 1))
+        fc = fantasycalc_values(dynasty, superflex, league.get("total_rosters") or 12, rec_pts)
     except Exception:
         fc = {}
         notices.append("FantasyCalc values unavailable; using FantasyPros only.")
@@ -348,9 +385,10 @@ def recent_trades(league_id, cur_week, values, players, team_names, weeks_back=4
     return out[:6]
 
 
-def build(league_id, league, rosters, users, players, my_roster, cur_week, ids_cache):
+def build(league_id, league, rosters, users, players, my_roster, cur_week, ids_cache,
+          nfl_rows=None, league_format="redraft"):
     """Everything the Trades section of the page needs. Raises if the value source is down."""
-    values, source, notices = load_values(league, players, ids_cache)
+    values, source, notices = load_values(league, players, ids_cache, nfl_rows, league_format)
     slots = [s for s in league.get("roster_positions") or [] if s in SLOT_ELIG]
     positions = set().union(*[SLOT_ELIG[s] for s in slots]) if slots else {"QB", "RB", "WR", "TE", "K", "DEF"}
     pos_of = {}
