@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-02T09:21:59.375787+00:00",
- "generated_et": "Mon 4:21 AM ET",
- "mode": "waiver",
- "list_type": "preliminary",
+ "generated_at": "2026-11-03T17:46:21.970111+00:00",
+ "generated_et": "Tue 12:46 PM ET",
+ "mode": "free_agent",
+ "list_type": "free_agent",
  "badge": {
-  "text": "WAIVER CLAIMS: Preliminary list",
-  "color": "yellow"
+  "text": "FREE AGENTS: Add anytime",
+  "color": "blue"
  },
  "week": 9,
  "stats_week": 8,
@@ -14,14 +14,37 @@
  "team_name": "Sharpe Allegations",
  "countdown": [
   {
-   "label": "Waivers run in",
-   "iso": "2026-11-03T03:00:00-05:00"
+   "label": "Thursday game locks in",
+   "iso": "2026-11-06T01:15:00+00:00"
+  },
+  {
+   "label": "Sunday 9:30 AM game locks in",
+   "iso": "2026-11-08T14:30:00+00:00"
+  },
+  {
+   "label": "Sunday 1 PM games lock in",
+   "iso": "2026-11-08T18:00:00+00:00"
+  },
+  {
+   "label": "Sunday 4:05 PM game locks in",
+   "iso": "2026-11-08T21:05:00+00:00"
+  },
+  {
+   "label": "Sunday 4:25 PM games lock in",
+   "iso": "2026-11-08T21:25:00+00:00"
+  },
+  {
+   "label": "Sunday 8:20 PM game locks in",
+   "iso": "2026-11-09T01:20:00+00:00"
+  },
+  {
+   "label": "Monday game locks in",
+   "iso": "2026-11-10T01:15:00+00:00"
   }
  ],
  "alert": {
-  "text": "Your QB Lamar Jackson is OUT. Your WR DeVonta Smith is OUT. Best replacements: Kirk Cousins, Malik Washington.",
+  "text": "Your WR DeVonta Smith is OUT. Best replacement: Malik Washington.",
   "player_ids": [
-   "4881",
    "7525"
   ]
  },
@@ -34,19 +57,14 @@
    "pos": "TE",
    "team": "NE",
    "injury": null,
-   "availability": "waivers",
-   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
-   "claim_by": "2026-11-03T03:00:00-05:00",
-   "reason": "Starter Hunter Henry was ruled Out (Foot) last night; Raridon is next on the depth chart.",
-   "drop": "Tyreek Hill (WR)",
-   "advice": "Bid $1\u2013$4 (4\u201310% of your $35 left)",
-   "tags": [
-    {
-     "kind": "up",
-     "text": "\u25b2 moved up"
-    }
-   ],
-   "news_iso": "2026-11-02T03:30:42.157000+00:00",
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Starter Hunter Henry was ruled Out (Foot) today; Raridon is next on the depth chart.",
+   "drop": "Treylon Burks (WR)",
+   "advice": "No bid needed. Add him directly.",
+   "tags": [],
+   "news_iso": "2026-11-03T15:55:56.110000+00:00",
    "trending_spike": false,
    "opportunity": true,
    "replaces": null,
@@ -71,17 +89,17 @@
      {
       "week": 8,
       "pts": 1.0,
-      "snap": null,
+      "snap": 92,
       "targets": 4,
       "carries": 0,
       "rz": 0
      }
     ],
-    "proj": 4.4,
+    "proj": 4.3,
     "avg": 5.2,
     "adds_24h": 0,
     "opponent": "vs GB",
-    "score": 59.8
+    "score": 65.6
    }
   },
   {
@@ -91,19 +109,14 @@
    "pos": "TE",
    "team": "DAL",
    "injury": null,
-   "availability": "waivers",
-   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
-   "claim_by": "2026-11-03T03:00:00-05:00",
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
    "reason": "Starter Jake Ferguson was ruled Out (Ankle) last night; Spann-Ford is next on the depth chart.",
-   "drop": "Tyreek Hill (WR)",
-   "advice": "Bid $1\u2013$4 (4\u201310% of your $35 left)",
-   "tags": [
-    {
-     "kind": "new",
-     "text": "NEW"
-    }
-   ],
-   "news_iso": "2026-11-02T00:45:38.786000+00:00",
+   "drop": "Treylon Burks (WR)",
+   "advice": "No bid needed. Add him directly.",
+   "tags": [],
+   "news_iso": "2026-11-03T00:00:49.389000+00:00",
    "trending_spike": false,
    "opportunity": true,
    "replaces": null,
@@ -128,7 +141,7 @@
      {
       "week": 8,
       "pts": 5.1,
-      "snap": null,
+      "snap": 88,
       "targets": 5,
       "carries": 0,
       "rz": 1
@@ -138,7 +151,7 @@
     "avg": 4.2,
     "adds_24h": 0,
     "opponent": "@ IND",
-    "score": 58.4
+    "score": 65.2
    }
   },
   {
@@ -148,20 +161,15 @@
    "pos": "WR",
    "team": "MIA",
    "injury": null,
-   "availability": "waivers",
-   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
-   "claim_by": "2026-11-03T03:00:00-05:00",
-   "reason": "Locked-in role: steady snaps and 20% target share last week, averaging 8.8 pts in your scoring.",
-   "drop": "Tyreek Hill (WR)",
-   "advice": "Bid $1\u2013$4 (4\u201310% of your $35 left)",
-   "tags": [
-    {
-     "kind": "up",
-     "text": "\u25b2 moved up"
-    }
-   ],
-   "news_iso": null,
-   "trending_spike": false,
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Trending: likely news. Added in 184,224 Sleeper leagues in the last day.",
+   "drop": "Treylon Burks (WR)",
+   "advice": "No bid needed. Add him directly.",
+   "tags": [],
+   "news_iso": "2026-11-02T04:45:42.399000+00:00",
+   "trending_spike": true,
    "opportunity": false,
    "replaces": "7525",
    "stats": {
@@ -177,32 +185,712 @@
      {
       "week": 8,
       "pts": 12.5,
-      "snap": null,
+      "snap": 74,
       "targets": 6,
       "carries": 0,
       "rz": 1
      }
     ],
-    "proj": 8.9,
+    "proj": 9.0,
     "avg": 8.8,
-    "adds_24h": 55448,
+    "adds_24h": 184224,
     "opponent": "vs DET",
-    "score": 57.4
+    "score": 61.0
    }
   },
   {
    "rank": 4,
+   "player_id": "12497",
+   "name": "Tory Horton",
+   "pos": "WR",
+   "team": "SEA",
+   "injury": null,
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Covers your Out WR DeVonta Smith; he also takes over for Rashid Shaheed.",
+   "drop": "Treylon Burks (WR)",
+   "advice": "No bid needed. Add him directly.",
+   "tags": [
+    {
+     "kind": "new",
+     "text": "NEW"
+    }
+   ],
+   "news_iso": "2026-10-31T22:55:27.611000+00:00",
+   "trending_spike": false,
+   "opportunity": true,
+   "replaces": "7525",
+   "stats": {
+    "weeks": [
+     {
+      "week": 6,
+      "pts": 1.8,
+      "snap": 46,
+      "targets": 5,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 7,
+      "pts": 0.0,
+      "snap": 45,
+      "targets": 1,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 8,
+      "pts": 6.1,
+      "snap": 68,
+      "targets": 6,
+      "carries": 0,
+      "rz": 1
+     }
+    ],
+    "proj": 3.0,
+    "avg": 2.6,
+    "adds_24h": 0,
+    "opponent": "vs ARI",
+    "score": 56.5
+   }
+  },
+  {
+   "rank": 5,
+   "player_id": "13296",
+   "name": "Caleb Douglas",
+   "pos": "WR",
+   "team": "MIA",
+   "injury": null,
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Role is growing: 86% of snaps last week (up from 68%) with 6 targets.",
+   "drop": "Treylon Burks (WR)",
+   "advice": "No bid needed. Add him directly.",
+   "tags": [
+    {
+     "kind": "up",
+     "text": "\u25b2 moved up"
+    }
+   ],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": "7525",
+   "stats": {
+    "weeks": [
+     {
+      "week": 7,
+      "pts": 20.5,
+      "snap": 68,
+      "targets": 3,
+      "carries": 0,
+      "rz": 1
+     },
+     {
+      "week": 8,
+      "pts": 6.3,
+      "snap": 86,
+      "targets": 6,
+      "carries": 0,
+      "rz": 0
+     }
+    ],
+    "proj": 7.0,
+    "avg": 13.4,
+    "adds_24h": 42168,
+    "opponent": "vs DET",
+    "score": 56.0
+   }
+  },
+  {
+   "rank": 6,
+   "player_id": "4993",
+   "name": "Mike Gesicki",
+   "pos": "TE",
+   "team": "CIN",
+   "injury": null,
+   "availability": "waivers",
+   "availability_label": "On waivers: claim by Thu 3:00 AM ET",
+   "claim_by": "2026-11-05T03:00:00-05:00",
+   "reason": "Trending: likely news. Added in 195,808 Sleeper leagues in the last day.",
+   "drop": "Treylon Burks (WR)",
+   "advice": "Bid $1\u2013$4 (4\u201310% of your $34 left)",
+   "tags": [
+    {
+     "kind": "new",
+     "text": "NEW"
+    }
+   ],
+   "news_iso": "2026-11-02T04:35:42.333000+00:00",
+   "trending_spike": true,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 7,
+      "pts": 7.1,
+      "snap": 38,
+      "targets": 1,
+      "carries": 0,
+      "rz": 1
+     },
+     {
+      "week": 8,
+      "pts": 15.6,
+      "snap": 68,
+      "targets": 6,
+      "carries": 0,
+      "rz": 0
+     }
+    ],
+    "proj": 8.7,
+    "avg": 11.3,
+    "adds_24h": 195808,
+    "opponent": "@ ATL",
+    "score": 54.4
+   }
+  },
+  {
+   "rank": 7,
+   "player_id": "11625",
+   "name": "Adonai Mitchell",
+   "pos": "WR",
+   "team": "NYJ",
+   "injury": null,
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Trending: likely news. Added in 1,145,712 Sleeper leagues in the last day.",
+   "drop": "Treylon Burks (WR)",
+   "advice": "No bid needed. Add him directly.",
+   "tags": [
+    {
+     "kind": "up",
+     "text": "\u25b2 moved up"
+    }
+   ],
+   "news_iso": "2026-11-02T05:55:41.561000+00:00",
+   "trending_spike": true,
+   "opportunity": false,
+   "replaces": "7525",
+   "stats": {
+    "weeks": [
+     {
+      "week": 7,
+      "pts": 0.0,
+      "snap": 44,
+      "targets": 3,
+      "carries": 0,
+      "rz": 1
+     },
+     {
+      "week": 8,
+      "pts": 24.2,
+      "snap": 61,
+      "targets": 9,
+      "carries": 0,
+      "rz": 1
+     }
+    ],
+    "proj": 5.5,
+    "avg": 12.1,
+    "adds_24h": 1145712,
+    "opponent": "@ KC",
+    "score": 51.9
+   }
+  },
+  {
+   "rank": 8,
+   "player_id": "11783",
+   "name": "Ryan Flournoy",
+   "pos": "WR",
+   "team": "DAL",
+   "injury": null,
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Trending: likely news. Added in 191,240 Sleeper leagues in the last day.",
+   "drop": "Treylon Burks (WR)",
+   "advice": "No bid needed. Add him directly.",
+   "tags": [
+    {
+     "kind": "up",
+     "text": "\u25b2 moved up"
+    }
+   ],
+   "news_iso": "2026-11-03T15:05:55.771000+00:00",
+   "trending_spike": true,
+   "opportunity": false,
+   "replaces": "7525",
+   "stats": {
+    "weeks": [
+     {
+      "week": 6,
+      "pts": 13.5,
+      "snap": 87,
+      "targets": 9,
+      "carries": 0,
+      "rz": 1
+     },
+     {
+      "week": 7,
+      "pts": 9.0,
+      "snap": 78,
+      "targets": 4,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 8,
+      "pts": 11.6,
+      "snap": 68,
+      "targets": 4,
+      "carries": 1,
+      "rz": 2
+     }
+    ],
+    "proj": 6.7,
+    "avg": 11.4,
+    "adds_24h": 191240,
+    "opponent": "@ IND",
+    "score": 47.7
+   }
+  },
+  {
+   "rank": 9,
+   "player_id": "2197",
+   "name": "Brandin Cooks",
+   "pos": "WR",
+   "team": "SF",
+   "injury": null,
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Covers your Out WR DeVonta Smith; he also takes over for Mike Evans.",
+   "drop": "Treylon Burks (WR)",
+   "advice": "No bid needed. Add him directly.",
+   "tags": [
+    {
+     "kind": "new",
+     "text": "NEW"
+    }
+   ],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": true,
+   "replaces": "7525",
+   "stats": {
+    "weeks": [
+     {
+      "week": 6,
+      "pts": 1.8,
+      "snap": 52,
+      "targets": 2,
+      "carries": 0,
+      "rz": 1
+     },
+     {
+      "week": 7,
+      "pts": 1.8,
+      "snap": 68,
+      "targets": 3,
+      "carries": 0,
+      "rz": 0
+     }
+    ],
+    "proj": 0.9,
+    "avg": 1.8,
+    "adds_24h": 0,
+    "opponent": "vs LV",
+    "score": 47.1
+   }
+  },
+  {
+   "rank": 10,
+   "player_id": "9500",
+   "name": "Josh Downs",
+   "pos": "WR",
+   "team": "IND",
+   "injury": null,
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Locked-in role: 75% of snaps and 17% target share last week, averaging 6.6 pts in your scoring.",
+   "drop": "Treylon Burks (WR)",
+   "advice": "No bid needed. Add him directly.",
+   "tags": [],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": "7525",
+   "stats": {
+    "weeks": [
+     {
+      "week": 6,
+      "pts": 6.7,
+      "snap": 86,
+      "targets": 8,
+      "carries": 1,
+      "rz": 2
+     },
+     {
+      "week": 7,
+      "pts": 2.8,
+      "snap": 90,
+      "targets": 4,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 8,
+      "pts": 10.3,
+      "snap": 75,
+      "targets": 5,
+      "carries": 0,
+      "rz": 1
+     }
+    ],
+    "proj": 8.5,
+    "avg": 6.6,
+    "adds_24h": 0,
+    "opponent": "vs DAL",
+    "score": 45.0
+   }
+  },
+  {
+   "rank": 11,
+   "player_id": "8172",
+   "name": "Greg Dulcich",
+   "pos": "TE",
+   "team": "MIA",
+   "injury": null,
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Locked-in role: 69% of snaps and 20% target share last week, averaging 8.7 pts in your scoring.",
+   "drop": "Treylon Burks (WR)",
+   "advice": "No bid needed. Add him directly.",
+   "tags": [
+    {
+     "kind": "up",
+     "text": "\u25b2 moved up"
+    }
+   ],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 7,
+      "pts": 11.1,
+      "snap": 65,
+      "targets": 5,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 8,
+      "pts": 6.3,
+      "snap": 69,
+      "targets": 6,
+      "carries": 0,
+      "rz": 0
+     }
+    ],
+    "proj": 6.5,
+    "avg": 8.7,
+    "adds_24h": 0,
+    "opponent": "vs DET",
+    "score": 43.6
+   }
+  },
+  {
+   "rank": 12,
+   "player_id": "12469",
+   "name": "Dylan Sampson",
+   "pos": "RB",
+   "team": "CLE",
+   "injury": null,
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Projects 7.6 pts next week @ NO in your scoring.",
+   "drop": "Treylon Burks (WR)",
+   "advice": "No bid needed. Add him directly.",
+   "tags": [
+    {
+     "kind": "up",
+     "text": "\u25b2 moved up"
+    }
+   ],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 6,
+      "pts": 0.0,
+      "snap": null,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 7,
+      "pts": 9.2,
+      "snap": 46,
+      "targets": 3,
+      "carries": 6,
+      "rz": 0
+     },
+     {
+      "week": 8,
+      "pts": 9.9,
+      "snap": 56,
+      "targets": 8,
+      "carries": 1,
+      "rz": 1
+     }
+    ],
+    "proj": 7.6,
+    "avg": 6.4,
+    "adds_24h": 93900,
+    "opponent": "@ NO",
+    "score": 42.8
+   }
+  },
+  {
+   "rank": 13,
+   "player_id": "8161",
+   "name": "Malik Willis",
+   "pos": "QB",
+   "team": "MIA",
+   "injury": null,
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Trending: likely news. Added in 179,935 Sleeper leagues in the last day.",
+   "drop": "Treylon Burks (WR)",
+   "advice": "No bid needed. Add him directly.",
+   "tags": [
+    {
+     "kind": "down",
+     "text": "\u25bc moved down"
+    }
+   ],
+   "news_iso": "2026-11-03T14:40:55.566000+00:00",
+   "trending_spike": true,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 7,
+      "pts": 26.5,
+      "snap": 100,
+      "targets": 0,
+      "carries": 8,
+      "rz": 1
+     },
+     {
+      "week": 8,
+      "pts": 15.6,
+      "snap": 100,
+      "targets": 0,
+      "carries": 1,
+      "rz": 0
+     }
+    ],
+    "proj": 17.6,
+    "avg": 21.1,
+    "adds_24h": 179935,
+    "opponent": "vs DET",
+    "score": 41.8
+   }
+  },
+  {
+   "rank": 14,
+   "player_id": "8119",
+   "name": "Jahan Dotson",
+   "pos": "WR",
+   "team": "ATL",
+   "injury": null,
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Locked-in role: 72% of snaps and 22% target share last week, averaging 9.6 pts in your scoring.",
+   "drop": "Treylon Burks (WR) \u2014 close call",
+   "advice": "No bid needed. Add him directly.",
+   "tags": [
+    {
+     "kind": "new",
+     "text": "NEW"
+    }
+   ],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": "7525",
+   "stats": {
+    "weeks": [
+     {
+      "week": 6,
+      "pts": 16.7,
+      "snap": 85,
+      "targets": 5,
+      "carries": 0,
+      "rz": 2
+     },
+     {
+      "week": 7,
+      "pts": 1.1,
+      "snap": 55,
+      "targets": 3,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 8,
+      "pts": 11.0,
+      "snap": 72,
+      "targets": 5,
+      "carries": 0,
+      "rz": 1
+     }
+    ],
+    "proj": 5.4,
+    "avg": 9.6,
+    "adds_24h": 0,
+    "opponent": "vs CIN",
+    "score": 40.3
+   }
+  },
+  {
+   "rank": 15,
+   "player_id": "9501",
+   "name": "DeMario Douglas",
+   "pos": "WR",
+   "team": "NE",
+   "injury": null,
+   "availability": "waivers",
+   "availability_label": "On waivers: claim by Thu 3:00 AM ET",
+   "claim_by": "2026-11-05T03:00:00-05:00",
+   "reason": "Projects 5.7 pts next week vs GB in your scoring.",
+   "drop": "Treylon Burks (WR) \u2014 close call",
+   "advice": "Bid $0\u2013$2 (1\u20134% of your $34 left)",
+   "tags": [
+    {
+     "kind": "new",
+     "text": "NEW"
+    }
+   ],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": "7525",
+   "stats": {
+    "weeks": [
+     {
+      "week": 6,
+      "pts": 16.1,
+      "snap": 59,
+      "targets": 8,
+      "carries": 0,
+      "rz": 1
+     },
+     {
+      "week": 7,
+      "pts": 3.8,
+      "snap": 65,
+      "targets": 4,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 8,
+      "pts": 15.6,
+      "snap": 65,
+      "targets": 3,
+      "carries": 0,
+      "rz": 0
+     }
+    ],
+    "proj": 5.7,
+    "avg": 11.8,
+    "adds_24h": 0,
+    "opponent": "vs GB",
+    "score": 39.8
+   }
+  },
+  {
+   "rank": 16,
+   "player_id": "9754",
+   "name": "Quentin Johnston",
+   "pos": "WR",
+   "team": "LAC",
+   "injury": null,
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Projects 6.0 pts next week vs HOU in your scoring.",
+   "drop": "Treylon Burks (WR) \u2014 close call",
+   "advice": "No bid needed. Add him directly.",
+   "tags": [
+    {
+     "kind": "new",
+     "text": "NEW"
+    }
+   ],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": "7525",
+   "stats": {
+    "weeks": [
+     {
+      "week": 6,
+      "pts": 6.7,
+      "snap": 82,
+      "targets": 3,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 8,
+      "pts": 5.7,
+      "snap": 82,
+      "targets": 4,
+      "carries": 0,
+      "rz": 0
+     }
+    ],
+    "proj": 6.0,
+    "avg": 6.2,
+    "adds_24h": 0,
+    "opponent": "vs HOU",
+    "score": 39.4
+   }
+  },
+  {
+   "rank": 17,
    "player_id": "12498",
    "name": "Mason Taylor",
    "pos": "TE",
    "team": "NYJ",
    "injury": null,
-   "availability": "waivers",
-   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
-   "claim_by": "2026-11-03T03:00:00-05:00",
-   "reason": "Locked-in role: steady snaps and 16% target share last week, averaging 10.5 pts in your scoring.",
-   "drop": "Tyreek Hill (WR)",
-   "advice": "Bid $1\u2013$4 (4\u201310% of your $35 left)",
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Locked-in role: 61% of snaps and 16% target share last week, averaging 10.5 pts in your scoring.",
+   "drop": "Treylon Burks (WR)",
+   "advice": "No bid needed. Add him directly.",
    "tags": [
     {
      "kind": "down",
@@ -234,21 +922,21 @@
      {
       "week": 8,
       "pts": 3.4,
-      "snap": null,
+      "snap": 61,
       "targets": 5,
       "carries": 0,
       "rz": 1
      }
     ],
-    "proj": 5.2,
+    "proj": 5.7,
     "avg": 10.5,
-    "adds_24h": 65035,
+    "adds_24h": 0,
     "opponent": "@ KC",
-    "score": 55.5
+    "score": 39.4
    }
   },
   {
-   "rank": 5,
+   "rank": 18,
    "player_id": "11603",
    "name": "AJ Barner",
    "pos": "TE",
@@ -257,13 +945,13 @@
    "availability": "fa",
    "availability_label": "Free agent: add now",
    "claim_by": null,
-   "reason": "Locked-in role: 80% of snaps and 19% target share last week, averaging 4.8 pts in your scoring.",
-   "drop": "Tyreek Hill (WR)",
+   "reason": "Locked-in role: 95% of snaps and 15% target share last week, averaging 4.3 pts in your scoring.",
+   "drop": "Treylon Burks (WR)",
    "advice": "No bid needed. Add him directly.",
    "tags": [
     {
-     "kind": "up",
-     "text": "\u25b2 moved up"
+     "kind": "down",
+     "text": "\u25bc moved down"
     }
    ],
    "news_iso": null,
@@ -287,460 +975,85 @@
       "targets": 5,
       "carries": 3,
       "rz": 1
-     }
-    ],
-    "proj": 7.3,
-    "avg": 4.8,
-    "adds_24h": 44286,
-    "opponent": "vs ARI",
-    "score": 50.7
-   }
-  },
-  {
-   "rank": 6,
-   "player_id": "1166",
-   "name": "Kirk Cousins",
-   "pos": "QB",
-   "team": "LV",
-   "injury": null,
-   "availability": "waivers",
-   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
-   "claim_by": "2026-11-03T03:00:00-05:00",
-   "reason": "Locked-in role: steady snaps and a full-time role last week, averaging 23.2 pts in your scoring.",
-   "drop": "Tyreek Hill (WR)",
-   "advice": "Bid $1\u2013$4 (4\u201310% of your $35 left)",
-   "tags": [
-    {
-     "kind": "up",
-     "text": "\u25b2 moved up"
-    }
-   ],
-   "news_iso": null,
-   "trending_spike": false,
-   "opportunity": false,
-   "replaces": "4881",
-   "stats": {
-    "weeks": [
-     {
-      "week": 6,
-      "pts": 20.0,
-      "snap": 100,
-      "targets": 0,
-      "carries": 0,
-      "rz": 0
-     },
-     {
-      "week": 7,
-      "pts": 20.9,
-      "snap": 100,
-      "targets": 0,
-      "carries": 3,
-      "rz": 0
      },
      {
       "week": 8,
-      "pts": 28.7,
-      "snap": null,
-      "targets": 0,
-      "carries": 5,
-      "rz": 1
-     }
-    ],
-    "proj": 16.0,
-    "avg": 23.2,
-    "adds_24h": 85736,
-    "opponent": "@ SF",
-    "score": 50.6
-   }
-  },
-  {
-   "rank": 7,
-   "player_id": "3271",
-   "name": "Tyler Higbee",
-   "pos": "TE",
-   "team": "LAR",
-   "injury": null,
-   "availability": "waivers",
-   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
-   "claim_by": "2026-11-03T03:00:00-05:00",
-   "reason": "Projects 8.1 pts next week @ WAS in your scoring.",
-   "drop": "Tyreek Hill (WR)",
-   "advice": "Bid $1\u2013$4 (4\u201310% of your $35 left)",
-   "tags": [
-    {
-     "kind": "up",
-     "text": "\u25b2 moved up"
-    }
-   ],
-   "news_iso": null,
-   "trending_spike": false,
-   "opportunity": false,
-   "replaces": null,
-   "stats": {
-    "weeks": [
-     {
-      "week": 6,
-      "pts": 2.2,
-      "snap": 83,
-      "targets": 4,
-      "carries": 0,
-      "rz": 0
-     },
-     {
-      "week": 7,
-      "pts": 2.4,
-      "snap": 74,
-      "targets": 3,
-      "carries": 0,
-      "rz": 0
-     },
-     {
-      "week": 8,
-      "pts": 1.9,
-      "snap": null,
-      "targets": 2,
-      "carries": 0,
-      "rz": 0
-     }
-    ],
-    "proj": 8.1,
-    "avg": 2.2,
-    "adds_24h": 82278,
-    "opponent": "@ WAS",
-    "score": 50.2
-   }
-  },
-  {
-   "rank": 8,
-   "player_id": "5849",
-   "name": "Kyler Murray",
-   "pos": "QB",
-   "team": "MIN",
-   "injury": "Questionable",
-   "availability": "waivers",
-   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
-   "claim_by": "2026-11-03T03:00:00-05:00",
-   "reason": "Locked-in role: steady snaps and a full-time role last week, averaging 17.6 pts in your scoring.",
-   "drop": "Tyreek Hill (WR)",
-   "advice": "Bid $1\u2013$4 (4\u201310% of your $35 left)",
-   "tags": [
-    {
-     "kind": "up",
-     "text": "\u25b2 moved up"
-    }
-   ],
-   "news_iso": null,
-   "trending_spike": false,
-   "opportunity": false,
-   "replaces": "4881",
-   "stats": {
-    "weeks": [
-     {
-      "week": 7,
-      "pts": 13.9,
-      "snap": 100,
-      "targets": 0,
-      "carries": 5,
-      "rz": 0
-     },
-     {
-      "week": 8,
-      "pts": 21.4,
-      "snap": null,
-      "targets": 0,
-      "carries": 4,
-      "rz": 0
-     }
-    ],
-    "proj": 17.3,
-    "avg": 17.6,
-    "adds_24h": 57344,
-    "opponent": "vs BUF",
-    "score": 50.0
-   }
-  },
-  {
-   "rank": 9,
-   "player_id": "8161",
-   "name": "Malik Willis",
-   "pos": "QB",
-   "team": "MIA",
-   "injury": null,
-   "availability": "waivers",
-   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
-   "claim_by": "2026-11-03T03:00:00-05:00",
-   "reason": "Locked-in role: steady snaps and a full-time role last week, averaging 21.1 pts in your scoring.",
-   "drop": "Tyreek Hill (WR)",
-   "advice": "Bid $1\u2013$4 (4\u201310% of your $35 left)",
-   "tags": [
-    {
-     "kind": "new",
-     "text": "NEW"
-    }
-   ],
-   "news_iso": null,
-   "trending_spike": false,
-   "opportunity": false,
-   "replaces": "4881",
-   "stats": {
-    "weeks": [
-     {
-      "week": 7,
-      "pts": 26.5,
-      "snap": 100,
-      "targets": 0,
-      "carries": 8,
-      "rz": 1
-     },
-     {
-      "week": 8,
-      "pts": 15.6,
-      "snap": null,
-      "targets": 0,
-      "carries": 1,
-      "rz": 0
-     }
-    ],
-    "proj": 17.2,
-    "avg": 21.1,
-    "adds_24h": 0,
-    "opponent": "vs DET",
-    "score": 49.7
-   }
-  },
-  {
-   "rank": 10,
-   "player_id": "9500",
-   "name": "Josh Downs",
-   "pos": "WR",
-   "team": "IND",
-   "injury": null,
-   "availability": "waivers",
-   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
-   "claim_by": "2026-11-03T03:00:00-05:00",
-   "reason": "Locked-in role: steady snaps and 17% target share last week, averaging 6.6 pts in your scoring.",
-   "drop": "Tyreek Hill (WR)",
-   "advice": "Bid $1\u2013$4 (4\u201310% of your $35 left)",
-   "tags": [
-    {
-     "kind": "down",
-     "text": "\u25bc moved down"
-    }
-   ],
-   "news_iso": null,
-   "trending_spike": false,
-   "opportunity": false,
-   "replaces": "7525",
-   "stats": {
-    "weeks": [
-     {
-      "week": 6,
-      "pts": 6.7,
-      "snap": 86,
-      "targets": 8,
-      "carries": 1,
-      "rz": 2
-     },
-     {
-      "week": 7,
-      "pts": 2.8,
-      "snap": 90,
-      "targets": 4,
-      "carries": 0,
-      "rz": 0
-     },
-     {
-      "week": 8,
-      "pts": 10.3,
-      "snap": null,
+      "pts": 3.3,
+      "snap": 95,
       "targets": 5,
       "carries": 0,
       "rz": 1
-     }
-    ],
-    "proj": 9.6,
-    "avg": 6.6,
-    "adds_24h": 0,
-    "opponent": "vs DAL",
-    "score": 49.6
-   }
-  },
-  {
-   "rank": 11,
-   "player_id": "11783",
-   "name": "Ryan Flournoy",
-   "pos": "WR",
-   "team": "DAL",
-   "injury": null,
-   "availability": "waivers",
-   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
-   "claim_by": "2026-11-03T03:00:00-05:00",
-   "reason": "Trending: likely news. Added in 251,520 Sleeper leagues in the last day.",
-   "drop": "Tyreek Hill (WR)",
-   "advice": "Bid $1\u2013$4 (4\u201310% of your $35 left)",
-   "tags": [
-    {
-     "kind": "down",
-     "text": "\u25bc moved down"
-    }
-   ],
-   "news_iso": "2026-11-02T04:30:41.367000+00:00",
-   "trending_spike": true,
-   "opportunity": false,
-   "replaces": "7525",
-   "stats": {
-    "weeks": [
-     {
-      "week": 6,
-      "pts": 13.5,
-      "snap": 87,
-      "targets": 9,
-      "carries": 0,
-      "rz": 1
-     },
-     {
-      "week": 7,
-      "pts": 9.0,
-      "snap": 78,
-      "targets": 4,
-      "carries": 0,
-      "rz": 0
-     },
-     {
-      "week": 8,
-      "pts": 11.6,
-      "snap": null,
-      "targets": 4,
-      "carries": 1,
-      "rz": 2
      }
     ],
     "proj": 6.8,
-    "avg": 11.4,
-    "adds_24h": 251520,
-    "opponent": "@ IND",
-    "score": 49.0
-   }
-  },
-  {
-   "rank": 12,
-   "player_id": "8172",
-   "name": "Greg Dulcich",
-   "pos": "TE",
-   "team": "MIA",
-   "injury": null,
-   "availability": "waivers",
-   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
-   "claim_by": "2026-11-03T03:00:00-05:00",
-   "reason": "Locked-in role: steady snaps and 20% target share last week, averaging 8.7 pts in your scoring.",
-   "drop": "Tyreek Hill (WR)",
-   "advice": "Bid $0\u2013$2 (1\u20134% of your $35 left)",
-   "tags": [
-    {
-     "kind": "up",
-     "text": "\u25b2 moved up"
-    }
-   ],
-   "news_iso": null,
-   "trending_spike": false,
-   "opportunity": false,
-   "replaces": null,
-   "stats": {
-    "weeks": [
-     {
-      "week": 7,
-      "pts": 11.1,
-      "snap": 65,
-      "targets": 5,
-      "carries": 0,
-      "rz": 0
-     },
-     {
-      "week": 8,
-      "pts": 6.3,
-      "snap": null,
-      "targets": 6,
-      "carries": 0,
-      "rz": 0
-     }
-    ],
-    "proj": 6.4,
-    "avg": 8.7,
+    "avg": 4.3,
     "adds_24h": 0,
-    "opponent": "vs DET",
-    "score": 47.0
+    "opponent": "vs ARI",
+    "score": 39.0
    }
   },
   {
-   "rank": 13,
-   "player_id": "1373",
-   "name": "Geno Smith",
-   "pos": "QB",
-   "team": "NYJ",
+   "rank": 19,
+   "player_id": "13285",
+   "name": "Malachi Fields",
+   "pos": "WR",
+   "team": "NYG",
    "injury": null,
-   "availability": "waivers",
-   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
-   "claim_by": "2026-11-03T03:00:00-05:00",
-   "reason": "Locked-in role: steady snaps and a full-time role last week, averaging 19.7 pts in your scoring.",
-   "drop": "Tyreek Hill (WR)",
-   "advice": "Bid $0\u2013$2 (1\u20134% of your $35 left)",
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Locked-in role: 74% of snaps and 19% target share last week, averaging 6.9 pts in your scoring.",
+   "drop": "Treylon Burks (WR) \u2014 close call",
+   "advice": "No bid needed. Add him directly.",
    "tags": [
     {
-     "kind": "up",
-     "text": "\u25b2 moved up"
+     "kind": "new",
+     "text": "NEW"
     }
    ],
    "news_iso": null,
    "trending_spike": false,
    "opportunity": false,
-   "replaces": "4881",
+   "replaces": "7525",
    "stats": {
     "weeks": [
      {
       "week": 6,
-      "pts": 13.5,
-      "snap": 100,
-      "targets": 0,
-      "carries": 2,
-      "rz": 0
+      "pts": 2.9,
+      "snap": 94,
+      "targets": 8,
+      "carries": 0,
+      "rz": 2
      },
      {
       "week": 7,
-      "pts": 26.0,
-      "snap": 100,
-      "targets": 0,
-      "carries": 2,
+      "pts": 10.8,
+      "snap": 74,
+      "targets": 5,
+      "carries": 0,
       "rz": 0
-     },
-     {
-      "week": 8,
-      "pts": 19.5,
-      "snap": null,
-      "targets": 0,
-      "carries": 1,
-      "rz": 1
      }
     ],
-    "proj": 12.9,
-    "avg": 19.7,
-    "adds_24h": 49092,
-    "opponent": "@ KC",
-    "score": 45.1
+    "proj": 4.6,
+    "avg": 6.9,
+    "adds_24h": 0,
+    "opponent": "@ PHI",
+    "score": 38.8
    }
   },
   {
-   "rank": 14,
-   "player_id": "13296",
-   "name": "Caleb Douglas",
+   "rank": 20,
+   "player_id": "13311",
+   "name": "Chris Bell",
    "pos": "WR",
    "team": "MIA",
    "injury": null,
-   "availability": "waivers",
-   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
-   "claim_by": "2026-11-03T03:00:00-05:00",
-   "reason": "Locked-in role: steady snaps and 20% target share last week, averaging 13.4 pts in your scoring.",
-   "drop": "Tyreek Hill (WR) \u2014 close call",
-   "advice": "Bid $0\u2013$2 (1\u20134% of your $35 left)",
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Projects 5.8 pts next week vs DET in your scoring.",
+   "drop": "Treylon Burks (WR) \u2014 close call",
+   "advice": "No bid needed. Add him directly.",
    "tags": [
     {
      "kind": "new",
@@ -755,108 +1068,46 @@
     "weeks": [
      {
       "week": 7,
-      "pts": 20.5,
-      "snap": 68,
-      "targets": 3,
+      "pts": 4.0,
+      "snap": 48,
+      "targets": 4,
       "carries": 0,
-      "rz": 1
+      "rz": 0
      },
      {
       "week": 8,
-      "pts": 6.3,
-      "snap": null,
-      "targets": 6,
-      "carries": 0,
+      "pts": 4.9,
+      "snap": 69,
+      "targets": 5,
+      "carries": 1,
       "rz": 0
      }
     ],
-    "proj": 6.6,
-    "avg": 13.4,
+    "proj": 5.8,
+    "avg": 4.5,
     "adds_24h": 0,
     "opponent": "vs DET",
-    "score": 44.1
+    "score": 37.7
    }
   },
   {
-   "rank": 15,
-   "player_id": "5870",
-   "name": "Daniel Jones",
-   "pos": "QB",
-   "team": "IND",
-   "injury": null,
-   "availability": "waivers",
-   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
-   "claim_by": "2026-11-03T03:00:00-05:00",
-   "reason": "Locked-in role: steady snaps and a full-time role last week, averaging 9.6 pts in your scoring.",
-   "drop": "Tyreek Hill (WR)",
-   "advice": "Bid $0\u2013$2 (1\u20134% of your $35 left)",
-   "tags": [
-    {
-     "kind": "new",
-     "text": "NEW"
-    }
-   ],
-   "news_iso": null,
-   "trending_spike": false,
-   "opportunity": false,
-   "replaces": "4881",
-   "stats": {
-    "weeks": [
-     {
-      "week": 6,
-      "pts": 15.8,
-      "snap": 100,
-      "targets": 0,
-      "carries": 3,
-      "rz": 0
-     },
-     {
-      "week": 7,
-      "pts": 4.6,
-      "snap": 105,
-      "targets": 0,
-      "carries": 4,
-      "rz": 1
-     },
-     {
-      "week": 8,
-      "pts": 8.5,
-      "snap": null,
-      "targets": 0,
-      "carries": 4,
-      "rz": 0
-     }
-    ],
-    "proj": 15.8,
-    "avg": 9.6,
-    "adds_24h": 0,
-    "opponent": "vs DAL",
-    "score": 43.7
-   }
-  },
-  {
-   "rank": 16,
+   "rank": null,
    "player_id": "11563",
    "name": "Bo Nix",
    "pos": "QB",
    "team": "DEN",
    "injury": null,
-   "availability": "waivers",
-   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
-   "claim_by": "2026-11-03T03:00:00-05:00",
-   "reason": "Locked-in role: steady snaps and a full-time role last week, averaging 17.3 pts in your scoring.",
-   "drop": "Tyreek Hill (WR)",
-   "advice": "Bid $0\u2013$2 (1\u20134% of your $35 left)",
-   "tags": [
-    {
-     "kind": "new",
-     "text": "NEW"
-    }
-   ],
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Locked-in role: 100% of snaps and a full-time role last week, averaging 17.3 pts in your scoring.",
+   "drop": "Treylon Burks (WR)",
+   "advice": "No bid needed. Add him directly.",
+   "tags": [],
    "news_iso": null,
    "trending_spike": false,
    "opportunity": false,
-   "replaces": "4881",
+   "replaces": null,
    "stats": {
     "weeks": [
      {
@@ -878,317 +1129,61 @@
      {
       "week": 8,
       "pts": 19.8,
-      "snap": null,
+      "snap": 100,
       "targets": 0,
       "carries": 3,
       "rz": 1
      }
     ],
-    "proj": 15.6,
+    "proj": 15.5,
     "avg": 17.3,
-    "adds_24h": 0,
+    "adds_24h": 57372,
     "opponent": "@ CAR",
-    "score": 43.6
-   }
-  },
-  {
-   "rank": 17,
-   "player_id": "12469",
-   "name": "Dylan Sampson",
-   "pos": "RB",
-   "team": "CLE",
-   "injury": null,
-   "availability": "waivers",
-   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
-   "claim_by": "2026-11-03T03:00:00-05:00",
-   "reason": "Averaging 6.4 pts over his last 3 games in your scoring.",
-   "drop": "Tyreek Hill (WR) \u2014 close call",
-   "advice": "Bid $0\u2013$2 (1\u20134% of your $35 left)",
-   "tags": [
-    {
-     "kind": "new",
-     "text": "NEW"
-    }
-   ],
-   "news_iso": null,
-   "trending_spike": false,
-   "opportunity": false,
-   "replaces": null,
-   "stats": {
-    "weeks": [
-     {
-      "week": 6,
-      "pts": 0.0,
-      "snap": null,
-      "targets": 0,
-      "carries": 0,
-      "rz": 0
-     },
-     {
-      "week": 7,
-      "pts": 9.2,
-      "snap": 46,
-      "targets": 3,
-      "carries": 6,
-      "rz": 0
-     },
-     {
-      "week": 8,
-      "pts": 9.9,
-      "snap": null,
-      "targets": 8,
-      "carries": 1,
-      "rz": 1
-     }
-    ],
-    "proj": 4.9,
-    "avg": 6.4,
-    "adds_24h": 48330,
-    "opponent": "@ NO",
-    "score": 42.6
-   }
-  },
-  {
-   "rank": 18,
-   "player_id": "8135",
-   "name": "Treylon Burks",
-   "pos": "WR",
-   "team": "WAS",
-   "injury": null,
-   "availability": "waivers",
-   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
-   "claim_by": "2026-11-03T03:00:00-05:00",
-   "reason": "Locked-in role: steady snaps and 19% target share last week, averaging 9.3 pts in your scoring.",
-   "drop": "Tyreek Hill (WR) \u2014 close call",
-   "advice": "Bid $0\u2013$2 (1\u20134% of your $35 left)",
-   "tags": [
-    {
-     "kind": "new",
-     "text": "NEW"
-    }
-   ],
-   "news_iso": null,
-   "trending_spike": false,
-   "opportunity": false,
-   "replaces": "7525",
-   "stats": {
-    "weeks": [
-     {
-      "week": 6,
-      "pts": 8.6,
-      "snap": 55,
-      "targets": 6,
-      "carries": 0,
-      "rz": 1
-     },
-     {
-      "week": 8,
-      "pts": 10.1,
-      "snap": null,
-      "targets": 5,
-      "carries": 0,
-      "rz": 0
-     }
-    ],
-    "proj": 4.6,
-    "avg": 9.3,
-    "adds_24h": 38087,
-    "opponent": "vs LAR",
-    "score": 42.1
-   }
-  },
-  {
-   "rank": 19,
-   "player_id": "6797",
-   "name": "Justin Herbert",
-   "pos": "QB",
-   "team": "LAC",
-   "injury": null,
-   "availability": "waivers",
-   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
-   "claim_by": "2026-11-03T03:00:00-05:00",
-   "reason": "Locked-in role: steady snaps and a full-time role last week, averaging 10.3 pts in your scoring.",
-   "drop": "Tyreek Hill (WR)",
-   "advice": "Bid $0\u2013$2 (1\u20134% of your $35 left)",
-   "tags": [
-    {
-     "kind": "new",
-     "text": "NEW"
-    }
-   ],
-   "news_iso": null,
-   "trending_spike": false,
-   "opportunity": false,
-   "replaces": "4881",
-   "stats": {
-    "weeks": [
-     {
-      "week": 6,
-      "pts": 10.3,
-      "snap": 100,
-      "targets": 0,
-      "carries": 5,
-      "rz": 0
-     },
-     {
-      "week": 8,
-      "pts": 10.3,
-      "snap": null,
-      "targets": 0,
-      "carries": 4,
-      "rz": 0
-     }
-    ],
-    "proj": 14.8,
-    "avg": 10.3,
-    "adds_24h": 0,
-    "opponent": "vs HOU",
-    "score": 42.0
-   }
-  },
-  {
-   "rank": 20,
-   "player_id": "11625",
-   "name": "Adonai Mitchell",
-   "pos": "WR",
-   "team": "NYJ",
-   "injury": null,
-   "availability": "waivers",
-   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
-   "claim_by": "2026-11-03T03:00:00-05:00",
-   "reason": "Trending: likely news. Added in 420,736 Sleeper leagues in the last day.",
-   "drop": "Tyreek Hill (WR) \u2014 close call",
-   "advice": "Bid $0\u2013$2 (1\u20134% of your $35 left)",
-   "tags": [
-    {
-     "kind": "new",
-     "text": "NEW"
-    }
-   ],
-   "news_iso": "2026-11-02T05:55:41.561000+00:00",
-   "trending_spike": true,
-   "opportunity": false,
-   "replaces": "7525",
-   "stats": {
-    "weeks": [
-     {
-      "week": 7,
-      "pts": 0.0,
-      "snap": 44,
-      "targets": 3,
-      "carries": 0,
-      "rz": 1
-     },
-     {
-      "week": 8,
-      "pts": 24.2,
-      "snap": null,
-      "targets": 9,
-      "carries": 0,
-      "rz": 1
-     }
-    ],
-    "proj": 3.3,
-    "avg": 12.1,
-    "adds_24h": 420736,
-    "opponent": "@ KC",
-    "score": 41.5
+    "score": 37.2
    }
   },
   {
    "rank": null,
-   "player_id": "11647",
-   "name": "Kimani Vidal",
+   "player_id": "13414",
+   "name": "Kaelon Black",
    "pos": "RB",
-   "team": "LAC",
+   "team": "SF",
    "injury": null,
-   "availability": "waivers",
-   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
-   "claim_by": "2026-11-03T03:00:00-05:00",
-   "reason": "Trending: likely news. Added in 99,230 Sleeper leagues in the last day.",
-   "drop": "Tyreek Hill (WR) \u2014 close call",
-   "advice": "Bid $0\u2013$2 (1\u20134% of your $35 left)",
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Projects 5.6 pts next week vs LV in your scoring.",
+   "drop": "Treylon Burks (WR)",
+   "advice": "No bid needed. Add him directly.",
    "tags": [],
-   "news_iso": "2026-10-31T17:25:23.556000+00:00",
-   "trending_spike": true,
+   "news_iso": null,
+   "trending_spike": false,
    "opportunity": false,
    "replaces": null,
    "stats": {
     "weeks": [
      {
       "week": 6,
-      "pts": 5.5,
-      "snap": 37,
-      "targets": 4,
-      "carries": 7,
+      "pts": 4.2,
+      "snap": 23,
+      "targets": 1,
+      "carries": 8,
       "rz": 2
      },
      {
-      "week": 8,
-      "pts": 4.0,
-      "snap": null,
-      "targets": 2,
-      "carries": 8,
-      "rz": 0
+      "week": 7,
+      "pts": 10.4,
+      "snap": 47,
+      "targets": 3,
+      "carries": 12,
+      "rz": 3
      }
     ],
     "proj": 5.6,
-    "avg": 4.8,
-    "adds_24h": 99230,
-    "opponent": "vs HOU",
-    "score": 40.7
-   }
-  },
-  {
-   "rank": null,
-   "player_id": "13337",
-   "name": "Emmett Johnson",
-   "pos": "RB",
-   "team": "KC",
-   "injury": null,
-   "availability": "waivers",
-   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
-   "claim_by": "2026-11-03T03:00:00-05:00",
-   "reason": "Trending: likely news. Added in 196,119 Sleeper leagues in the last day.",
-   "drop": "Tyreek Hill (WR) \u2014 close call",
-   "advice": "Bid $0\u2013$2 (1\u20134% of your $35 left)",
-   "tags": [],
-   "news_iso": "2026-11-02T02:35:40.484000+00:00",
-   "trending_spike": true,
-   "opportunity": false,
-   "replaces": null,
-   "stats": {
-    "weeks": [
-     {
-      "week": 6,
-      "pts": 3.4,
-      "snap": 30,
-      "targets": 3,
-      "carries": 3,
-      "rz": 2
-     },
-     {
-      "week": 7,
-      "pts": 2.7,
-      "snap": 26,
-      "targets": 3,
-      "carries": 0,
-      "rz": 0
-     },
-     {
-      "week": 8,
-      "pts": 23.3,
-      "snap": null,
-      "targets": 5,
-      "carries": 1,
-      "rz": 0
-     }
-    ],
-    "proj": 4.0,
-    "avg": 9.8,
-    "adds_24h": 196119,
-    "opponent": "vs NYJ",
-    "score": 40.4
+    "avg": 7.3,
+    "adds_24h": 63084,
+    "opponent": "vs LV",
+    "score": 37.2
    }
   },
   {
@@ -1201,11 +1196,11 @@
    "availability": "fa",
    "availability_label": "Free agent: add now",
    "claim_by": null,
-   "reason": "Trending: likely news. Added in 565,020 Sleeper leagues in the last day.",
-   "drop": "Tyreek Hill (WR) \u2014 close call",
+   "reason": "Trending: likely news. Added in 454,725 Sleeper leagues in the last day.",
+   "drop": "Treylon Burks (WR)",
    "advice": "No bid needed. Add him directly.",
    "tags": [],
-   "news_iso": null,
+   "news_iso": "2026-11-03T15:00:55.767000+00:00",
    "trending_spike": true,
    "opportunity": false,
    "replaces": null,
@@ -1228,114 +1223,114 @@
       "rz": 0
      }
     ],
-    "proj": 7.2,
+    "proj": 7.8,
     "avg": 8.4,
-    "adds_24h": 565020,
+    "adds_24h": 454725,
     "opponent": "@ PHI",
-    "score": 39.7
+    "score": 36.2
    }
   },
   {
    "rank": null,
-   "player_id": "7042",
-   "name": "Tyler Bass",
-   "pos": "K",
-   "team": "BUF",
+   "player_id": "11565",
+   "name": "J.J. McCarthy",
+   "pos": "QB",
+   "team": "NYG",
    "injury": null,
-   "availability": "waivers",
-   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
-   "claim_by": "2026-11-03T03:00:00-05:00",
-   "reason": "Trending: likely news. Added in 116,515 Sleeper leagues in the last day.",
-   "drop": "Chad Ryland (K)",
-   "advice": "Bid $0\u2013$1 (minimal; 0\u20132% of your $35)",
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Locked-in role: 92% of snaps and a full-time role last week, averaging 14.8 pts in your scoring.",
+   "drop": "Treylon Burks (WR)",
+   "advice": "No bid needed. Add him directly.",
    "tags": [],
-   "news_iso": "2026-11-01T22:55:39.521000+00:00",
-   "trending_spike": true,
+   "news_iso": null,
+   "trending_spike": false,
    "opportunity": false,
    "replaces": null,
    "stats": {
     "weeks": [
      {
       "week": 6,
-      "pts": 17.0,
-      "snap": 0,
+      "pts": 18.3,
+      "snap": 40,
       "targets": 0,
-      "carries": 0,
-      "rz": 0
+      "carries": 2,
+      "rz": 1
      },
      {
-      "week": 8,
-      "pts": 16.0,
-      "snap": null,
+      "week": 7,
+      "pts": 11.2,
+      "snap": 92,
       "targets": 0,
-      "carries": 0,
+      "carries": 1,
       "rz": 0
      }
     ],
-    "proj": 8.7,
-    "avg": 16.5,
-    "adds_24h": 116515,
-    "opponent": "@ MIN",
-    "score": 33.3
+    "proj": 17.2,
+    "avg": 14.8,
+    "adds_24h": 52194,
+    "opponent": "@ PHI",
+    "score": 34.5
    }
   },
   {
    "rank": null,
-   "player_id": "DET",
-   "name": "Detroit Lions",
-   "pos": "DEF",
+   "player_id": "11729",
+   "name": "Sione Vaki",
+   "pos": "RB",
    "team": "DET",
    "injury": null,
-   "availability": "waivers",
-   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
-   "claim_by": "2026-11-03T03:00:00-05:00",
-   "reason": "Trending: likely news. Added in 103,446 Sleeper leagues in the last day.",
-   "drop": "CLE D/ST (DEF)",
-   "advice": "Bid $0\u2013$1 (minimal; 0\u20132% of your $35)",
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Role is growing: 28% of snaps last week (up from 13%) with 11 carries and 1 targets.",
+   "drop": "Treylon Burks (WR) \u2014 close call",
+   "advice": "No bid needed. Add him directly.",
    "tags": [],
    "news_iso": null,
-   "trending_spike": true,
+   "trending_spike": false,
    "opportunity": false,
    "replaces": null,
    "stats": {
     "weeks": [
      {
       "week": 7,
-      "pts": 6.1,
-      "snap": null,
+      "pts": 0.5,
+      "snap": 13,
       "targets": 0,
-      "carries": 0,
+      "carries": 1,
       "rz": 0
      },
      {
       "week": 8,
-      "pts": 6.5,
-      "snap": null,
-      "targets": 0,
-      "carries": 0,
+      "pts": 7.5,
+      "snap": 28,
+      "targets": 1,
+      "carries": 11,
       "rz": 0
      }
     ],
-    "proj": 8.9,
-    "avg": 6.3,
-    "adds_24h": 103446,
+    "proj": 4.0,
+    "avg": 4.0,
+    "adds_24h": 103894,
     "opponent": "@ MIA",
-    "score": 29.9
+    "score": 32.6
    }
   },
   {
    "rank": null,
-   "player_id": "KC",
-   "name": "Kansas City Chiefs",
-   "pos": "DEF",
-   "team": "KC",
-   "injury": null,
-   "availability": "waivers",
-   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
-   "claim_by": "2026-11-03T03:00:00-05:00",
-   "reason": "Streaming option: projects 9.6 pts vs NYJ, 2.2 more than your current defense.",
-   "drop": "CLE D/ST (DEF)",
-   "advice": "Bid $0\u2013$1 (minimal; 0\u20132% of your $35)",
+   "player_id": "5849",
+   "name": "Kyler Murray",
+   "pos": "QB",
+   "team": "MIN",
+   "injury": "Questionable",
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Locked-in role: 100% of snaps and a full-time role last week, averaging 17.6 pts in your scoring.",
+   "drop": "Treylon Burks (WR)",
+   "advice": "No bid needed. Add him directly.",
    "tags": [],
    "news_iso": null,
    "trending_spike": false,
@@ -1344,79 +1339,27 @@
    "stats": {
     "weeks": [
      {
-      "week": 6,
-      "pts": 16.6,
-      "snap": null,
-      "targets": 0,
-      "carries": 0,
-      "rz": 0
-     },
-     {
       "week": 7,
-      "pts": 3.8,
-      "snap": null,
+      "pts": 13.9,
+      "snap": 100,
       "targets": 0,
-      "carries": 0,
+      "carries": 5,
       "rz": 0
      },
      {
       "week": 8,
-      "pts": 1.2,
-      "snap": null,
+      "pts": 21.4,
+      "snap": 100,
       "targets": 0,
-      "carries": 0,
+      "carries": 4,
       "rz": 0
      }
     ],
-    "proj": 9.6,
-    "avg": 7.2,
+    "proj": 17.0,
+    "avg": 17.6,
     "adds_24h": 0,
-    "opponent": "vs NYJ",
-    "score": 24.9
-   }
-  },
-  {
-   "rank": null,
-   "player_id": "3451",
-   "name": "Ka'imi Fairbairn",
-   "pos": "K",
-   "team": "HOU",
-   "injury": null,
-   "availability": "waivers",
-   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
-   "claim_by": "2026-11-03T03:00:00-05:00",
-   "reason": "Streaming option: projects 9.0 pts @ LAC, 2.5 more than your current kicker.",
-   "drop": "Chad Ryland (K)",
-   "advice": "Bid $0\u2013$1 (minimal; 0\u20132% of your $35)",
-   "tags": [],
-   "news_iso": null,
-   "trending_spike": false,
-   "opportunity": false,
-   "replaces": null,
-   "stats": {
-    "weeks": [
-     {
-      "week": 6,
-      "pts": 11.0,
-      "snap": 0,
-      "targets": 0,
-      "carries": 0,
-      "rz": 0
-     },
-     {
-      "week": 7,
-      "pts": 11.0,
-      "snap": 0,
-      "targets": 0,
-      "carries": 0,
-      "rz": 0
-     }
-    ],
-    "proj": 9.0,
-    "avg": 11.0,
-    "adds_24h": 0,
-    "opponent": "@ LAC",
-    "score": 24.7
+    "opponent": "vs BUF",
+    "score": 32.4
    }
   },
   {
@@ -1426,12 +1369,12 @@
    "pos": "K",
    "team": "KC",
    "injury": null,
-   "availability": "waivers",
-   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
-   "claim_by": "2026-11-03T03:00:00-05:00",
-   "reason": "Streaming option: projects 8.7 pts vs NYJ, 2.2 more than your current kicker.",
-   "drop": "Chad Ryland (K)",
-   "advice": "Bid $0\u2013$1 (minimal; 0\u20132% of your $35)",
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Projects 8.9 pts next week vs NYJ in your scoring.",
+   "drop": "Tyler Bass (K)",
+   "advice": "No bid needed. Add him directly.",
    "tags": [],
    "news_iso": null,
    "trending_spike": false,
@@ -1458,17 +1401,17 @@
      {
       "week": 8,
       "pts": 6.0,
-      "snap": null,
+      "snap": 0,
       "targets": 0,
       "carries": 0,
       "rz": 0
      }
     ],
-    "proj": 8.7,
+    "proj": 8.9,
     "avg": 6.7,
     "adds_24h": 0,
     "opponent": "vs NYJ",
-    "score": 24.0
+    "score": 28.2
    }
   },
   {
@@ -1481,8 +1424,8 @@
    "availability": "fa",
    "availability_label": "Free agent: add now",
    "claim_by": null,
-   "reason": "Streaming option: projects 8.2 pts vs TB, 1.7 more than your current kicker.",
-   "drop": "Chad Ryland (K)",
+   "reason": "Projects 8.2 pts next week vs TB in your scoring.",
+   "drop": "Tyler Bass (K)",
    "advice": "No bid needed. Add him directly.",
    "tags": [],
    "news_iso": null,
@@ -1506,13 +1449,65 @@
       "targets": 0,
       "carries": 0,
       "rz": 0
+     },
+     {
+      "week": 8,
+      "pts": 11.0,
+      "snap": 0,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
      }
     ],
     "proj": 8.2,
     "avg": 11.0,
-    "adds_24h": 0,
+    "adds_24h": 133476,
     "opponent": "vs TB",
-    "score": 23.9
+    "score": 17.8
+   }
+  },
+  {
+   "rank": null,
+   "player_id": "DET",
+   "name": "Detroit Lions",
+   "pos": "DEF",
+   "team": "DET",
+   "injury": null,
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Trending: likely news. Added in 316,467 Sleeper leagues in the last day.",
+   "drop": "HOU D/ST (DEF)",
+   "advice": "No bid needed. Add him directly.",
+   "tags": [],
+   "news_iso": null,
+   "trending_spike": true,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 7,
+      "pts": 6.1,
+      "snap": null,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 8,
+      "pts": 6.5,
+      "snap": null,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     }
+    ],
+    "proj": 8.0,
+    "avg": 6.3,
+    "adds_24h": 316467,
+    "opponent": "@ MIA",
+    "score": 17.1
    }
   },
   {
@@ -1525,12 +1520,12 @@
    "availability": "fa",
    "availability_label": "Free agent: add now",
    "claim_by": null,
-   "reason": "Streaming option: projects 8.6 pts vs CLE, 1.2 more than your current defense.",
-   "drop": "CLE D/ST (DEF)",
+   "reason": "Trending: likely news. Added in 133,815 Sleeper leagues in the last day.",
+   "drop": "HOU D/ST (DEF)",
    "advice": "No bid needed. Add him directly.",
    "tags": [],
    "news_iso": null,
-   "trending_spike": false,
+   "trending_spike": true,
    "opportunity": false,
    "replaces": null,
    "stats": {
@@ -1552,55 +1547,11 @@
       "rz": 0
      }
     ],
-    "proj": 8.6,
+    "proj": 8.7,
     "avg": 8.9,
-    "adds_24h": 0,
+    "adds_24h": 133815,
     "opponent": "vs CLE",
-    "score": 23.8
-   }
-  },
-  {
-   "rank": null,
-   "player_id": "HOU",
-   "name": "Houston Texans",
-   "pos": "DEF",
-   "team": "HOU",
-   "injury": null,
-   "availability": "waivers",
-   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
-   "claim_by": "2026-11-03T03:00:00-05:00",
-   "reason": "Streaming option: projects 9.0 pts @ LAC, 1.6 more than your current defense.",
-   "drop": "CLE D/ST (DEF)",
-   "advice": "Bid $0\u2013$1 (minimal; 0\u20132% of your $35)",
-   "tags": [],
-   "news_iso": null,
-   "trending_spike": false,
-   "opportunity": false,
-   "replaces": null,
-   "stats": {
-    "weeks": [
-     {
-      "week": 6,
-      "pts": 1.1,
-      "snap": null,
-      "targets": 0,
-      "carries": 0,
-      "rz": 0
-     },
-     {
-      "week": 7,
-      "pts": 3.5,
-      "snap": null,
-      "targets": 0,
-      "carries": 0,
-      "rz": 0
-     }
-    ],
-    "proj": 9.0,
-    "avg": 2.3,
-    "adds_24h": 0,
-    "opponent": "@ LAC",
-    "score": 23.2
+    "score": 16.9
    }
   },
   {
@@ -1613,8 +1564,8 @@
    "availability": "fa",
    "availability_label": "Free agent: add now",
    "claim_by": null,
-   "reason": "Streaming option: projects 8.9 pts vs TB, 1.6 more than your current defense.",
-   "drop": "CLE D/ST (DEF)",
+   "reason": "Projects 8.9 pts next week vs TB in your scoring.",
+   "drop": "HOU D/ST (DEF)",
    "advice": "No bid needed. Add him directly.",
    "tags": [],
    "news_iso": null,
@@ -1638,13 +1589,153 @@
       "targets": 0,
       "carries": 0,
       "rz": 0
+     },
+     {
+      "week": 8,
+      "pts": 8.5,
+      "snap": null,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
      }
     ],
     "proj": 8.9,
-    "avg": 8.6,
-    "adds_24h": 0,
+    "avg": 8.5,
+    "adds_24h": 61422,
     "opponent": "vs TB",
-    "score": 22.8
+    "score": 16.9
+   }
+  },
+  {
+   "rank": null,
+   "player_id": "NYG",
+   "name": "New York Giants",
+   "pos": "DEF",
+   "team": "NYG",
+   "injury": null,
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Projects 8.3 pts next week @ PHI in your scoring.",
+   "drop": "HOU D/ST (DEF)",
+   "advice": "No bid needed. Add him directly.",
+   "tags": [],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 6,
+      "pts": 2.2,
+      "snap": null,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 7,
+      "pts": 1.4,
+      "snap": null,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     }
+    ],
+    "proj": 8.3,
+    "avg": 1.8,
+    "adds_24h": 105392,
+    "opponent": "@ PHI",
+    "score": 15.4
+   }
+  },
+  {
+   "rank": null,
+   "player_id": "BUF",
+   "name": "Buffalo Bills",
+   "pos": "DEF",
+   "team": "BUF",
+   "injury": null,
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Projects 7.1 pts next week @ MIN in your scoring.",
+   "drop": "HOU D/ST (DEF)",
+   "advice": "No bid needed. Add him directly.",
+   "tags": [],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 6,
+      "pts": 1.4,
+      "snap": null,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 8,
+      "pts": 15.6,
+      "snap": null,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     }
+    ],
+    "proj": 7.1,
+    "avg": 8.5,
+    "adds_24h": 0,
+    "opponent": "@ MIN",
+    "score": 14.5
+   }
+  },
+  {
+   "rank": null,
+   "player_id": "11786",
+   "name": "Cam Little",
+   "pos": "K",
+   "team": "JAX",
+   "injury": null,
+   "availability": "waivers",
+   "availability_label": "On waivers: claim by Wed 3:00 AM ET",
+   "claim_by": "2026-11-04T03:00:00-05:00",
+   "reason": "Projects 8.6 pts next week @ BAL in your scoring.",
+   "drop": "Tyler Bass (K)",
+   "advice": "Bid $0\u2013$1 (minimal; 0\u20132% of your $34)",
+   "tags": [],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 6,
+      "pts": 9.0,
+      "snap": 0,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 8,
+      "pts": 6.0,
+      "snap": 0,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     }
+    ],
+    "proj": 8.6,
+    "avg": 7.5,
+    "adds_24h": 0,
+    "opponent": "@ BAL",
+    "score": 14.4
    }
   },
   {
@@ -1654,12 +1745,12 @@
    "pos": "K",
    "team": "CAR",
    "injury": null,
-   "availability": "waivers",
-   "availability_label": "On waivers: claim by Tue 3:00 AM ET",
-   "claim_by": "2026-11-03T03:00:00-05:00",
-   "reason": "Projects 7.3 pts next week vs DEN in your scoring.",
-   "drop": "Chad Ryland (K)",
-   "advice": "Bid $0\u2013$1 (minimal; 0\u20132% of your $35)",
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Projects 7.2 pts next week vs DEN in your scoring.",
+   "drop": "Tyler Bass (K)",
+   "advice": "No bid needed. Add him directly.",
    "tags": [],
    "news_iso": null,
    "trending_spike": false,
@@ -1692,26 +1783,64 @@
       "rz": 0
      }
     ],
-    "proj": 7.3,
+    "proj": 7.2,
     "avg": 6.0,
     "adds_24h": 0,
     "opponent": "vs DEN",
-    "score": 22.1
+    "score": 13.1
+   }
+  },
+  {
+   "rank": null,
+   "player_id": "1433",
+   "name": "Brandon McManus",
+   "pos": "K",
+   "team": "LAR",
+   "injury": null,
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Projects 7.6 pts next week @ WAS in your scoring.",
+   "drop": "Tyler Bass (K)",
+   "advice": "No bid needed. Add him directly.",
+   "tags": [],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 7,
+      "pts": 5.0,
+      "snap": 0,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 8,
+      "pts": 6.0,
+      "snap": 0,
+      "targets": 0,
+      "carries": 0,
+      "rz": 0
+     }
+    ],
+    "proj": 7.6,
+    "avg": 5.5,
+    "adds_24h": 0,
+    "opponent": "@ WAS",
+    "score": 12.9
    }
   }
  ],
  "faab": {
   "type": "faab",
   "budget": 100,
-  "remaining": 35
+  "remaining": 34
  },
  "my_roster": [
-  {
-   "player_id": "10955",
-   "name": "Chad Ryland",
-   "pos": "K",
-   "status": ""
-  },
   {
    "player_id": "12495",
    "name": "Ollie Gordon II",
@@ -1725,9 +1854,9 @@
    "status": ""
   },
   {
-   "player_id": "13298",
-   "name": "KC Concepcion Jr.",
-   "pos": "WR",
+   "player_id": "13337",
+   "name": "Emmett Johnson",
+   "pos": "RB",
    "status": ""
   },
   {
@@ -1735,12 +1864,6 @@
    "name": "Dak Prescott",
    "pos": "QB",
    "status": ""
-  },
-  {
-   "player_id": "3321",
-   "name": "Tyreek Hill",
-   "pos": "WR",
-   "status": "Questionable"
   },
   {
    "player_id": "4881",
@@ -1755,10 +1878,22 @@
    "status": ""
   },
   {
+   "player_id": "7042",
+   "name": "Tyler Bass",
+   "pos": "K",
+   "status": ""
+  },
+  {
    "player_id": "7525",
    "name": "DeVonta Smith",
    "pos": "WR",
    "status": "Out"
+  },
+  {
+   "player_id": "8135",
+   "name": "Treylon Burks",
+   "pos": "WR",
+   "status": ""
   },
   {
    "player_id": "8138",
@@ -1791,34 +1926,39 @@
    "status": ""
   },
   {
-   "player_id": "CLE",
-   "name": "CLE D/ST",
+   "player_id": "HOU",
+   "name": "HOU D/ST",
    "pos": "DEF",
    "status": ""
   }
  ],
  "my_roster_status": {
-  "10955": "",
   "12495": "",
   "12501": "",
-  "13298": "",
+  "13337": "",
   "3294": "",
-  "3321": "Questionable",
   "4881": "Out",
   "6804": "",
+  "7042": "",
   "7525": "Out",
+  "8135": "",
   "8138": "Questionable",
   "8146": "",
   "8408": "",
   "9484": "",
   "9487": "",
-  "CLE": ""
+  "HOU": ""
  },
  "my_lineup": [
   {
    "slot": "QB",
    "player": "Dak Prescott",
-   "proj": 19.7
+   "proj": 19.4
+  },
+  {
+   "slot": "RB",
+   "player": "James Cook III",
+   "proj": 12.8
   },
   {
    "slot": "RB",
@@ -1826,39 +1966,34 @@
    "proj": 12.6
   },
   {
-   "slot": "RB",
-   "player": "James Cook III",
-   "proj": 12.4
+   "slot": "WR",
+   "player": "Garrett Wilson",
+   "proj": 12.6
   },
   {
    "slot": "WR",
    "player": "Parker Washington",
-   "proj": 13.4
-  },
-  {
-   "slot": "WR",
-   "player": "Garrett Wilson",
-   "proj": 11.9
+   "proj": 12.5
   },
   {
    "slot": "TE",
    "player": "Tucker Kraft",
-   "proj": 8.7
+   "proj": 8.9
   },
   {
    "slot": "FLEX",
    "player": "Matthew Golden",
-   "proj": 11.2
+   "proj": 11.8
   },
   {
    "slot": "K",
-   "player": "Chad Ryland",
-   "proj": 6.5
+   "player": "Tyler Bass",
+   "proj": 8.7
   },
   {
    "slot": "DEF",
-   "player": "CLE D/ST",
-   "proj": 7.4
+   "player": "HOU D/ST",
+   "proj": 9.0
   }
  ],
  "trades": {
@@ -1877,28 +2012,28 @@
    "DEF"
   ],
   "slot_elig": {
-   "DEF": [
-    "DEF"
-   ],
    "K": [
     "K"
    ],
    "RB": [
     "RB"
    ],
+   "DEF": [
+    "DEF"
+   ],
+   "WR": [
+    "WR"
+   ],
    "TE": [
     "TE"
+   ],
+   "QB": [
+    "QB"
    ],
    "FLEX": [
     "RB",
     "TE",
     "WR"
-   ],
-   "WR": [
-    "WR"
-   ],
-   "QB": [
-    "QB"
    ]
   },
   "bench_n": 4,
@@ -1917,7 +2052,7 @@
       "pos": "RB",
       "team": "ATL",
       "inj": "",
-      "value": 9748
+      "value": 9634
      },
      {
       "id": "8151",
@@ -1925,7 +2060,7 @@
       "pos": "RB",
       "team": "KC",
       "inj": "",
-      "value": 9411
+      "value": 9524
      },
      {
       "id": "11632",
@@ -1933,7 +2068,7 @@
       "pos": "WR",
       "team": "NYG",
       "inj": "",
-      "value": 7214
+      "value": 7124
      },
      {
       "id": "5850",
@@ -1949,7 +2084,7 @@
       "pos": "TE",
       "team": "SF",
       "inj": "",
-      "value": 3270
+      "value": 3318
      },
      {
       "id": "8155",
@@ -1957,7 +2092,7 @@
       "pos": "RB",
       "team": "NYJ",
       "inj": "Out",
-      "value": 3198
+      "value": 3244
      },
      {
       "id": "4983",
@@ -1965,7 +2100,7 @@
       "pos": "WR",
       "team": "BUF",
       "inj": "Questionable",
-      "value": 2798
+      "value": 2698
      },
      {
       "id": "13279",
@@ -1973,7 +2108,7 @@
       "pos": "WR",
       "team": "TEN",
       "inj": "Out",
-      "value": 2478
+      "value": 2432
      },
      {
       "id": "12507",
@@ -1981,7 +2116,7 @@
       "pos": "RB",
       "team": "LAC",
       "inj": "",
-      "value": 1759
+      "value": 1813
      },
      {
       "id": "4046",
@@ -1989,7 +2124,7 @@
       "pos": "QB",
       "team": "KC",
       "inj": "",
-      "value": 1592
+      "value": 1742
      },
      {
       "id": "13345",
@@ -1997,39 +2132,31 @@
       "pos": "RB",
       "team": "DEN",
       "inj": "",
-      "value": 1028
+      "value": 1394
      },
      {
       "id": "13286",
       "name": "Jadarian Price",
       "pos": "RB",
       "team": "SEA",
-      "inj": "IR",
-      "value": 718
-     },
-     {
-      "id": "9501",
-      "name": "DeMario Douglas",
-      "pos": "WR",
-      "team": "NE",
       "inj": "",
-      "value": 244
+      "value": 764
      },
      {
-      "id": "4993",
-      "name": "Mike Gesicki",
-      "pos": "TE",
-      "team": "CIN",
+      "id": "13305",
+      "name": "Mike Washington Jr.",
+      "pos": "RB",
+      "team": "LV",
       "inj": "",
-      "value": 168
+      "value": 250
      },
      {
-      "id": "NE",
-      "name": "NE D/ST",
+      "id": "KC",
+      "name": "KC D/ST",
       "pos": "DEF",
-      "team": "NE",
+      "team": "KC",
       "inj": "",
-      "value": 114
+      "value": 106
      },
      {
       "id": "11792",
@@ -2054,20 +2181,20 @@
       "value": 10256
      },
      {
-      "id": "12527",
-      "name": "Ashton Jeanty",
-      "pos": "RB",
-      "team": "LV",
-      "inj": "",
-      "value": 5797
-     },
-     {
       "id": "8167",
       "name": "Christian Watson",
       "pos": "WR",
       "team": "GB",
       "inj": "Questionable",
-      "value": 5767
+      "value": 5980
+     },
+     {
+      "id": "12527",
+      "name": "Ashton Jeanty",
+      "pos": "RB",
+      "team": "LV",
+      "inj": "",
+      "value": 5516
      },
      {
       "id": "7569",
@@ -2075,7 +2202,7 @@
       "pos": "WR",
       "team": "HOU",
       "inj": "",
-      "value": 5574
+      "value": 5452
      },
      {
       "id": "8131",
@@ -2083,7 +2210,7 @@
       "pos": "TE",
       "team": "NYG",
       "inj": "",
-      "value": 2063
+      "value": 2000
      },
      {
       "id": "12545",
@@ -2091,15 +2218,7 @@
       "pos": "QB",
       "team": "NO",
       "inj": "",
-      "value": 894
-     },
-     {
-      "id": "11628",
-      "name": "Marvin Harrison Jr.",
-      "pos": "WR",
-      "team": "HOU",
-      "inj": "",
-      "value": 838
+      "value": 927
      },
      {
       "id": "8126",
@@ -2107,7 +2226,15 @@
       "pos": "WR",
       "team": "TEN",
       "inj": "",
-      "value": 838
+      "value": 884
+     },
+     {
+      "id": "11628",
+      "name": "Marvin Harrison Jr.",
+      "pos": "WR",
+      "team": "HOU",
+      "inj": "",
+      "value": 876
      },
      {
       "id": "9756",
@@ -2115,15 +2242,7 @@
       "pos": "WR",
       "team": "MIN",
       "inj": "",
-      "value": 792
-     },
-     {
-      "id": "8134",
-      "name": "Khalil Shakir",
-      "pos": "WR",
-      "team": "BUF",
-      "inj": "",
-      "value": 778
+      "value": 812
      },
      {
       "id": "12474",
@@ -2131,7 +2250,15 @@
       "pos": "RB",
       "team": "HOU",
       "inj": "Questionable",
-      "value": 679
+      "value": 811
+     },
+     {
+      "id": "8134",
+      "name": "Khalil Shakir",
+      "pos": "WR",
+      "team": "BUF",
+      "inj": "",
+      "value": 784
      },
      {
       "id": "7600",
@@ -2139,7 +2266,7 @@
       "pos": "TE",
       "team": "PIT",
       "inj": "",
-      "value": 260
+      "value": 276
      },
      {
       "id": "4017",
@@ -2147,7 +2274,7 @@
       "pos": "QB",
       "team": "CLE",
       "inj": "",
-      "value": 188
+      "value": 193
      },
      {
       "id": "BAL",
@@ -2185,7 +2312,7 @@
       "pos": "RB",
       "team": "LAR",
       "inj": "",
-      "value": 6896
+      "value": 6639
      },
      {
       "id": "8130",
@@ -2209,7 +2336,7 @@
       "pos": "WR",
       "team": "CHI",
       "inj": "",
-      "value": 3705
+      "value": 3792
      },
      {
       "id": "10232",
@@ -2217,7 +2344,7 @@
       "pos": "WR",
       "team": "ARI",
       "inj": "Questionable",
-      "value": 2370
+      "value": 2778
      },
      {
       "id": "3163",
@@ -2225,15 +2352,7 @@
       "pos": "QB",
       "team": "DET",
       "inj": "",
-      "value": 2336
-     },
-     {
-      "id": "13276",
-      "name": "Omar Cooper Jr.",
-      "pos": "WR",
-      "team": "NYJ",
-      "inj": "",
-      "value": 1226
+      "value": 2272
      },
      {
       "id": "2133",
@@ -2241,15 +2360,15 @@
       "pos": "WR",
       "team": "LAR",
       "inj": "IR",
-      "value": 1167
+      "value": 1146
      },
      {
-      "id": "10213",
-      "name": "Tre Tucker",
+      "id": "13276",
+      "name": "Omar Cooper Jr.",
       "pos": "WR",
-      "team": "LV",
+      "team": "NYJ",
       "inj": "",
-      "value": 1050
+      "value": 1108
      },
      {
       "id": "9228",
@@ -2257,15 +2376,15 @@
       "pos": "QB",
       "team": "CAR",
       "inj": "",
-      "value": 959
+      "value": 1046
      },
      {
-      "id": "12529",
-      "name": "TreVeyon Henderson",
-      "pos": "RB",
-      "team": "NE",
-      "inj": "Out",
-      "value": 766
+      "id": "10213",
+      "name": "Tre Tucker",
+      "pos": "WR",
+      "team": "LV",
+      "inj": "",
+      "value": 921
      },
      {
       "id": "8136",
@@ -2273,7 +2392,15 @@
       "pos": "RB",
       "team": "WAS",
       "inj": "",
-      "value": 660
+      "value": 764
+     },
+     {
+      "id": "12529",
+      "name": "TreVeyon Henderson",
+      "pos": "RB",
+      "team": "NE",
+      "inj": "Out",
+      "value": 556
      },
      {
       "id": "SEA",
@@ -2289,7 +2416,7 @@
       "pos": "RB",
       "team": "NO",
       "inj": "",
-      "value": 119
+      "value": 127
      },
      {
       "id": "12185",
@@ -2311,7 +2438,7 @@
       "pos": "WR",
       "team": "DAL",
       "inj": "",
-      "value": 8694
+      "value": 8588
      },
      {
       "id": "9224",
@@ -2319,7 +2446,7 @@
       "pos": "RB",
       "team": "CIN",
       "inj": "",
-      "value": 5208
+      "value": 5032
      },
      {
       "id": "11566",
@@ -2330,28 +2457,20 @@
       "value": 1589
      },
      {
-      "id": "5872",
-      "name": "Deebo Samuel Sr.",
-      "pos": "WR",
-      "team": "SF",
-      "inj": "Out",
-      "value": 901
-     },
-     {
       "id": "11576",
       "name": "Braelon Allen",
       "pos": "RB",
       "team": "NYJ",
       "inj": "",
-      "value": 861
+      "value": 1050
      },
      {
-      "id": "7553",
-      "name": "Kyle Pitts Sr.",
-      "pos": "TE",
-      "team": "ATL",
-      "inj": "",
-      "value": 721
+      "id": "5872",
+      "name": "Deebo Samuel Sr.",
+      "pos": "WR",
+      "team": "SF",
+      "inj": "Out",
+      "value": 1019
      },
      {
       "id": "1479",
@@ -2359,7 +2478,15 @@
       "pos": "WR",
       "team": "IND",
       "inj": "",
-      "value": 678
+      "value": 724
+     },
+     {
+      "id": "7553",
+      "name": "Kyle Pitts Sr.",
+      "pos": "TE",
+      "team": "ATL",
+      "inj": "",
+      "value": 710
      },
      {
       "id": "7021",
@@ -2375,7 +2502,7 @@
       "pos": "WR",
       "team": "DEN",
       "inj": "",
-      "value": 610
+      "value": 619
      },
      {
       "id": "3214",
@@ -2383,15 +2510,7 @@
       "pos": "TE",
       "team": "NE",
       "inj": "Out",
-      "value": 506
-     },
-     {
-      "id": "4943",
-      "name": "Sam Darnold",
-      "pos": "QB",
-      "team": "SEA",
-      "inj": "",
-      "value": 323
+      "value": 442
      },
      {
       "id": "8132",
@@ -2399,15 +2518,15 @@
       "pos": "RB",
       "team": "ARI",
       "inj": "",
-      "value": 215
+      "value": 358
      },
      {
-      "id": "12533",
-      "name": "Jacory Croskey-Merritt",
-      "pos": "RB",
-      "team": "WAS",
-      "inj": "IR",
-      "value": 168
+      "id": "4943",
+      "name": "Sam Darnold",
+      "pos": "QB",
+      "team": "SEA",
+      "inj": "",
+      "value": 352
      },
      {
       "id": "7567",
@@ -2415,7 +2534,15 @@
       "pos": "RB",
       "team": "TB",
       "inj": "",
-      "value": 156
+      "value": 166
+     },
+     {
+      "id": "12533",
+      "name": "Jacory Croskey-Merritt",
+      "pos": "RB",
+      "team": "WAS",
+      "inj": "IR",
+      "value": 164
      },
      {
       "id": "MIN",
@@ -2445,7 +2572,7 @@
       "pos": "RB",
       "team": "SF",
       "inj": "Questionable",
-      "value": 8686
+      "value": 8582
      },
      {
       "id": "8228",
@@ -2453,7 +2580,7 @@
       "pos": "RB",
       "team": "PIT",
       "inj": "",
-      "value": 5068
+      "value": 5128
      },
      {
       "id": "8183",
@@ -2461,7 +2588,7 @@
       "pos": "QB",
       "team": "SF",
       "inj": "",
-      "value": 3534
+      "value": 3609
      },
      {
       "id": "10229",
@@ -2469,7 +2596,7 @@
       "pos": "WR",
       "team": "KC",
       "inj": "",
-      "value": 3124
+      "value": 3246
      },
      {
       "id": "2449",
@@ -2477,7 +2604,7 @@
       "pos": "WR",
       "team": "WAS",
       "inj": "",
-      "value": 2304
+      "value": 2167
      },
      {
       "id": "11635",
@@ -2493,7 +2620,7 @@
       "pos": "WR",
       "team": "CHI",
       "inj": "",
-      "value": 1690
+      "value": 1703
      },
      {
       "id": "7543",
@@ -2501,7 +2628,7 @@
       "pos": "RB",
       "team": "NO",
       "inj": "IR",
-      "value": 1326
+      "value": 1374
      },
      {
       "id": "13274",
@@ -2509,7 +2636,7 @@
       "pos": "WR",
       "team": "PIT",
       "inj": "",
-      "value": 918
+      "value": 950
      },
      {
       "id": "9753",
@@ -2517,7 +2644,7 @@
       "pos": "RB",
       "team": "SEA",
       "inj": "",
-      "value": 840
+      "value": 804
      },
      {
       "id": "9480",
@@ -2525,7 +2652,7 @@
       "pos": "TE",
       "team": "JAX",
       "inj": "",
-      "value": 644
+      "value": 659
      },
      {
       "id": "11435",
@@ -2536,20 +2663,20 @@
       "value": 400
      },
      {
+      "id": "1166",
+      "name": "Kirk Cousins",
+      "pos": "QB",
+      "team": "LV",
+      "inj": "",
+      "value": 327
+     },
+     {
       "id": "13424",
       "name": "Seth McGowan",
       "pos": "RB",
       "team": "IND",
       "inj": "",
-      "value": 290
-     },
-     {
-      "id": "3257",
-      "name": "Jacoby Brissett",
-      "pos": "QB",
-      "team": "ARI",
-      "inj": "",
-      "value": 274
+      "value": 296
      },
      {
       "id": "2747",
@@ -2560,12 +2687,12 @@
       "value": 89
      },
      {
-      "id": "TB",
-      "name": "TB D/ST",
+      "id": "SF",
+      "name": "SF D/ST",
       "pos": "DEF",
-      "team": "TB",
+      "team": "SF",
       "inj": "",
-      "value": 44
+      "value": 84
      }
     ]
    },
@@ -2579,7 +2706,7 @@
       "pos": "WR",
       "team": "BAL",
       "inj": "",
-      "value": 7183
+      "value": 6446
      },
      {
       "id": "6790",
@@ -2587,7 +2714,7 @@
       "pos": "RB",
       "team": "CHI",
       "inj": "",
-      "value": 5378
+      "value": 5250
      },
      {
       "id": "7594",
@@ -2595,7 +2722,7 @@
       "pos": "RB",
       "team": "CAR",
       "inj": "",
-      "value": 4578
+      "value": 5064
      },
      {
       "id": "6770",
@@ -2603,7 +2730,7 @@
       "pos": "QB",
       "team": "CIN",
       "inj": "",
-      "value": 4014
+      "value": 3961
      },
      {
       "id": "5859",
@@ -2611,7 +2738,7 @@
       "pos": "WR",
       "team": "NE",
       "inj": "Out",
-      "value": 3197
+      "value": 3233
      },
      {
       "id": "8148",
@@ -2619,7 +2746,7 @@
       "pos": "WR",
       "team": "DET",
       "inj": "",
-      "value": 2590
+      "value": 2994
      },
      {
       "id": "12517",
@@ -2627,23 +2754,23 @@
       "pos": "TE",
       "team": "CHI",
       "inj": "",
-      "value": 2194
+      "value": 2264
      },
      {
       "id": "421",
       "name": "Matthew Stafford",
       "pos": "QB",
       "team": "LAR",
-      "inj": "",
-      "value": 1238
+      "inj": "Questionable",
+      "value": 1174
      },
      {
       "id": "5947",
       "name": "Jakobi Meyers",
       "pos": "WR",
       "team": "JAX",
-      "inj": "",
-      "value": 1000
+      "inj": "Questionable",
+      "value": 954
      },
      {
       "id": "11834",
@@ -2651,15 +2778,7 @@
       "pos": "WR",
       "team": "NO",
       "inj": "",
-      "value": 476
-     },
-     {
-      "id": "13330",
-      "name": "Kenyon Sadiq",
-      "pos": "TE",
-      "team": "NYJ",
-      "inj": "",
-      "value": 180
+      "value": 498
      },
      {
       "id": "DEN",
@@ -2670,12 +2789,20 @@
       "value": 175
      },
      {
+      "id": "13330",
+      "name": "Kenyon Sadiq",
+      "pos": "TE",
+      "team": "NYJ",
+      "inj": "",
+      "value": 174
+     },
+     {
       "id": "13150",
       "name": "Darius Cooper",
       "pos": "WR",
       "team": "PHI",
       "inj": "",
-      "value": 72
+      "value": 76
      },
      {
       "id": "11539",
@@ -2705,7 +2832,7 @@
       "pos": "WR",
       "team": "NO",
       "inj": "",
-      "value": 6552
+      "value": 6853
      },
      {
       "id": "6794",
@@ -2713,7 +2840,7 @@
       "pos": "WR",
       "team": "MIN",
       "inj": "",
-      "value": 6300
+      "value": 6222
      },
      {
       "id": "4866",
@@ -2721,7 +2848,7 @@
       "pos": "RB",
       "team": "PHI",
       "inj": "",
-      "value": 3930
+      "value": 4137
      },
      {
       "id": "13287",
@@ -2729,7 +2856,7 @@
       "pos": "RB",
       "team": "ARI",
       "inj": "Out",
-      "value": 3448
+      "value": 3096
      },
      {
       "id": "11560",
@@ -2737,7 +2864,7 @@
       "pos": "QB",
       "team": "CHI",
       "inj": "",
-      "value": 2991
+      "value": 3031
      },
      {
       "id": "12514",
@@ -2745,7 +2872,7 @@
       "pos": "WR",
       "team": "TB",
       "inj": "Out",
-      "value": 2329
+      "value": 2203
      },
      {
       "id": "12518",
@@ -2753,7 +2880,7 @@
       "pos": "TE",
       "team": "IND",
       "inj": "",
-      "value": 1728
+      "value": 1644
      },
      {
       "id": "13281",
@@ -2761,7 +2888,7 @@
       "pos": "WR",
       "team": "NO",
       "inj": "IR",
-      "value": 1014
+      "value": 1083
      },
      {
       "id": "12506",
@@ -2769,7 +2896,7 @@
       "pos": "TE",
       "team": "CLE",
       "inj": "",
-      "value": 800
+      "value": 898
      },
      {
       "id": "4035",
@@ -2785,7 +2912,7 @@
       "pos": "WR",
       "team": "JAX",
       "inj": "",
-      "value": 450
+      "value": 460
      },
      {
       "id": "5012",
@@ -2809,7 +2936,7 @@
       "pos": "WR",
       "team": "HOU",
       "inj": "",
-      "value": 116
+      "value": 122
      },
      {
       "id": "7561",
@@ -2817,7 +2944,7 @@
       "pos": "RB",
       "team": "PHI",
       "inj": "",
-      "value": 102
+      "value": 110
      },
      {
       "id": "6650",
@@ -2847,7 +2974,7 @@
       "pos": "TE",
       "team": "LV",
       "inj": "",
-      "value": 5973
+      "value": 6494
      },
      {
       "id": "2216",
@@ -2855,7 +2982,7 @@
       "pos": "WR",
       "team": "SF",
       "inj": "Out",
-      "value": 3422
+      "value": 3508
      },
      {
       "id": "7611",
@@ -2863,7 +2990,7 @@
       "pos": "RB",
       "team": "NE",
       "inj": "",
-      "value": 2761
+      "value": 2392
      },
      {
       "id": "12481",
@@ -2871,7 +2998,7 @@
       "pos": "RB",
       "team": "NYG",
       "inj": "Questionable",
-      "value": 2148
+      "value": 2086
      },
      {
       "id": "5846",
@@ -2879,7 +3006,7 @@
       "pos": "WR",
       "team": "PIT",
       "inj": "",
-      "value": 1767
+      "value": 1736
      },
      {
       "id": "11586",
@@ -2887,7 +3014,7 @@
       "pos": "RB",
       "team": "LAR",
       "inj": "",
-      "value": 1234
+      "value": 1272
      },
      {
       "id": "11624",
@@ -2895,7 +3022,7 @@
       "pos": "WR",
       "team": "KC",
       "inj": "",
-      "value": 860
+      "value": 844
      },
      {
       "id": "8121",
@@ -2903,7 +3030,7 @@
       "pos": "WR",
       "team": "NE",
       "inj": "IR",
-      "value": 261
+      "value": 264
      },
      {
       "id": "9482",
@@ -2911,7 +3038,7 @@
       "pos": "TE",
       "team": "LV",
       "inj": "",
-      "value": 234
+      "value": 246
      },
      {
       "id": "PIT",
@@ -2927,7 +3054,7 @@
       "pos": "RB",
       "team": "CAR",
       "inj": "IR",
-      "value": 78
+      "value": 90
      },
      {
       "id": "12530",
@@ -2935,7 +3062,7 @@
       "pos": "WR",
       "team": "JAX",
       "inj": "",
-      "value": 74
+      "value": 76
      },
      {
       "id": "12015",
@@ -2965,7 +3092,7 @@
       "pos": "QB",
       "team": "BUF",
       "inj": "",
-      "value": 7267
+      "value": 7175
      },
      {
       "id": "8112",
@@ -2973,7 +3100,7 @@
       "pos": "WR",
       "team": "ATL",
       "inj": "Questionable",
-      "value": 7030
+      "value": 6807
      },
      {
       "id": "11584",
@@ -2981,15 +3108,15 @@
       "pos": "RB",
       "team": "TB",
       "inj": "",
-      "value": 5006
+      "value": 4936
      },
      {
       "id": "12490",
       "name": "Bhayshul Tuten",
       "pos": "RB",
       "team": "JAX",
-      "inj": "",
-      "value": 4320
+      "inj": "Questionable",
+      "value": 4564
      },
      {
       "id": "1466",
@@ -2997,7 +3124,7 @@
       "pos": "TE",
       "team": "KC",
       "inj": "",
-      "value": 1094
+      "value": 1231
      },
      {
       "id": "4199",
@@ -3005,7 +3132,15 @@
       "pos": "RB",
       "team": "MIN",
       "inj": "",
-      "value": 991
+      "value": 1038
+     },
+     {
+      "id": "10236",
+      "name": "Dalton Kincaid",
+      "pos": "TE",
+      "team": "BUF",
+      "inj": "",
+      "value": 976
      },
      {
       "id": "12534",
@@ -3016,20 +3151,12 @@
       "value": 968
      },
      {
-      "id": "10236",
-      "name": "Dalton Kincaid",
-      "pos": "TE",
-      "team": "BUF",
-      "inj": "",
-      "value": 893
-     },
-     {
       "id": "4037",
       "name": "Chris Godwin Jr.",
       "pos": "WR",
       "team": "TB",
       "inj": "",
-      "value": 833
+      "value": 784
      },
      {
       "id": "96",
@@ -3037,7 +3164,7 @@
       "pos": "QB",
       "team": "PIT",
       "inj": "",
-      "value": 456
+      "value": 482
      },
      {
       "id": "11637",
@@ -3045,7 +3172,7 @@
       "pos": "WR",
       "team": "BUF",
       "inj": "",
-      "value": 328
+      "value": 310
      },
      {
       "id": "5189",
@@ -3056,20 +3183,20 @@
       "value": 89
      },
      {
+      "id": "4039",
+      "name": "Cooper Kupp",
+      "pos": "WR",
+      "team": "SEA",
+      "inj": "",
+      "value": 78
+     },
+     {
       "id": "7839",
       "name": "Evan McPherson",
       "pos": "K",
       "team": "CIN",
       "inj": "",
       "value": 75
-     },
-     {
-      "id": "4039",
-      "name": "Cooper Kupp",
-      "pos": "WR",
-      "team": "SEA",
-      "inj": "",
-      "value": 45
      },
      {
       "id": "WAS",
@@ -3115,7 +3242,7 @@
       "pos": "RB",
       "team": "DAL",
       "inj": "",
-      "value": 6448
+      "value": 6682
      },
      {
       "id": "6801",
@@ -3123,7 +3250,7 @@
       "pos": "WR",
       "team": "CIN",
       "inj": "",
-      "value": 5129
+      "value": 5266
      },
      {
       "id": "7523",
@@ -3139,7 +3266,7 @@
       "pos": "WR",
       "team": "DEN",
       "inj": "",
-      "value": 2176
+      "value": 2194
      },
      {
       "id": "10859",
@@ -3147,7 +3274,7 @@
       "pos": "TE",
       "team": "DET",
       "inj": "",
-      "value": 1908
+      "value": 2084
      },
      {
       "id": "13346",
@@ -3155,7 +3282,7 @@
       "pos": "WR",
       "team": "CLE",
       "inj": "",
-      "value": 1506
+      "value": 1483
      },
      {
       "id": "9758",
@@ -3163,15 +3290,7 @@
       "pos": "QB",
       "team": "HOU",
       "inj": "",
-      "value": 885
-     },
-     {
-      "id": "12489",
-      "name": "RJ Harvey",
-      "pos": "RB",
-      "team": "DEN",
-      "inj": "IR",
-      "value": 622
+      "value": 1008
      },
      {
       "id": "5844",
@@ -3179,15 +3298,23 @@
       "pos": "TE",
       "team": "MIN",
       "inj": "",
-      "value": 541
+      "value": 518
      },
      {
-      "id": "11786",
-      "name": "Cam Little",
+      "id": "12489",
+      "name": "RJ Harvey",
+      "pos": "RB",
+      "team": "DEN",
+      "inj": "IR",
+      "value": 436
+     },
+     {
+      "id": "3451",
+      "name": "Ka'imi Fairbairn",
       "pos": "K",
-      "team": "JAX",
+      "team": "HOU",
       "inj": "",
-      "value": 112
+      "value": 113
      },
      {
       "id": "CIN",
@@ -3220,20 +3347,20 @@
       "value": 8490
      },
      {
-      "id": "9487",
-      "name": "Parker Washington",
-      "pos": "WR",
-      "team": "JAX",
-      "inj": "",
-      "value": 4971
-     },
-     {
       "id": "8146",
       "name": "Garrett Wilson",
       "pos": "WR",
       "team": "NYJ",
       "inj": "",
-      "value": 4762
+      "value": 4709
+     },
+     {
+      "id": "9487",
+      "name": "Parker Washington",
+      "pos": "WR",
+      "team": "JAX",
+      "inj": "",
+      "value": 4653
      },
      {
       "id": "12501",
@@ -3241,7 +3368,7 @@
       "pos": "WR",
       "team": "GB",
       "inj": "",
-      "value": 4048
+      "value": 4566
      },
      {
       "id": "4881",
@@ -3249,7 +3376,7 @@
       "pos": "QB",
       "team": "BAL",
       "inj": "Out",
-      "value": 3830
+      "value": 4182
      },
      {
       "id": "7525",
@@ -3257,7 +3384,7 @@
       "pos": "WR",
       "team": "PHI",
       "inj": "Out",
-      "value": 3066
+      "value": 2976
      },
      {
       "id": "3294",
@@ -3265,15 +3392,7 @@
       "pos": "QB",
       "team": "DAL",
       "inj": "",
-      "value": 1845
-     },
-     {
-      "id": "12495",
-      "name": "Ollie Gordon II",
-      "pos": "RB",
-      "team": "MIA",
-      "inj": "",
-      "value": 1786
+      "value": 1867
      },
      {
       "id": "9484",
@@ -3281,7 +3400,15 @@
       "pos": "TE",
       "team": "GB",
       "inj": "",
-      "value": 1653
+      "value": 1760
+     },
+     {
+      "id": "12495",
+      "name": "Ollie Gordon II",
+      "pos": "RB",
+      "team": "MIA",
+      "inj": "",
+      "value": 1592
      },
      {
       "id": "6804",
@@ -3289,15 +3416,7 @@
       "pos": "QB",
       "team": "GB",
       "inj": "",
-      "value": 1544
-     },
-     {
-      "id": "13298",
-      "name": "KC Concepcion Jr.",
-      "pos": "WR",
-      "team": "CLE",
-      "inj": "",
-      "value": 1464
+      "value": 1468
      },
      {
       "id": "8408",
@@ -3305,31 +3424,39 @@
       "pos": "RB",
       "team": "MIN",
       "inj": "",
-      "value": 1074
+      "value": 1090
      },
      {
-      "id": "CLE",
-      "name": "CLE D/ST",
+      "id": "HOU",
+      "name": "HOU D/ST",
       "pos": "DEF",
-      "team": "CLE",
+      "team": "HOU",
       "inj": "",
-      "value": 67
+      "value": 241
      },
      {
-      "id": "3321",
-      "name": "Tyreek Hill",
-      "pos": "WR",
-      "team": "FA",
-      "inj": "Questionable",
-      "value": 48
+      "id": "13337",
+      "name": "Emmett Johnson",
+      "pos": "RB",
+      "team": "KC",
+      "inj": "",
+      "value": 223
      },
      {
-      "id": "10955",
-      "name": "Chad Ryland",
+      "id": "7042",
+      "name": "Tyler Bass",
       "pos": "K",
-      "team": "ARI",
+      "team": "BUF",
       "inj": "",
-      "value": 14
+      "value": 36
+     },
+     {
+      "id": "8135",
+      "name": "Treylon Burks",
+      "pos": "WR",
+      "team": "WAS",
+      "inj": "",
+      "value": 23
      }
     ]
    },
@@ -3343,7 +3470,7 @@
       "pos": "WR",
       "team": "CIN",
       "inj": "",
-      "value": 8874
+      "value": 9084
      },
      {
       "id": "8137",
@@ -3351,7 +3478,7 @@
       "pos": "WR",
       "team": "DAL",
       "inj": "",
-      "value": 4552
+      "value": 4355
      },
      {
       "id": "11564",
@@ -3359,7 +3486,7 @@
       "pos": "QB",
       "team": "NE",
       "inj": "",
-      "value": 4068
+      "value": 4024
      },
      {
       "id": "12512",
@@ -3375,7 +3502,7 @@
       "pos": "WR",
       "team": "CAR",
       "inj": "",
-      "value": 2520
+      "value": 2476
      },
      {
       "id": "5967",
@@ -3383,15 +3510,7 @@
       "pos": "RB",
       "team": "TEN",
       "inj": "",
-      "value": 1956
-     },
-     {
-      "id": "13294",
-      "name": "Makai Lemon",
-      "pos": "WR",
-      "team": "PHI",
-      "inj": "",
-      "value": 1031
+      "value": 2238
      },
      {
       "id": "5892",
@@ -3399,7 +3518,15 @@
       "pos": "RB",
       "team": "HOU",
       "inj": "Out",
-      "value": 1024
+      "value": 1040
+     },
+     {
+      "id": "13294",
+      "name": "Makai Lemon",
+      "pos": "WR",
+      "team": "PHI",
+      "inj": "",
+      "value": 984
      },
      {
       "id": "5022",
@@ -3407,7 +3534,7 @@
       "pos": "TE",
       "team": "PHI",
       "inj": "",
-      "value": 718
+      "value": 682
      },
      {
       "id": "6806",
@@ -3415,7 +3542,7 @@
       "pos": "RB",
       "team": "DEN",
       "inj": "",
-      "value": 452
+      "value": 497
      },
      {
       "id": "5001",
@@ -3423,7 +3550,7 @@
       "pos": "TE",
       "team": "HOU",
       "inj": "",
-      "value": 218
+      "value": 216
      },
      {
       "id": "LAR",
@@ -3439,7 +3566,7 @@
       "pos": "WR",
       "team": "CHI",
       "inj": "",
-      "value": 119
+      "value": 121
      },
      {
       "id": "11533",
@@ -3465,176 +3592,151 @@
     "roster_id": 8,
     "team": "KingSt215",
     "give": [
-     "12501",
-     "4881"
+     "4881",
+     "7525"
     ],
     "get": [
      "3198"
     ],
     "give_names": [
-     "Matthew Golden",
-     "Lamar Jackson"
+     "Lamar Jackson",
+     "DeVonta Smith"
     ],
     "get_names": [
      "Derrick Henry"
     ],
     "verdict": "Fair trade",
-    "pct": -3,
-    "give_value": 7304,
+    "pct": 6,
+    "give_value": 6712,
     "get_value": 7112,
-    "my_delta_pct": 6.2,
-    "their_delta_pct": 3.2,
-    "reason": "Derrick Henry would start for you, pushing Ollie Gordon II to the bench. It helps them too: Lamar Jackson + Matthew Golden would start for them."
-   },
-   {
-    "roster_id": 9,
-    "team": "StriveForGreatness\ud83d\udc51",
-    "give": [
-     "7525",
-     "12495"
-    ],
-    "get": [
-     "12490"
-    ],
-    "give_names": [
-     "DeVonta Smith",
-     "Ollie Gordon II"
-    ],
-    "get_names": [
-     "Bhayshul Tuten"
-    ],
-    "verdict": "Fair trade",
-    "pct": -6,
-    "give_value": 4584,
-    "get_value": 4320,
-    "my_delta_pct": 6.8,
-    "their_delta_pct": -0.7,
-    "reason": "Bhayshul Tuten would start for you. They come out ahead on value, which makes it an easy yes for them."
+    "my_delta_pct": 8.2,
+    "their_delta_pct": 0.2,
+    "reason": "Derrick Henry would start for you, pushing Ollie Gordon II to the bench. It helps them too: Lamar Jackson + DeVonta Smith would start for them."
    },
    {
     "roster_id": 4,
     "team": "Illadelph Ravagers",
     "give": [
-     "12501",
-     "12495"
+     "8146",
+     "12501"
     ],
     "get": [
-     "9224"
+     "6786"
     ],
     "give_names": [
-     "Matthew Golden",
-     "Ollie Gordon II"
+     "Garrett Wilson",
+     "Matthew Golden"
     ],
     "get_names": [
-     "Chase Brown"
+     "CeeDee Lamb"
     ],
     "verdict": "Fair trade",
-    "pct": -6,
-    "give_value": 5566,
-    "get_value": 5208,
-    "my_delta_pct": 6.5,
-    "their_delta_pct": 0.1,
-    "reason": "Chase Brown would start for you. It helps them too: Ollie Gordon II + Matthew Golden would start for them."
+    "pct": 0,
+    "give_value": 8590,
+    "get_value": 8588,
+    "my_delta_pct": 5.5,
+    "their_delta_pct": 0.2,
+    "reason": "CeeDee Lamb would start for you. It helps them too: Garrett Wilson + Matthew Golden would start for them."
    },
    {
     "roster_id": 9,
     "team": "StriveForGreatness\ud83d\udc51",
     "give": [
-     "8146",
+     "12501",
      "7525"
     ],
     "get": [
      "8112"
     ],
     "give_names": [
-     "Garrett Wilson",
+     "Matthew Golden",
      "DeVonta Smith"
     ],
     "get_names": [
      "Drake London"
     ],
     "verdict": "Fair trade",
-    "pct": -5,
-    "give_value": 7368,
-    "get_value": 7030,
-    "my_delta_pct": 6.0,
-    "their_delta_pct": 0.2,
-    "reason": "Drake London would start for you. It helps them too: Garrett Wilson + DeVonta Smith would start for them."
-   },
-   {
-    "roster_id": 4,
-    "team": "Illadelph Ravagers",
-    "give": [
-     "9487",
-     "8146"
-    ],
-    "get": [
-     "6786"
-    ],
-    "give_names": [
-     "Parker Washington",
-     "Garrett Wilson"
-    ],
-    "get_names": [
-     "CeeDee Lamb"
-    ],
-    "verdict": "Fair trade",
     "pct": -4,
-    "give_value": 9019,
-    "get_value": 8694,
-    "my_delta_pct": 5.2,
-    "their_delta_pct": 2.2,
-    "reason": "CeeDee Lamb would start for you. It helps them too: Parker Washington + Garrett Wilson would start for them."
+    "give_value": 7096,
+    "get_value": 6807,
+    "my_delta_pct": 5.3,
+    "their_delta_pct": 0.2,
+    "reason": "Drake London would start for you. It helps them too: Matthew Golden + DeVonta Smith would start for them."
    },
    {
-    "roster_id": 1,
-    "team": "#FreeSlime",
-    "give": [
-     "3294",
-     "13298"
-    ],
-    "get": [
-     "8155"
-    ],
-    "give_names": [
-     "Dak Prescott",
-     "KC Concepcion Jr."
-    ],
-    "get_names": [
-     "Breece Hall"
-    ],
-    "verdict": "Fair trade",
-    "pct": 3,
-    "give_value": 3089,
-    "get_value": 3198,
-    "my_delta_pct": 4.2,
-    "their_delta_pct": 0.0,
-    "reason": "Breece Hall would start for you, pushing Ollie Gordon II to the bench. It helps them too: Dak Prescott would start for them."
-   },
-   {
-    "roster_id": 5,
-    "team": "DA WU \ud83d\ude4c\ud83c\udffe",
+    "roster_id": 2,
+    "team": "Da goat \ud83d\udc10",
     "give": [
      "9487",
-     "6804"
+     "12495"
     ],
     "get": [
-     "8228"
+     "12527"
     ],
     "give_names": [
      "Parker Washington",
-     "Jordan Love"
+     "Ollie Gordon II"
     ],
     "get_names": [
-     "Jaylen Warren"
+     "Ashton Jeanty"
+    ],
+    "verdict": "Fair trade",
+    "pct": -8,
+    "give_value": 6006,
+    "get_value": 5516,
+    "my_delta_pct": 5.3,
+    "their_delta_pct": -0.4,
+    "reason": "Ashton Jeanty would start for you. They come out ahead on value, which makes it an easy yes for them."
+   },
+   {
+    "roster_id": 12,
+    "team": "Blocked By James!",
+    "give": [
+     "12495",
+     "8408"
+    ],
+    "get": [
+     "5967"
+    ],
+    "give_names": [
+     "Ollie Gordon II",
+     "Jordan Mason"
+    ],
+    "get_names": [
+     "Tony Pollard"
     ],
     "verdict": "You'd be overpaying",
-    "pct": -19,
-    "give_value": 6283,
-    "get_value": 5068,
-    "my_delta_pct": 3.3,
-    "their_delta_pct": -2.0,
-    "reason": "Jaylen Warren would start for you, pushing Ollie Gordon II to the bench. They come out ahead on value, which makes it an easy yes for them."
+    "pct": -11,
+    "give_value": 2518,
+    "get_value": 2238,
+    "my_delta_pct": 1.5,
+    "their_delta_pct": -1.8,
+    "reason": "Tony Pollard would start for you. They come out ahead on value, which makes it an easy yes for them."
+   },
+   {
+    "roster_id": 10,
+    "team": "DOH",
+    "give": [
+     "9487",
+     "8408"
+    ],
+    "get": [
+     "6801"
+    ],
+    "give_names": [
+     "Parker Washington",
+     "Jordan Mason"
+    ],
+    "get_names": [
+     "Tee Higgins"
+    ],
+    "verdict": "Fair trade",
+    "pct": -6,
+    "give_value": 5580,
+    "get_value": 5266,
+    "my_delta_pct": 1.4,
+    "their_delta_pct": -1.1,
+    "reason": "Tee Higgins would start for you. They come out ahead on value, which makes it an easy yes for them."
    }
   ],
   "recent": [
@@ -3649,7 +3751,7 @@
        "Kyle Pitts Sr.",
        "Chase Brown"
       ],
-      "value": 6461
+      "value": 6437
      },
      {
       "team": "Sharpe Allegations",
@@ -3657,7 +3759,7 @@
        "Lamar Jackson",
        "DeVonta Smith"
       ],
-      "value": 6436
+      "value": 6712
      }
     ],
     "summary": "Even so far"
@@ -3693,7 +3795,7 @@
        "Jonathan Taylor",
        "Jaylen Waddle"
       ],
-      "value": 10184
+      "value": 10199
      },
      {
       "team": "Sharpe Allegations",
@@ -3701,7 +3803,7 @@
        "Ollie Gordon II",
        "James Cook III"
       ],
-      "value": 10008
+      "value": 9843
      }
     ],
     "summary": "Even so far"
@@ -3716,7 +3818,7 @@
        "CeeDee Lamb",
        "Rashid Shaheed"
       ],
-      "value": 8924
+      "value": 8818
      },
      {
       "team": "DOH",
@@ -3739,7 +3841,7 @@
        "Emeka Egbuka",
        "Justin Jefferson"
       ],
-      "value": 8280
+      "value": 8095
      },
      {
       "team": "DOH",
@@ -3747,7 +3849,7 @@
        "CeeDee Lamb",
        "Rashid Shaheed"
       ],
-      "value": 8924
+      "value": 8818
      }
     ],
     "summary": "Even so far"
@@ -3761,14 +3863,14 @@
       "got": [
        "Sam Darnold"
       ],
-      "value": 323
+      "value": 352
      },
      {
       "team": "Blocked By James!",
       "got": [
        "Tony Pollard"
       ],
-      "value": 1956
+      "value": 2238
      }
     ],
     "summary": "Blocked By James! is ahead by today's values"
@@ -3776,8 +3878,14 @@
   ]
  },
  "site_url": "https://AgbajeF.github.io/FFRec/",
- "job": "waiver_prelim",
+ "job": "free_agent",
  "change_reasons": [
-  "First list published."
+  "Role opened up: Tory Horton (WR, SEA).",
+  "Role opened up: Brandin Cooks (WR, SF).",
+  "Trending spike: Malik Washington is being added everywhere.",
+  "Trending spike: Mike Gesicki is being added everywhere.",
+  "Trending spike: Malik Willis is being added everywhere.",
+  "Tory Horton entered the top 5 (#4).",
+  "Caleb Douglas entered the top 5 (#5)."
  ]
 }
