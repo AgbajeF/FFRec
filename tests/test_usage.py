@@ -70,6 +70,16 @@ class BuildTests(unittest.TestCase):
         self.assertEqual(out["buy_low"][0]["roster_id"], 4)
         self.assertEqual(out["ep_through"], 5)
 
+    def test_name_match_when_gsis_missing(self):
+        players = {"w1": {"first_name": "Wide", "last_name": "Out Jr.", "position": "WR", "team": "KC", "gsis_id": None}}
+        weekly = {w: {"w1": week(40, 6)} for w in range(1, 4)}
+        rows = [{"gsis_id": "00-1", "name": "Wide Out", "position": "WR", "week": 1, "team": "KC",
+                 "target_share": 0.25, "targets": 6, "carries": 0, "air_yards": 80}]
+        ep = {("00-1", w): {"x": 10.0, "a": 10.0} for w in range(1, 4)}
+        out = usage.build(players, weekly, rows, ep, ["w1"], [], {"rec": 0.5})
+        self.assertEqual(out["players"][0]["season"]["games"], 3)
+        self.assertEqual(out["players"][0]["weeks"][0]["air"], 80)
+
 
 if __name__ == "__main__":
     unittest.main()
