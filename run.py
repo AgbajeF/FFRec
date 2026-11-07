@@ -101,6 +101,18 @@ def main():
             lines.append(f"{p['rank']:>2}. {p['name']} ({p['pos']}, {p['team']}) [{p['availability_label']}] {tags}")
             lines.append(f"    {p['reason']}")
             lines.append(f"    Drop: {p['drop']} | {p['advice']}")
+    ss = data.get("start_sit")
+    if ss:
+        lines.append(f"Start/Sit (lines: {ss.get('lines_source') or 'none'}; start {ss['start'] or '-'}; bench {ss['sit'] or '-'}):")
+        for r in ss["lineup"] + ss["bench"]:
+            if not r.get("name"):
+                continue
+            flags = ", ".join(f["text"] for f in r.get("flags") or [])
+            lines.append(f"  {r.get('slot', 'BN'):<5} {r['name']} {r.get('opp') or ''}: {r['adj']} (proj {r['proj']})"
+                         f" O/U {r.get('total')} {r.get('spread') or ''} TT {r.get('implied')} | {r.get('weather') or ''} | {flags}"
+                         f"{' | ' + r['close_call'] if r.get('close_call') else ''}")
+    else:
+        lines.append("Start/Sit: unavailable")
     lines.append(f"Change reasons: {reasons or 'none'}")
     summary = "\n".join(lines)
     print("\n" + summary)
