@@ -48,6 +48,8 @@ def weekly_player_stats(season):
                 "targets": _f(r.get("targets")),
                 "receptions": _f(r.get("receptions")),
                 "fantasy_points": _f(r.get("fantasy_points")),
+                "air_yards": _f(r.get("receiving_air_yards")),
+                "air_yards_share": _f(r.get("air_yards_share")),
             })
         if not rows:
             raise ValueError("empty")

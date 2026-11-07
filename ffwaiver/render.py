@@ -92,6 +92,14 @@ select{width:100%;min-height:48px;border-radius:12px;border:1px solid var(--line
 .game.mine{font-weight:600}
 .todo{font-size:18px;font-weight:700;margin:0}
 .todo + .todo{margin-top:6px}
+.wk{width:100%;border-collapse:collapse;margin-top:10px;font-size:14px;font-variant-numeric:tabular-nums}
+.wk th{color:var(--muted);font-weight:600;text-align:right;padding:4px 2px;border-bottom:1px solid var(--line)}
+.wk td{text-align:right;padding:5px 2px;border-bottom:1px solid var(--line)}
+.wk th:first-child,.wk td:first-child{text-align:left}
+.wk tr:last-child td{border-bottom:0}
+.wk .dim{color:var(--muted)}
+.wk .hi{color:var(--up);font-weight:700} .wk .lo{color:var(--down);font-weight:700}
+.try{min-height:40px;margin-top:8px;padding:0 14px;border-radius:12px;border:1px solid var(--blue);background:none;color:var(--blue);font:inherit;font-size:15px;font-weight:700;cursor:pointer}
 footer{margin-top:28px;color:var(--muted);font-size:13px;text-align:center}
 </style>
 </head>
@@ -104,6 +112,7 @@ footer{margin-top:28px;color:var(--muted);font-size:13px;text-align:center}
   <div class="views" id="views" role="group" aria-label="Section">
     <button class="view" data-view="waivers" aria-pressed="true">Waivers</button>
     <button class="view" data-view="startsit" aria-pressed="false">Start/Sit</button>
+    <button class="view" data-view="trends" aria-pressed="false">Trends</button>
     <button class="view" data-view="trades" aria-pressed="false">Trades</button>
   </div>
   <div id="waiverView">
@@ -114,6 +123,7 @@ footer{margin-top:28px;color:var(--muted);font-size:13px;text-align:center}
     <section id="rest" hidden></section>
   </div>
   <div id="startView" hidden></div>
+  <div id="trendView" hidden></div>
   <div id="tradeView" hidden></div>
   <footer id="foot"></footer>
 </main>
@@ -192,7 +202,7 @@ let view = 'waivers';
 try {
   const h = new URLSearchParams(location.hash.slice(1));
   pos = h.get('pos') || 'All';
-  view = ['trades', 'startsit'].includes(h.get('view')) ? h.get('view') : 'waivers';
+  view = ['trades', 'startsit', 'trends'].includes(h.get('view')) ? h.get('view') : 'waivers';
 } catch (e) {}
 function saveHash(){ try { history.replaceState(null, '', '#' + (view !== 'waivers' ? 'view=' + view : 'pos=' + pos)); } catch (e) {} }
 if (!positions.includes(pos)) pos = 'All';
@@ -213,6 +223,8 @@ document.addEventListener('click', e => {
   if (t.dataset.view) { view = t.dataset.view; saveHash(); showView(); }
   else if (t.dataset.pos) { pos = t.dataset.pos; expanded = false; saveHash(); render(); }
   else if (t.dataset.give || t.dataset.get) { toggleTrade(t); }
+  else if (t.dataset.tpos) { trendPos = t.dataset.tpos; renderTrends(); }
+  else if (t.dataset.buy) { tryBuy(t.dataset.buy, +t.dataset.rid); }
   else if (t.dataset.open != null) { openSuggestion(+t.dataset.open); }
   else if (t.id === 'seeMore') { expanded = !expanded; render(); }
   else if (t.classList.contains('stats-btn')) {
@@ -228,6 +240,67 @@ $('foot').textContent = (D.league_name || '') + ' · Stats through week ' + D.st
 </script>
 </body>
 </html>
+"""
+
+TRENDS_JS = r"""// ---------------------------------------------------------------- trends
+const TR = D.trends;
+let trendPos = 'All';
+const COLS = {
+  QB: [['pts','Pts'],['xpts','xPts'],['snap','Snap%'],['car','Car'],['rz','RZ']],
+  RB: [['pts','Pts'],['xpts','xPts'],['snap','Snap%'],['car','Car'],['tgt','Tgt'],['rz','RZ']],
+  WR: [['pts','Pts'],['xpts','xPts'],['snap','Snap%'],['tgt','Tgt'],['tgt_share','Tgt%'],['air','Air'],['rz','RZ']],
+};
+COLS.TE = COLS.WR;
+function weekTable(r){
+  const cols = COLS[r.pos];
+  let h = '<table class="wk"><thead><tr><th>Wk</th>' + cols.map(c => '<th>' + c[1] + '</th>').join('') + '</tr></thead><tbody>';
+  h += r.weeks.slice().reverse().map(w => {
+    if (!w.played) return '<tr><td>' + w.week + '</td><td class="dim" colspan="' + cols.length + '" style="text-align:left">Did not play</td></tr>';
+    return '<tr><td>' + w.week + '</td>' + cols.map(c => {
+      let v = w[c[0]], cls = '';
+      if (c[0] === 'pts' && w.xpts != null) cls = w.pts >= w.xpts + 4 ? 'hi' : w.pts <= w.xpts - 4 ? 'lo' : '';
+      if (c[0] === 'xpts') cls = 'dim';
+      return '<td class="' + cls + '">' + (v == null ? '–' : v) + '</td>';
+    }).join('') + '</tr>';
+  }).join('');
+  return h + '</tbody></table>';
+}
+function trendCard(r){
+  const s = r.season;
+  const arrow = r.trend === 'up' ? '<span class="pill good">▲ Role growing</span>' : r.trend === 'down' ? '<span class="pill bad">▼ Role shrinking</span>' : '';
+  const lk = s && s.label !== 'Too early' ? '<span class="pill ' + esc(s.kind) + '">' + esc(s.label) + '</span>' : '';
+  const line = s ? '<p class="row">Season: <strong>' + s.pts + '</strong> pts a game vs <strong>' + s.xpts + '</strong> expected (' +
+      (s.diff > 0 ? '+' : '') + s.diff + ') over ' + s.games + ' game' + (s.games > 1 ? 's' : '') + '.</p><p class="row">' + esc(s.text) + '</p>' : '';
+  return '<article class="card"><div class="ss-name">' + esc(r.name) + (r.injury ? ' <span class="inj">' + esc(r.injury) + '</span>' : '') + '</div>' +
+    '<div class="ss-meta">' + esc(r.pos + ' · ' + r.team) + '</div>' +
+    ((arrow || lk) ? '<div class="pills">' + arrow + lk + '</div>' : '') + line + weekTable(r) + '</article>';
+}
+function luckRow(r, buy){
+  return '<div class="ss-row"><div class="ss-who"><div class="ss-name">' + esc(r.name) + '</div>' +
+    '<div class="ss-meta">' + esc(r.pos + ' · ' + r.team + (buy ? ' · ' + r.owner : '')) + '</div>' +
+    '<p class="row">' + r.pts + ' pts a game on ' + r.xpts + ' expected over ' + r.games + ' games</p>' +
+    (buy && T ? '<button class="try" data-buy="' + esc(r.player_id) + '" data-rid="' + r.roster_id + '">Try a trade</button>' : '') +
+    '</div><div class="ss-pts">' + (r.diff > 0 ? '+' : '') + r.diff + '<small>pts a game</small></div></div>';
+}
+function tryBuy(pid, rid){
+  tradeWith = rid; give = new Set(); get = new Set([pid]);
+  view = 'trades'; saveHash(); showView();
+  $('analyzer').scrollIntoView({behavior: 'smooth'});
+}
+function renderTrends(){
+  const box = $('trendView');
+  if (!TR) { box.innerHTML = '<p class="empty">Trends are unavailable right now. They\'ll be back on the next update.</p>'; return; }
+  let h = '';
+  if (TR.sell_high.length) h += '<h2>Sell high</h2><p class="hint">Your players scoring well above what their usage is worth. Expect them to cool off.</p><div class="card">' + TR.sell_high.map(r => luckRow(r, false)).join('') + '</div>';
+  if (TR.buy_low.length) h += '<h2>Buy low around your league</h2><p class="hint">Players on other teams with a strong role who are scoring well below it. Their managers may sell cheap.</p><div class="card">' + TR.buy_low.map(r => luckRow(r, true)).join('') + '</div>';
+  const posList = ['All'].concat(['QB','RB','WR','TE'].filter(p => TR.players.some(r => r.pos === p)));
+  h += '<h2>Your players</h2><p class="hint">Last ' + TR.weeks.length + ' weeks, newest first. xPts is what an average player would score with the same targets, carries and field position, so the gap is mostly touchdown luck. Snap% is share of offensive snaps, Tgt% share of team targets, Air is air yards and RZ is red-zone targets plus carries.</p>';
+  h += '<nav class="tabs">' + posList.map(p => '<button class="tab" aria-pressed="' + (p === trendPos) + '" data-tpos="' + p + '">' + p + '</button>').join('') + '</nav>';
+  const list = TR.players.filter(r => trendPos === 'All' || r.pos === trendPos);
+  h += list.length ? list.map(trendCard).join('') : '<p class="empty">No players here.</p>';
+  h += '<p class="notice">Usage: Sleeper and nflverse. Expected points: ffverse ffopportunity' + (TR.ep_through ? ', through week ' + TR.ep_through : '') + '.</p>';
+  box.innerHTML = h;
+}
 """
 
 STARTSIT_JS = r"""// ---------------------------------------------------------------- start/sit
@@ -299,6 +372,8 @@ function showView(){
   $('waiverView').hidden = view !== 'waivers';
   $('tradeView').hidden = view !== 'trades';
   $('startView').hidden = view !== 'startsit';
+  $('trendView').hidden = view !== 'trends';
+  if (view === 'trends') renderTrends();
   if (view === 'trades') renderTrades();
   if (view === 'startsit') renderStartSit();
 }
@@ -421,7 +496,7 @@ function openSuggestion(i){
   $('analyzer').scrollIntoView({behavior: 'smooth'});
 }
 """
-TEMPLATE = TEMPLATE.replace("__TRADES_JS__", TRADES_JS + STARTSIT_JS)
+TEMPLATE = TEMPLATE.replace("__TRADES_JS__", TRADES_JS + STARTSIT_JS + TRENDS_JS)
 
 
 def write(data, docs_dir):

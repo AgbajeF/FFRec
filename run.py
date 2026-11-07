@@ -113,6 +113,17 @@ def main():
                          f"{' | ' + r['close_call'] if r.get('close_call') else ''}")
     else:
         lines.append("Start/Sit: unavailable")
+    tr = data.get("trends")
+    if tr:
+        lines.append(f"Trends (expected points through week {tr.get('ep_through')}):")
+        for r in tr["players"]:
+            s = r.get("season") or {}
+            lines.append(f"  {r['pos']:<3} {r['name']}: usage {r['trend']} ({r['trend_delta']:+}), "
+                         f"{s.get('pts')} pts vs {s.get('xpts')} xpts over {s.get('games')} games -> {s.get('label')}")
+        lines.append("  Buy low: " + (", ".join(f"{b['name']} ({b['owner']}, {b['diff']:+})" for b in tr["buy_low"]) or "-"))
+        lines.append("  Sell high: " + (", ".join(f"{b['name']} ({b['diff']:+})" for b in tr["sell_high"]) or "-"))
+    else:
+        lines.append("Trends: unavailable")
     lines.append(f"Change reasons: {reasons or 'none'}")
     summary = "\n".join(lines)
     print("\n" + summary)
