@@ -74,6 +74,24 @@ select{width:100%;min-height:48px;border-radius:12px;border:1px solid var(--line
 .result{position:sticky;bottom:8px;z-index:1}
 .result .card{box-shadow:0 4px 16px rgba(0,0,0,.18)}
 .verdict{font-size:20px;font-weight:800}
+.ss-row{display:flex;gap:12px;align-items:flex-start;padding:12px 0;border-top:1px solid var(--line)}
+.ss-row:first-of-type{border-top:0;padding-top:4px}
+.slot{flex:0 0 44px;min-height:32px;border-radius:10px;background:var(--tag);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px}
+.ss-who{flex:1;min-width:0}
+.ss-name{font-size:18px;font-weight:800;line-height:1.25}
+.ss-meta{color:var(--muted);font-size:15px;margin-top:2px}
+.ss-pts{flex:0 0 auto;max-width:96px;text-align:right;font-weight:800;font-size:19px;line-height:1.2}
+.ss-pts small{display:block;color:var(--muted);font-weight:600;font-size:13px;white-space:nowrap}
+.ss-pts .up{color:var(--up)} .ss-pts .down{color:var(--down)}
+.ss-row .pill{white-space:nowrap}
+.ss-row .pills{margin-top:6px}
+.ss-row .row{margin-top:6px;font-size:15px}
+.game{padding:10px 0;border-top:1px solid var(--line);font-size:16px}
+.game:first-of-type{border-top:0;padding-top:0}
+.game .ss-meta{font-size:14px}
+.game.mine{font-weight:600}
+.todo{font-size:18px;font-weight:700;margin:0}
+.todo + .todo{margin-top:6px}
 footer{margin-top:28px;color:var(--muted);font-size:13px;text-align:center}
 </style>
 </head>
@@ -85,6 +103,7 @@ footer{margin-top:28px;color:var(--muted);font-size:13px;text-align:center}
   <div id="alert"></div>
   <div class="views" id="views" role="group" aria-label="Section">
     <button class="view" data-view="waivers" aria-pressed="true">Waivers</button>
+    <button class="view" data-view="startsit" aria-pressed="false">Start/Sit</button>
     <button class="view" data-view="trades" aria-pressed="false">Trades</button>
   </div>
   <div id="waiverView">
@@ -94,6 +113,7 @@ footer{margin-top:28px;color:var(--muted);font-size:13px;text-align:center}
     <button class="see-more" id="seeMore" hidden></button>
     <section id="rest" hidden></section>
   </div>
+  <div id="startView" hidden></div>
   <div id="tradeView" hidden></div>
   <footer id="foot"></footer>
 </main>
@@ -172,9 +192,9 @@ let view = 'waivers';
 try {
   const h = new URLSearchParams(location.hash.slice(1));
   pos = h.get('pos') || 'All';
-  view = h.get('view') === 'trades' ? 'trades' : 'waivers';
+  view = ['trades', 'startsit'].includes(h.get('view')) ? h.get('view') : 'waivers';
 } catch (e) {}
-function saveHash(){ try { history.replaceState(null, '', '#' + (view === 'trades' ? 'view=trades' : 'pos=' + pos)); } catch (e) {} }
+function saveHash(){ try { history.replaceState(null, '', '#' + (view !== 'waivers' ? 'view=' + view : 'pos=' + pos)); } catch (e) {} }
 if (!positions.includes(pos)) pos = 'All';
 
 function render(){
@@ -210,6 +230,66 @@ $('foot').textContent = (D.league_name || '') + ' · Stats through week ' + D.st
 </html>
 """
 
+STARTSIT_JS = r"""// ---------------------------------------------------------------- start/sit
+const S = D.start_sit;
+function ssPts(r){
+  if (r.bye || r.adj == null) return '<div class="ss-pts">' + (r.bye ? 'BYE' : '–') + '</div>';
+  const d = r.delta ? ' <span class="' + (r.delta > 0 ? 'up' : 'down') + '">' + (r.delta > 0 ? '+' : '') + r.delta.toFixed(1) + '</span>' : '';
+  return '<div class="ss-pts">' + r.adj.toFixed(1) + '<small>proj ' + r.proj.toFixed(1) + d + '</small></div>';
+}
+function ssLine(r){
+  const bits = [];
+  if (r.total != null) bits.push('O/U <strong>' + r.total + '</strong>');
+  if (r.spread) bits.push(esc(r.spread));
+  if (r.implied != null) bits.push('Team total <strong>' + r.implied + '</strong>' + (r.implied_rank ? ' (#' + r.implied_rank + ')' : ''));
+  const out = [];
+  if (bits.length) out.push('<p class="row">' + bits.join(' · ') + '</p>');
+  if (r.weather) out.push('<p class="row">' + esc(r.weather) + '</p>');
+  if (r.close_call) out.push('<p class="row"><strong>' + esc(r.close_call) + '</strong></p>');
+  return out.join('');
+}
+function ssRow(r, label){
+  if (!r.name) return '<div class="ss-row"><div class="slot">' + esc(label) + '</div><div class="ss-who"><div class="ss-name">Empty</div><div class="ss-meta">No healthy player for this slot.</div></div></div>';
+  const flags = (r.flags || []).map(f => '<span class="pill ' + esc(f.kind) + '">' + esc(f.text) + '</span>').join('') +
+    (r.locked ? '<span class="pill">Locked</span>' : '');
+  const meta = [r.pos + ' · ' + r.team, r.opp, r.kickoff_et].filter(Boolean).map(esc).join(' · ');
+  return '<div class="ss-row"><div class="slot">' + esc(label) + '</div><div class="ss-who">' +
+    '<div class="ss-name">' + esc(r.name) + (r.injury && !r.bye ? ' <span class="inj">' + esc(r.injury) + '</span>' : '') + '</div>' +
+    '<div class="ss-meta">' + meta + '</div>' + (flags ? '<div class="pills">' + flags + '</div>' : '') + ssLine(r) +
+    '</div>' + ssPts(r) + '</div>';
+}
+function renderStartSit(){
+  const box = $('startView');
+  if (!S) { box.innerHTML = '<p class="empty">Start/Sit is unavailable right now. It\'ll be back on the next update.</p>'; return; }
+  let h = '<div class="card">';
+  if (S.start.length || S.sit.length) {
+    h += '<p class="todo">Change in Sleeper:</p>';
+    if (S.start.length) h += '<p class="row">Start <strong>' + S.start.map(esc).join(', ') + '</strong></p>';
+    if (S.sit.length) h += '<p class="row">Bench <strong>' + S.sit.map(esc).join(', ') + '</strong></p>';
+  } else {
+    h += '<p class="todo">Your Sleeper lineup already matches the best one.</p>';
+  }
+  if (S.empty_slots) h += '<p class="row" style="color:var(--red)"><strong>You have ' + S.empty_slots + ' empty starting slot' + (S.empty_slots > 1 ? 's' : '') + ' in Sleeper.</strong></p>';
+  h += '</div>';
+  h += '<h2>Best lineup</h2><p class="hint">Big number: Sleeper projection adjusted for Vegas team totals, spreads and game-time weather. Green or red shows how much the adjustment moved it.</p>';
+  h += '<div class="card">' + S.lineup.map(r => ssRow(r, ({SUPER_FLEX: 'SF', REC_FLEX: 'W/T', WRRB_FLEX: 'W/R', IDP_FLEX: 'IDP'})[r.slot] || r.slot)).join('') + '</div>';
+  if (S.bench.length) h += '<h2>Bench</h2><div class="card">' + S.bench.map(r => ssRow(r, 'BN')).join('') + '</div>';
+  if (S.games.length) {
+    h += '<h2>Games by over/under</h2><p class="hint">Higher totals mean more points to go around. Your players are listed under each game.</p><div class="card">';
+    h += S.games.map(g => {
+      const imp = g.away_implied != null ? g.away + ' ' + g.away_implied + ', ' + g.home + ' ' + g.home_implied : null;
+      const meta = [g.kickoff_et, g.spread, imp ? 'Team totals: ' + imp : null, g.weather].filter(Boolean).map(esc).join(' · ');
+      return '<div class="game' + (g.mine.length ? ' mine' : '') + '"><div><strong>' + esc(g.away) + ' @ ' + esc(g.home) + '</strong>' +
+        (g.total != null ? ' · O/U ' + g.total : '') + '</div><div class="ss-meta">' + meta + '</div>' +
+        (g.mine.length ? '<div class="ss-meta">Yours: ' + g.mine.map(esc).join(', ') + '</div>' : '') + '</div>';
+    }).join('') + '</div>';
+  }
+  h += '<p class="notice">Lines: ' + esc(S.lines_source || 'unavailable this week') + '. Weather: ' +
+    (S.has_weather ? 'Open-Meteo forecast for the middle of each outdoor game.' : 'shown within 7 days of kickoff.') + '</p>';
+  box.innerHTML = h;
+}
+"""
+
 TRADES_JS = r"""// ---------------------------------------------------------------- trades
 const T = D.trades;
 let tradeWith = null, give = new Set(), get = new Set();
@@ -218,7 +298,9 @@ function showView(){
   document.querySelectorAll('.view').forEach(b => b.setAttribute('aria-pressed', b.dataset.view === view));
   $('waiverView').hidden = view !== 'waivers';
   $('tradeView').hidden = view !== 'trades';
+  $('startView').hidden = view !== 'startsit';
   if (view === 'trades') renderTrades();
+  if (view === 'startsit') renderStartSit();
 }
 
 const byId = {};
@@ -339,7 +421,7 @@ function openSuggestion(i){
   $('analyzer').scrollIntoView({behavior: 'smooth'});
 }
 """
-TEMPLATE = TEMPLATE.replace("__TRADES_JS__", TRADES_JS)
+TEMPLATE = TEMPLATE.replace("__TRADES_JS__", TRADES_JS + STARTSIT_JS)
 
 
 def write(data, docs_dir):

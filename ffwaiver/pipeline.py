@@ -3,7 +3,7 @@ import json
 import os
 from datetime import datetime, timedelta, timezone
 
-from . import nflverse, schedule, sleeper_api, trades
+from . import nflverse, schedule, sleeper_api, startsit, trades
 from . import unofficial_sources as uo
 from .changes import material_changes
 from .recommend import player_name, recommend, short_name
@@ -158,6 +158,14 @@ def build(config, now, job, manual=False, force_publish=False):
     games_next = cur_games if next_week == cur_week else _games_for(next_week, season, sched_rows, notices)[0]
     log(f"season {season}: stats week {stats_week}, next week {next_week} (mode {mode}, job {job})")
 
+    # ---- Vegas lines and weather for next week's games (optional) ----------
+    game_lines = startsit.game_lines(next_week, sched_rows, games_next)
+    weather, notice = startsit.weather_for(game_lines, now) if game_lines else ({}, None)
+    if notice:
+        log(notice)
+    log(f"lines: {sum(1 for l in game_lines.values() if l.get('total') is not None) // 2} games with a total, "
+        f"weather for {sum(1 for w in weather.values() if not w.get('indoor'))} outdoor games")
+
     # ---- unofficial weekly stats & projections ---------------------------
     weekly = {}
     for w in range(max(1, stats_week - 2), stats_week + 1):
@@ -246,6 +254,7 @@ def build(config, now, job, manual=False, force_publish=False):
         "rostered": rostered, "my_roster": my_roster, "weekly": weekly, "projections": projections,
         "nfl_rows": nfl_rows, "pa_by_pos": pa, "team_ppg": team_ppg, "trending": trending,
         "games_next": games_next, "games_this": games_this, "espn_injuries": injuries, "espn_news": news,
+        "game_lines": game_lines, "weather": weather,
         "recent_drops": recent_drops, "waiver_deadline": deadline, "waiver_hour": config["waivers"]["hour_et"],
         "prev": prev,
         "notices": notices, "list_size": config["tuning"]["list_size"],
@@ -290,6 +299,7 @@ def build(config, now, job, manual=False, force_publish=False):
                       for pid in my_roster.get("players") or []],
         "my_roster_status": result["my_roster_status"],
         "my_lineup": result["my_lineup"],
+        "start_sit": result.get("start_sit"),
         "trades": trade_data,
         "site_url": (config.get("site") or {}).get("url") or "",
         "job": job,
