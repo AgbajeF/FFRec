@@ -8,7 +8,7 @@
 
    Sleeper  /v1/stats/nfl/regular/{season}/{week}        weekly stats
    Sleeper  /v1/projections/nfl/regular/{season}/{week}  weekly projections
-   ESPN     site.api.espn.com .../nfl/scoreboard          game status (final?)
+   ESPN     site.api.espn.com .../nfl/scoreboard          game status (final?), betting line
    ESPN     site.api.espn.com .../nfl/injuries            injury report
    ESPN     site.api.espn.com .../nfl/news                headlines
 
@@ -20,6 +20,7 @@
      still defensive: unknown or missing fields are skipped, not trusted.
 =============================================================================
 """
+import re
 from datetime import datetime, timezone
 
 from .http import get_json
@@ -99,6 +100,41 @@ def sleeper_projections(season, week):
 
 # --------------------------------------------------------------------------- ESPN
 
+def _espn_odds(comp, teams):
+    """{total, home_spread} from ESPN's betting line, or None. home_spread < 0 means home favored.
+    'details' looks like "KC -3.5" (favorite and line) or "EVEN"."""
+    try:
+        o = (comp.get("odds") or [])[0]
+    except (IndexError, TypeError):
+        return None
+    if not isinstance(o, dict):
+        return None
+    total = o.get("overUnder")
+    try:
+        total = float(total) if total not in (None, "") else None
+    except (TypeError, ValueError):
+        total = None
+    home_spread = None
+    details = (o.get("details") or "").strip()
+    m = re.match(r"^([A-Za-z]{2,4})\s+(-?\d+(?:\.\d+)?)$", details)
+    if details.upper() in ("EVEN", "PK", "PICK"):
+        home_spread = 0.0
+    elif m:
+        fav, line = norm_team(m.group(1).upper()), abs(float(m.group(2)))
+        if fav == teams.get("home"):
+            home_spread = -line
+        elif fav == teams.get("away"):
+            home_spread = line
+    if home_spread is None and o.get("spread") not in (None, ""):
+        try:
+            home_spread = float(o["spread"])
+        except (TypeError, ValueError):
+            pass
+    if total is None and home_spread is None:
+        return None
+    return {"total": total, "home_spread": home_spread, "provider": ((o.get("provider") or {}).get("name") or "ESPN")}
+
+
 def espn_scoreboard(week=None, season_type=2):
     """List of games: {id, kickoff (datetime UTC), home, away, state, final, home_score, away_score}.
 
@@ -135,6 +171,8 @@ def espn_scoreboard(week=None, season_type=2):
                     "final": name in FINAL_STATES or (st.get("completed") is True and st.get("state") == "post"),
                     "home_score": scores.get("home", 0),
                     "away_score": scores.get("away", 0),
+                    "odds": _espn_odds(comp, teams),
+                    "neutral": bool(comp.get("neutralSite")),
                 })
             except Exception:
                 continue

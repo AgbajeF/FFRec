@@ -2,6 +2,7 @@
 
 A phone-friendly page that always shows the best waiver and free-agent pickups for **your** Sleeper team.
 It rebuilds itself on a schedule with GitHub Actions and is hosted for free on GitHub Pages.
+For a plain-language description of every feature and a log of changes, see [PRODUCT_SPEC.md](PRODUCT_SPEC.md).
 There's no server, database or login.
 
 | When (Eastern) | What the page shows |
@@ -67,6 +68,31 @@ python -m unittest discover tests            # run the tests
    QB/TE/K/DEF streamers move up.
 6. **FAAB**: a bid range as a % of your remaining budget. (Priority leagues get "worth a high priority?" advice.)
 7. **Drop suggestion**: your least valuable bench player, protecting injured stars. K/DEF pickups swap with your current K/DEF.
+
+## Start/Sit tab
+
+The **Start/Sit** tab ranks your own roster for next week's lineup:
+
+- **What to change in Sleeper**: who to start and who to bench compared with the lineup you have set
+  now, plus a warning if a starting slot is empty. Players whose game already kicked off stay put.
+- **Best lineup and bench**: each player's Sleeper projection, adjusted for the game's Vegas line and
+  weather, with the over/under, spread, team implied total (and its rank that week) and the forecast.
+  Bench players within about a point of a starter are marked **Close call**.
+- **Games by over/under**: every game, highest total first, with both teams' implied totals and which
+  of your players are in it.
+
+How the adjustment works (kept modest, since Sleeper's projection already accounts for some of this):
+
+- **Implied team total** = (over/under ± spread) / 2. A team implied for 10% more than that week's
+  average gets about +5% (capped at ±15%). Defenses use the *opponent's* implied total instead.
+- **Game script**: RBs on big favorites get a small boost; WR/TE on big underdogs get +3%.
+- **Weather** (outdoor games within 7 days of kickoff, forecast for mid-game): wind of 15+ mph hurts
+  kickers most, then QB/WR/TE; 20+ mph, rain and snow hurt more. Domes are marked and skip the forecast.
+
+Sources, all free with no API key: the **ESPN scoreboard** betting line (preferred, freshest),
+**nflverse** `schedules/games.csv` (`spread_line`, `total_line`, `roof`) as a fallback, and the
+**Open-Meteo** hourly forecast. A suggested lineup swap, or very windy or snowy weather for one of your
+starters, counts as a material change and republishes the page.
 
 ## Trades tab
 

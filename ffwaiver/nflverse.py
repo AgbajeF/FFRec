@@ -56,9 +56,18 @@ def weekly_player_stats(season):
         return [], "Usage trends limited (nflverse data unavailable)."
 
 
+def _num(x):
+    try:
+        return float(x)
+    except (TypeError, ValueError):
+        return None
+
+
 def schedule(season):
-    """Games for the season: {week, kickoff (UTC datetime), home, away, home_score, away_score}.
-    Fallback for kickoff times / byes when ESPN is down."""
+    """Games for the season: {week, kickoff (UTC datetime), home, away, home_score, away_score,
+    spread_line, total_line, roof, location, stadium}.
+    spread_line is the home team's expected margin (positive = home favored).
+    Fallback for kickoff times / byes when ESPN is down, and the main source for Vegas lines."""
     try:
         text = get_text(f"{REL}/schedules/games.csv", timeout=120)
         out = []
@@ -78,6 +87,11 @@ def schedule(season):
                 "away": team(r.get("away_team")),
                 "home_score": r.get("home_score"),
                 "away_score": r.get("away_score"),
+                "spread_line": _num(r.get("spread_line")),
+                "total_line": _num(r.get("total_line")),
+                "roof": (r.get("roof") or "").strip().lower() or None,
+                "location": r.get("location") or "Home",
+                "stadium": r.get("stadium") or "",
             })
         if not out:
             raise ValueError("empty")

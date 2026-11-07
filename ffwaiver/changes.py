@@ -43,6 +43,20 @@ def material_changes(new, prev):
         elif abs(old - p["rank"]) >= 2:
             reasons.append(f"{p['name']} moved from #{old} to #{p['rank']}.")
 
+    # 5. Start/Sit: the suggested lineup swaps changed, or bad weather hit one of my starters
+    ss, pss = new.get("start_sit") or {}, prev.get("start_sit") or {}
+    if ss.get("start") and (ss.get("start"), ss.get("sit")) != (pss.get("start"), pss.get("sit")):
+        sit = f", bench {', '.join(ss['sit'])}" if ss.get("sit") else ""
+        reasons.append(f"Your lineup: start {', '.join(ss['start'])}{sit}.")
+    bad = ("Very windy", "Snow")
+    prev_bad = {(r.get("player_id"), f["text"].split(" (")[0]) for r in pss.get("lineup") or []
+                for f in r.get("flags") or [] if f["text"].startswith(bad)}
+    for r in ss.get("lineup") or []:
+        for f in r.get("flags") or []:
+            key = (r.get("player_id"), f["text"].split(" (")[0])
+            if f["text"].startswith(bad) and key not in prev_bad and not r.get("locked"):
+                reasons.append(f"Your {r['name']}: {f['text'].lower()} forecast for {r['opp']}.")
+
     # de-duplicate, keep order
     seen, out = set(), []
     for r in reasons:

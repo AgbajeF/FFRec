@@ -7,7 +7,7 @@ import math
 import re
 from datetime import datetime, timedelta, timezone
 
-from . import schedule
+from . import schedule, startsit
 from .points import def_stats, fantasy_points, played
 
 SLOT_ELIG = {
@@ -513,7 +513,14 @@ class Engine:
             picks.append(self._card(r, rank, prev_rank, my_feats, my_keep, starters, reserve, faab))
 
         alert = self._alert(my_out, my_feats, results)
+        try:
+            start_sit = startsit.build(self, my_feats, reserve, me, ctx.get("game_lines") or {},
+                                       ctx.get("weather") or {})
+        except Exception as e:   # the waiver list never depends on it
+            print(f"start/sit unavailable: {e!r}", flush=True)
+            start_sit = None
         return {
+            "start_sit": start_sit,
             "picks": picks,
             "alert": alert,
             "notices": self.notices,
