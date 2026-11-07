@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-07T09:12:15.611694+00:00",
- "generated_et": "Sat 4:12 AM ET",
+ "generated_at": "2026-11-07T14:44:48.129332+00:00",
+ "generated_et": "Sat 9:44 AM ET",
  "mode": "free_agent",
  "list_type": "free_agent",
  "badge": {
@@ -56,7 +56,7 @@
    "availability": "fa",
    "availability_label": "Free agent: add now",
    "claim_by": null,
-   "reason": "Trending: likely news. Added in 252,848 Sleeper leagues in the last day.",
+   "reason": "Trending: likely news. Added in 259,960 Sleeper leagues in the last day.",
    "drop": "Caleb Douglas (WR)",
    "advice": "No bid needed. Add him directly.",
    "tags": [],
@@ -85,7 +85,7 @@
     ],
     "proj": 8.6,
     "avg": 12.1,
-    "adds_24h": 252848,
+    "adds_24h": 259960,
     "opponent": "@ KC",
     "score": 58.5
    }
@@ -103,12 +103,7 @@
    "reason": "Locked-in role: 72% of snaps and 22% target share last week, averaging 9.6 pts in your scoring.",
    "drop": "Caleb Douglas (WR) \u2014 close call",
    "advice": "No bid needed. Add him directly.",
-   "tags": [
-    {
-     "kind": "up",
-     "text": "\u25b2 moved up"
-    }
-   ],
+   "tags": [],
    "news_iso": null,
    "trending_spike": false,
    "opportunity": false,
@@ -142,437 +137,13 @@
     ],
     "proj": 7.6,
     "avg": 9.6,
-    "adds_24h": 44085,
+    "adds_24h": 47178,
     "opponent": "vs CIN",
     "score": 56.2
    }
   },
   {
    "rank": 3,
-   "player_id": "11783",
-   "name": "Ryan Flournoy",
-   "pos": "WR",
-   "team": "DAL",
-   "injury": null,
-   "availability": "fa",
-   "availability_label": "Free agent: add now",
-   "claim_by": null,
-   "reason": "Trending: likely news. Added in 60,616 Sleeper leagues in the last day.",
-   "drop": "Caleb Douglas (WR) \u2014 close call",
-   "advice": "No bid needed. Add him directly.",
-   "tags": [
-    {
-     "kind": "up",
-     "text": "\u25b2 moved up"
-    }
-   ],
-   "news_iso": null,
-   "trending_spike": true,
-   "opportunity": false,
-   "replaces": "7525",
-   "stats": {
-    "weeks": [
-     {
-      "week": 6,
-      "pts": 13.5,
-      "snap": 87,
-      "targets": 9,
-      "carries": 0,
-      "rz": 1
-     },
-     {
-      "week": 7,
-      "pts": 9.0,
-      "snap": 78,
-      "targets": 4,
-      "carries": 0,
-      "rz": 0
-     },
-     {
-      "week": 8,
-      "pts": 11.6,
-      "snap": 68,
-      "targets": 4,
-      "carries": 1,
-      "rz": 2
-     }
-    ],
-    "proj": 7.2,
-    "avg": 11.4,
-    "adds_24h": 60616,
-    "opponent": "@ IND",
-    "score": 49.8
-   }
-  },
-  {
-   "rank": 4,
-   "player_id": "13346",
-   "name": "Denzel Boston",
-   "pos": "WR",
-   "team": "CLE",
-   "injury": null,
-   "availability": "fa",
-   "availability_label": "Free agent: add now",
-   "claim_by": null,
-   "reason": "Locked-in role: 83% of snaps and 30% target share last week, averaging 4.3 pts in your scoring.",
-   "drop": "Caleb Douglas (WR) \u2014 close call",
-   "advice": "No bid needed. Add him directly.",
-   "tags": [
-    {
-     "kind": "up",
-     "text": "\u25b2 moved up"
-    }
-   ],
-   "news_iso": null,
-   "trending_spike": false,
-   "opportunity": false,
-   "replaces": "7525",
-   "stats": {
-    "weeks": [
-     {
-      "week": 6,
-      "pts": 2.0,
-      "snap": 94,
-      "targets": 5,
-      "carries": 0,
-      "rz": 0
-     },
-     {
-      "week": 7,
-      "pts": 4.2,
-      "snap": 87,
-      "targets": 8,
-      "carries": 0,
-      "rz": 1
-     },
-     {
-      "week": 8,
-      "pts": 6.7,
-      "snap": 83,
-      "targets": 12,
-      "carries": 0,
-      "rz": 3
-     }
-    ],
-    "proj": 9.3,
-    "avg": 4.3,
-    "adds_24h": 0,
-    "opponent": "@ NO",
-    "score": 48.8
-   }
-  },
-  {
-   "rank": 5,
-   "player_id": "9500",
-   "name": "Josh Downs",
-   "pos": "WR",
-   "team": "IND",
-   "injury": null,
-   "availability": "fa",
-   "availability_label": "Free agent: add now",
-   "claim_by": null,
-   "reason": "Locked-in role: 75% of snaps and 17% target share last week, averaging 6.6 pts in your scoring.",
-   "drop": "Caleb Douglas (WR) \u2014 close call",
-   "advice": "No bid needed. Add him directly.",
-   "tags": [
-    {
-     "kind": "up",
-     "text": "\u25b2 moved up"
-    }
-   ],
-   "news_iso": null,
-   "trending_spike": false,
-   "opportunity": false,
-   "replaces": "7525",
-   "stats": {
-    "weeks": [
-     {
-      "week": 6,
-      "pts": 6.7,
-      "snap": 86,
-      "targets": 8,
-      "carries": 1,
-      "rz": 2
-     },
-     {
-      "week": 7,
-      "pts": 2.8,
-      "snap": 90,
-      "targets": 4,
-      "carries": 0,
-      "rz": 0
-     },
-     {
-      "week": 8,
-      "pts": 10.3,
-      "snap": 75,
-      "targets": 5,
-      "carries": 0,
-      "rz": 1
-     }
-    ],
-    "proj": 9.1,
-    "avg": 6.6,
-    "adds_24h": 0,
-    "opponent": "vs DAL",
-    "score": 47.8
-   }
-  },
-  {
-   "rank": 6,
-   "player_id": "12634",
-   "name": "Jordan Watkins",
-   "pos": "WR",
-   "team": "SF",
-   "injury": null,
-   "availability": "fa",
-   "availability_label": "Free agent: add now",
-   "claim_by": null,
-   "reason": "Projects 6.3 pts next week vs LV in your scoring.",
-   "drop": "Caleb Douglas (WR) \u2014 close call",
-   "advice": "No bid needed. Add him directly.",
-   "tags": [
-    {
-     "kind": "up",
-     "text": "\u25b2 moved up"
-    }
-   ],
-   "news_iso": null,
-   "trending_spike": false,
-   "opportunity": false,
-   "replaces": "7525",
-   "stats": {
-    "weeks": [
-     {
-      "week": 6,
-      "pts": 2.7,
-      "snap": 76,
-      "targets": 1,
-      "carries": 0,
-      "rz": 0
-     },
-     {
-      "week": 7,
-      "pts": 7.1,
-      "snap": 76,
-      "targets": 6,
-      "carries": 0,
-      "rz": 0
-     }
-    ],
-    "proj": 6.3,
-    "avg": 4.9,
-    "adds_24h": 45072,
-    "opponent": "vs LV",
-    "score": 46.3
-   }
-  },
-  {
-   "rank": 7,
-   "player_id": "9501",
-   "name": "DeMario Douglas",
-   "pos": "WR",
-   "team": "NE",
-   "injury": null,
-   "availability": "fa",
-   "availability_label": "Free agent: add now",
-   "claim_by": null,
-   "reason": "Projects 7.4 pts next week vs GB in your scoring.",
-   "drop": "Caleb Douglas (WR) \u2014 close call",
-   "advice": "No bid needed. Add him directly.",
-   "tags": [
-    {
-     "kind": "up",
-     "text": "\u25b2 moved up"
-    }
-   ],
-   "news_iso": null,
-   "trending_spike": false,
-   "opportunity": false,
-   "replaces": "7525",
-   "stats": {
-    "weeks": [
-     {
-      "week": 6,
-      "pts": 16.1,
-      "snap": 59,
-      "targets": 8,
-      "carries": 0,
-      "rz": 1
-     },
-     {
-      "week": 7,
-      "pts": 3.8,
-      "snap": 65,
-      "targets": 4,
-      "carries": 0,
-      "rz": 0
-     },
-     {
-      "week": 8,
-      "pts": 15.6,
-      "snap": 65,
-      "targets": 3,
-      "carries": 0,
-      "rz": 0
-     }
-    ],
-    "proj": 7.4,
-    "avg": 11.8,
-    "adds_24h": 0,
-    "opponent": "vs GB",
-    "score": 44.5
-   }
-  },
-  {
-   "rank": 8,
-   "player_id": "8172",
-   "name": "Greg Dulcich",
-   "pos": "TE",
-   "team": "MIA",
-   "injury": null,
-   "availability": "fa",
-   "availability_label": "Free agent: add now",
-   "claim_by": null,
-   "reason": "Locked-in role: 69% of snaps and 19% target share last week, averaging 8.7 pts in your scoring.",
-   "drop": "Caleb Douglas (WR) \u2014 close call",
-   "advice": "No bid needed. Add him directly.",
-   "tags": [
-    {
-     "kind": "up",
-     "text": "\u25b2 moved up"
-    }
-   ],
-   "news_iso": null,
-   "trending_spike": false,
-   "opportunity": false,
-   "replaces": null,
-   "stats": {
-    "weeks": [
-     {
-      "week": 7,
-      "pts": 11.1,
-      "snap": 65,
-      "targets": 5,
-      "carries": 0,
-      "rz": 0
-     },
-     {
-      "week": 8,
-      "pts": 6.3,
-      "snap": 69,
-      "targets": 6,
-      "carries": 0,
-      "rz": 0
-     }
-    ],
-    "proj": 6.6,
-    "avg": 8.7,
-    "adds_24h": 0,
-    "opponent": "vs DET",
-    "score": 43.3
-   }
-  },
-  {
-   "rank": 9,
-   "player_id": "9754",
-   "name": "Quentin Johnston",
-   "pos": "WR",
-   "team": "LAC",
-   "injury": null,
-   "availability": "fa",
-   "availability_label": "Free agent: add now",
-   "claim_by": null,
-   "reason": "Projects 6.6 pts next week vs HOU in your scoring.",
-   "drop": "Caleb Douglas (WR) \u2014 close call",
-   "advice": "No bid needed. Add him directly.",
-   "tags": [
-    {
-     "kind": "up",
-     "text": "\u25b2 moved up"
-    }
-   ],
-   "news_iso": null,
-   "trending_spike": false,
-   "opportunity": false,
-   "replaces": "7525",
-   "stats": {
-    "weeks": [
-     {
-      "week": 6,
-      "pts": 6.7,
-      "snap": 82,
-      "targets": 3,
-      "carries": 0,
-      "rz": 0
-     },
-     {
-      "week": 8,
-      "pts": 5.7,
-      "snap": 82,
-      "targets": 4,
-      "carries": 0,
-      "rz": 0
-     }
-    ],
-    "proj": 6.6,
-    "avg": 6.2,
-    "adds_24h": 0,
-    "opponent": "vs HOU",
-    "score": 42.2
-   }
-  },
-  {
-   "rank": 10,
-   "player_id": "13311",
-   "name": "Chris Bell",
-   "pos": "WR",
-   "team": "MIA",
-   "injury": null,
-   "availability": "fa",
-   "availability_label": "Free agent: add now",
-   "claim_by": null,
-   "reason": "Role is growing: 69% of snaps last week (up from 48%) with 6 targets.",
-   "drop": "Caleb Douglas (WR) \u2014 close call",
-   "advice": "No bid needed. Add him directly.",
-   "tags": [
-    {
-     "kind": "up",
-     "text": "\u25b2 moved up"
-    }
-   ],
-   "news_iso": null,
-   "trending_spike": false,
-   "opportunity": false,
-   "replaces": "7525",
-   "stats": {
-    "weeks": [
-     {
-      "week": 7,
-      "pts": 4.0,
-      "snap": 48,
-      "targets": 4,
-      "carries": 0,
-      "rz": 0
-     },
-     {
-      "week": 8,
-      "pts": 4.9,
-      "snap": 69,
-      "targets": 6,
-      "carries": 1,
-      "rz": 1
-     }
-    ],
-    "proj": 5.8,
-    "avg": 4.5,
-    "adds_24h": 0,
-    "opponent": "vs DET",
-    "score": 42.1
-   }
-  },
-  {
-   "rank": 11,
    "player_id": "13285",
    "name": "Malachi Fields",
    "pos": "WR",
@@ -615,9 +186,433 @@
     ],
     "proj": 5.6,
     "avg": 6.9,
-    "adds_24h": 0,
+    "adds_24h": 16250,
     "opponent": "@ PHI",
-    "score": 42.0
+    "score": 51.3
+   }
+  },
+  {
+   "rank": 4,
+   "player_id": "11783",
+   "name": "Ryan Flournoy",
+   "pos": "WR",
+   "team": "DAL",
+   "injury": null,
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Trending: likely news. Added in 58,232 Sleeper leagues in the last day.",
+   "drop": "Caleb Douglas (WR) \u2014 close call",
+   "advice": "No bid needed. Add him directly.",
+   "tags": [
+    {
+     "kind": "down",
+     "text": "\u25bc moved down"
+    }
+   ],
+   "news_iso": null,
+   "trending_spike": true,
+   "opportunity": false,
+   "replaces": "7525",
+   "stats": {
+    "weeks": [
+     {
+      "week": 6,
+      "pts": 13.5,
+      "snap": 87,
+      "targets": 9,
+      "carries": 0,
+      "rz": 1
+     },
+     {
+      "week": 7,
+      "pts": 9.0,
+      "snap": 78,
+      "targets": 4,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 8,
+      "pts": 11.6,
+      "snap": 68,
+      "targets": 4,
+      "carries": 1,
+      "rz": 2
+     }
+    ],
+    "proj": 7.2,
+    "avg": 11.4,
+    "adds_24h": 58232,
+    "opponent": "@ IND",
+    "score": 49.7
+   }
+  },
+  {
+   "rank": 5,
+   "player_id": "13346",
+   "name": "Denzel Boston",
+   "pos": "WR",
+   "team": "CLE",
+   "injury": null,
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Locked-in role: 83% of snaps and 30% target share last week, averaging 4.3 pts in your scoring.",
+   "drop": "Caleb Douglas (WR) \u2014 close call",
+   "advice": "No bid needed. Add him directly.",
+   "tags": [
+    {
+     "kind": "down",
+     "text": "\u25bc moved down"
+    }
+   ],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": "7525",
+   "stats": {
+    "weeks": [
+     {
+      "week": 6,
+      "pts": 2.0,
+      "snap": 94,
+      "targets": 5,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 7,
+      "pts": 4.2,
+      "snap": 87,
+      "targets": 8,
+      "carries": 0,
+      "rz": 1
+     },
+     {
+      "week": 8,
+      "pts": 6.7,
+      "snap": 83,
+      "targets": 12,
+      "carries": 0,
+      "rz": 3
+     }
+    ],
+    "proj": 9.3,
+    "avg": 4.3,
+    "adds_24h": 0,
+    "opponent": "@ NO",
+    "score": 48.8
+   }
+  },
+  {
+   "rank": 6,
+   "player_id": "9500",
+   "name": "Josh Downs",
+   "pos": "WR",
+   "team": "IND",
+   "injury": null,
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Locked-in role: 75% of snaps and 17% target share last week, averaging 6.6 pts in your scoring.",
+   "drop": "Caleb Douglas (WR) \u2014 close call",
+   "advice": "No bid needed. Add him directly.",
+   "tags": [
+    {
+     "kind": "down",
+     "text": "\u25bc moved down"
+    }
+   ],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": "7525",
+   "stats": {
+    "weeks": [
+     {
+      "week": 6,
+      "pts": 6.7,
+      "snap": 86,
+      "targets": 8,
+      "carries": 1,
+      "rz": 2
+     },
+     {
+      "week": 7,
+      "pts": 2.8,
+      "snap": 90,
+      "targets": 4,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 8,
+      "pts": 10.3,
+      "snap": 75,
+      "targets": 5,
+      "carries": 0,
+      "rz": 1
+     }
+    ],
+    "proj": 9.1,
+    "avg": 6.6,
+    "adds_24h": 0,
+    "opponent": "vs DAL",
+    "score": 47.8
+   }
+  },
+  {
+   "rank": 7,
+   "player_id": "12634",
+   "name": "Jordan Watkins",
+   "pos": "WR",
+   "team": "SF",
+   "injury": null,
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Projects 6.2 pts next week vs LV in your scoring.",
+   "drop": "Caleb Douglas (WR) \u2014 close call",
+   "advice": "No bid needed. Add him directly.",
+   "tags": [
+    {
+     "kind": "down",
+     "text": "\u25bc moved down"
+    }
+   ],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": "7525",
+   "stats": {
+    "weeks": [
+     {
+      "week": 6,
+      "pts": 2.7,
+      "snap": 76,
+      "targets": 1,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 7,
+      "pts": 7.1,
+      "snap": 76,
+      "targets": 6,
+      "carries": 0,
+      "rz": 0
+     }
+    ],
+    "proj": 6.2,
+    "avg": 4.9,
+    "adds_24h": 47700,
+    "opponent": "vs LV",
+    "score": 46.2
+   }
+  },
+  {
+   "rank": 8,
+   "player_id": "9501",
+   "name": "DeMario Douglas",
+   "pos": "WR",
+   "team": "NE",
+   "injury": null,
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Projects 7.4 pts next week vs GB in your scoring.",
+   "drop": "Caleb Douglas (WR) \u2014 close call",
+   "advice": "No bid needed. Add him directly.",
+   "tags": [
+    {
+     "kind": "down",
+     "text": "\u25bc moved down"
+    }
+   ],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": "7525",
+   "stats": {
+    "weeks": [
+     {
+      "week": 6,
+      "pts": 16.1,
+      "snap": 59,
+      "targets": 8,
+      "carries": 0,
+      "rz": 1
+     },
+     {
+      "week": 7,
+      "pts": 3.8,
+      "snap": 65,
+      "targets": 4,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 8,
+      "pts": 15.6,
+      "snap": 65,
+      "targets": 3,
+      "carries": 0,
+      "rz": 0
+     }
+    ],
+    "proj": 7.4,
+    "avg": 11.8,
+    "adds_24h": 0,
+    "opponent": "vs GB",
+    "score": 44.5
+   }
+  },
+  {
+   "rank": 9,
+   "player_id": "8172",
+   "name": "Greg Dulcich",
+   "pos": "TE",
+   "team": "MIA",
+   "injury": null,
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Locked-in role: 69% of snaps and 19% target share last week, averaging 8.7 pts in your scoring.",
+   "drop": "Caleb Douglas (WR) \u2014 close call",
+   "advice": "No bid needed. Add him directly.",
+   "tags": [
+    {
+     "kind": "down",
+     "text": "\u25bc moved down"
+    }
+   ],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": null,
+   "stats": {
+    "weeks": [
+     {
+      "week": 7,
+      "pts": 11.1,
+      "snap": 65,
+      "targets": 5,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 8,
+      "pts": 6.3,
+      "snap": 69,
+      "targets": 6,
+      "carries": 0,
+      "rz": 0
+     }
+    ],
+    "proj": 6.6,
+    "avg": 8.7,
+    "adds_24h": 0,
+    "opponent": "vs DET",
+    "score": 43.3
+   }
+  },
+  {
+   "rank": 10,
+   "player_id": "9754",
+   "name": "Quentin Johnston",
+   "pos": "WR",
+   "team": "LAC",
+   "injury": null,
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Projects 6.6 pts next week vs HOU in your scoring.",
+   "drop": "Caleb Douglas (WR) \u2014 close call",
+   "advice": "No bid needed. Add him directly.",
+   "tags": [
+    {
+     "kind": "down",
+     "text": "\u25bc moved down"
+    }
+   ],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": "7525",
+   "stats": {
+    "weeks": [
+     {
+      "week": 6,
+      "pts": 6.7,
+      "snap": 82,
+      "targets": 3,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 8,
+      "pts": 5.7,
+      "snap": 82,
+      "targets": 4,
+      "carries": 0,
+      "rz": 0
+     }
+    ],
+    "proj": 6.6,
+    "avg": 6.2,
+    "adds_24h": 0,
+    "opponent": "vs HOU",
+    "score": 42.2
+   }
+  },
+  {
+   "rank": 11,
+   "player_id": "13311",
+   "name": "Chris Bell",
+   "pos": "WR",
+   "team": "MIA",
+   "injury": null,
+   "availability": "fa",
+   "availability_label": "Free agent: add now",
+   "claim_by": null,
+   "reason": "Role is growing: 69% of snaps last week (up from 48%) with 6 targets.",
+   "drop": "Caleb Douglas (WR) \u2014 close call",
+   "advice": "No bid needed. Add him directly.",
+   "tags": [
+    {
+     "kind": "down",
+     "text": "\u25bc moved down"
+    }
+   ],
+   "news_iso": null,
+   "trending_spike": false,
+   "opportunity": false,
+   "replaces": "7525",
+   "stats": {
+    "weeks": [
+     {
+      "week": 7,
+      "pts": 4.0,
+      "snap": 48,
+      "targets": 4,
+      "carries": 0,
+      "rz": 0
+     },
+     {
+      "week": 8,
+      "pts": 4.9,
+      "snap": 69,
+      "targets": 6,
+      "carries": 1,
+      "rz": 1
+     }
+    ],
+    "proj": 5.8,
+    "avg": 4.5,
+    "adds_24h": 0,
+    "opponent": "vs DET",
+    "score": 42.1
    }
   },
   {
@@ -630,16 +625,11 @@
    "availability": "fa",
    "availability_label": "Free agent: add now",
    "claim_by": null,
-   "reason": "Trending: likely news. Added in 71,337 Sleeper leagues in the last day.",
+   "reason": "Trending: likely news. Added in 65,660 Sleeper leagues in the last day.",
    "drop": "Caleb Douglas (WR)",
    "advice": "No bid needed. Add him directly.",
-   "tags": [
-    {
-     "kind": "down",
-     "text": "\u25bc moved down"
-    }
-   ],
-   "news_iso": null,
+   "tags": [],
+   "news_iso": "2026-11-07T12:00:09.267000+00:00",
    "trending_spike": true,
    "opportunity": false,
    "replaces": null,
@@ -664,7 +654,7 @@
     ],
     "proj": 17.8,
     "avg": 21.1,
-    "adds_24h": 71337,
+    "adds_24h": 65660,
     "opponent": "vs DET",
     "score": 41.6
    }
@@ -682,12 +672,7 @@
    "reason": "Role is growing: 83% of snaps last week (up from 67%) with 7 targets.",
    "drop": "Caleb Douglas (WR) \u2014 close call",
    "advice": "No bid needed. Add him directly.",
-   "tags": [
-    {
-     "kind": "up",
-     "text": "\u25b2 moved up"
-    }
-   ],
+   "tags": [],
    "news_iso": null,
    "trending_spike": false,
    "opportunity": false,
@@ -731,12 +716,7 @@
    "reason": "Locked-in role: 61% of snaps and 16% target share last week, averaging 10.5 pts in your scoring.",
    "drop": "Caleb Douglas (WR) \u2014 close call",
    "advice": "No bid needed. Add him directly.",
-   "tags": [
-    {
-     "kind": "up",
-     "text": "\u25b2 moved up"
-    }
-   ],
+   "tags": [],
    "news_iso": null,
    "trending_spike": false,
    "opportunity": false,
@@ -768,11 +748,11 @@
       "rz": 1
      }
     ],
-    "proj": 6.1,
+    "proj": 6.0,
     "avg": 10.5,
     "adds_24h": 0,
     "opponent": "@ KC",
-    "score": 40.1
+    "score": 40.0
    }
   },
   {
@@ -788,12 +768,7 @@
    "reason": "Locked-in role: 83% of snaps and 10% target share last week, averaging 10.1 pts in your scoring.",
    "drop": "Caleb Douglas (WR) \u2014 close call",
    "advice": "No bid needed. Add him directly.",
-   "tags": [
-    {
-     "kind": "up",
-     "text": "\u25b2 moved up"
-    }
-   ],
+   "tags": [],
    "news_iso": null,
    "trending_spike": false,
    "opportunity": false,
@@ -845,12 +820,7 @@
    "reason": "Role is growing: 88% of snaps last week (up from 62%) with 5 targets.",
    "drop": "Caleb Douglas (WR) \u2014 close call",
    "advice": "No bid needed. Add him directly.",
-   "tags": [
-    {
-     "kind": "new",
-     "text": "NEW"
-    }
-   ],
+   "tags": [],
    "news_iso": null,
    "trending_spike": false,
    "opportunity": false,
@@ -902,12 +872,7 @@
    "reason": "Projects 6.8 pts next week vs LV in your scoring.",
    "drop": "Caleb Douglas (WR) \u2014 close call",
    "advice": "No bid needed. Add him directly.",
-   "tags": [
-    {
-     "kind": "up",
-     "text": "\u25b2 moved up"
-    }
-   ],
+   "tags": [],
    "news_iso": null,
    "trending_spike": false,
    "opportunity": false,
@@ -933,9 +898,9 @@
     ],
     "proj": 6.8,
     "avg": 7.3,
-    "adds_24h": 45262,
+    "adds_24h": 41874,
     "opponent": "vs LV",
-    "score": 39.0
+    "score": 38.8
    }
   },
   {
@@ -951,12 +916,7 @@
    "reason": "Locked-in role: 95% of snaps and 15% target share last week, averaging 4.3 pts in your scoring.",
    "drop": "Caleb Douglas (WR) \u2014 close call",
    "advice": "No bid needed. Add him directly.",
-   "tags": [
-    {
-     "kind": "up",
-     "text": "\u25b2 moved up"
-    }
-   ],
+   "tags": [],
    "news_iso": null,
    "trending_spike": false,
    "opportunity": false,
@@ -1008,12 +968,7 @@
    "reason": "Locked-in role: 69% of snaps and 21% target share last week, averaging 9.4 pts in your scoring.",
    "drop": "Caleb Douglas (WR) \u2014 close call",
    "advice": "No bid needed. Add him directly.",
-   "tags": [
-    {
-     "kind": "new",
-     "text": "NEW"
-    }
-   ],
+   "tags": [],
    "news_iso": null,
    "trending_spike": false,
    "opportunity": false,
@@ -1057,12 +1012,7 @@
    "reason": "Role is growing: 68% of snaps last week (up from 45%) with 6 targets.",
    "drop": "Caleb Douglas (WR) \u2014 close call",
    "advice": "No bid needed. Add him directly.",
-   "tags": [
-    {
-     "kind": "down",
-     "text": "\u25bc moved down"
-    }
-   ],
+   "tags": [],
    "news_iso": null,
    "trending_spike": false,
    "opportunity": false,
@@ -1111,7 +1061,7 @@
    "availability": "fa",
    "availability_label": "Free agent: add now",
    "claim_by": null,
-   "reason": "Trending: likely news. Added in 65,079 Sleeper leagues in the last day.",
+   "reason": "Trending: likely news. Added in 62,010 Sleeper leagues in the last day.",
    "drop": "Caleb Douglas (WR) \u2014 close call",
    "advice": "No bid needed. Add him directly.",
    "tags": [],
@@ -1140,9 +1090,9 @@
     ],
     "proj": 6.4,
     "avg": 5.3,
-    "adds_24h": 65079,
+    "adds_24h": 62010,
     "opponent": "vs NYG",
-    "score": 37.0
+    "score": 36.9
    }
   },
   {
@@ -1155,7 +1105,7 @@
    "availability": "fa",
    "availability_label": "Free agent: add now",
    "claim_by": null,
-   "reason": "Trending: likely news. Added in 134,712 Sleeper leagues in the last day.",
+   "reason": "Trending: likely news. Added in 146,664 Sleeper leagues in the last day.",
    "drop": "Caleb Douglas (WR) \u2014 close call",
    "advice": "No bid needed. Add him directly.",
    "tags": [],
@@ -1192,7 +1142,7 @@
     ],
     "proj": 6.2,
     "avg": 3.6,
-    "adds_24h": 134712,
+    "adds_24h": 146664,
     "opponent": "vs GB",
     "score": 32.3
    }
@@ -1392,7 +1342,7 @@
     ],
     "proj": 7.0,
     "avg": 3.6,
-    "adds_24h": 27952,
+    "adds_24h": 28276,
     "opponent": "vs LAR",
     "score": 29.5
    }
@@ -1444,7 +1394,7 @@
     ],
     "proj": 8.1,
     "avg": 11.0,
-    "adds_24h": 57365,
+    "adds_24h": 51527,
     "opponent": "vs TB",
     "score": 17.6
    }
@@ -1459,7 +1409,7 @@
    "availability": "fa",
    "availability_label": "Free agent: add now",
    "claim_by": null,
-   "reason": "Trending: likely news. Added in 90,423 Sleeper leagues in the last day.",
+   "reason": "Trending: likely news. Added in 82,017 Sleeper leagues in the last day.",
    "drop": "HOU D/ST (DEF)",
    "advice": "No bid needed. Add him directly.",
    "tags": [],
@@ -1488,9 +1438,9 @@
     ],
     "proj": 7.9,
     "avg": 6.3,
-    "adds_24h": 90423,
+    "adds_24h": 82017,
     "opponent": "@ MIA",
-    "score": 16.9
+    "score": 16.8
    }
   },
   {
@@ -1628,7 +1578,7 @@
     ],
     "proj": 6.0,
     "avg": 17.2,
-    "adds_24h": 18055,
+    "adds_24h": 17290,
     "opponent": "@ CHI",
     "score": 14.0
    }
@@ -1838,7 +1788,7 @@
     "avg": 6.7,
     "adds_24h": 0,
     "opponent": "vs NYJ",
-    "score": 13.2
+    "score": 13.1
    }
   },
   {
@@ -2047,6 +1997,592 @@
    "proj": 9.1
   }
  ],
+ "start_sit": {
+  "lineup": [
+   {
+    "player_id": "3294",
+    "name": "Dak Prescott",
+    "pos": "QB",
+    "team": "DAL",
+    "opp": "@ IND",
+    "kickoff_et": "Sun 1:00 PM ET",
+    "proj": 20.0,
+    "adj": 22.3,
+    "delta": 2.3,
+    "total": 51.5,
+    "spread": "DAL -4.5",
+    "implied": 28.0,
+    "implied_rank": 2,
+    "weather": "54\u00b0F, wind 13 mph (retractable roof, may be closed)",
+    "flags": [
+     {
+      "text": "Shootout",
+      "kind": "good"
+     }
+    ],
+    "injury": "",
+    "locked": false,
+    "bye": false,
+    "slot": "QB"
+   },
+   {
+    "player_id": "8138",
+    "name": "James Cook III",
+    "pos": "RB",
+    "team": "BUF",
+    "opp": "@ MIN",
+    "kickoff_et": "Mon 8:15 PM ET",
+    "proj": 14.2,
+    "adj": 14.7,
+    "delta": 0.5,
+    "total": 43.5,
+    "spread": "BUF -3",
+    "implied": 23.2,
+    "implied_rank": 15,
+    "weather": "Dome, no weather",
+    "flags": [],
+    "injury": "",
+    "locked": false,
+    "bye": false,
+    "slot": "RB"
+   },
+   {
+    "player_id": "6130",
+    "name": "Devin Singletary",
+    "pos": "RB",
+    "team": "NYG",
+    "opp": "@ PHI",
+    "kickoff_et": "Sun 1:00 PM ET",
+    "proj": 13.3,
+    "adj": 13.0,
+    "delta": -0.3,
+    "total": 38.5,
+    "spread": "NYG -3",
+    "implied": 20.8,
+    "implied_rank": 21,
+    "weather": "57\u00b0F, wind 10 mph",
+    "flags": [
+     {
+      "text": "Low total",
+      "kind": "bad"
+     }
+    ],
+    "injury": "",
+    "locked": false,
+    "bye": false,
+    "slot": "RB"
+   },
+   {
+    "player_id": "12501",
+    "name": "Matthew Golden",
+    "pos": "WR",
+    "team": "GB",
+    "opp": "@ NE",
+    "kickoff_et": "Sun 4:25 PM ET",
+    "proj": 12.7,
+    "adj": 12.1,
+    "delta": -0.5,
+    "total": 44.5,
+    "spread": "NE -3",
+    "implied": 20.8,
+    "implied_rank": 22,
+    "weather": "48\u00b0F, wind 6 mph",
+    "flags": [],
+    "injury": "",
+    "locked": false,
+    "bye": false,
+    "slot": "WR"
+   },
+   {
+    "player_id": "9487",
+    "name": "Parker Washington",
+    "pos": "WR",
+    "team": "JAX",
+    "opp": "@ BAL",
+    "kickoff_et": "Thu 8:15 PM ET",
+    "proj": 12.1,
+    "adj": 12.6,
+    "delta": 0.5,
+    "total": 40.5,
+    "spread": "JAX -8.5",
+    "implied": 24.5,
+    "implied_rank": 9,
+    "weather": null,
+    "flags": [
+     {
+      "text": "Low total",
+      "kind": "bad"
+     },
+     {
+      "text": "Big favorite",
+      "kind": ""
+     }
+    ],
+    "injury": "",
+    "locked": true,
+    "bye": false,
+    "slot": "WR"
+   },
+   {
+    "player_id": "9484",
+    "name": "Tucker Kraft",
+    "pos": "TE",
+    "team": "GB",
+    "opp": "@ NE",
+    "kickoff_et": "Sun 4:25 PM ET",
+    "proj": 9.1,
+    "adj": 8.7,
+    "delta": -0.4,
+    "total": 44.5,
+    "spread": "NE -3",
+    "implied": 20.8,
+    "implied_rank": 22,
+    "weather": "48\u00b0F, wind 6 mph",
+    "flags": [],
+    "injury": "",
+    "locked": false,
+    "bye": false,
+    "slot": "TE"
+   },
+   {
+    "player_id": "12495",
+    "name": "Ollie Gordon II",
+    "pos": "RB",
+    "team": "MIA",
+    "opp": "vs DET",
+    "kickoff_et": "Sun 1:00 PM ET",
+    "proj": 13.3,
+    "adj": 12.3,
+    "delta": -1.0,
+    "total": 49.5,
+    "spread": "DET -6.5",
+    "implied": 21.5,
+    "implied_rank": 17,
+    "weather": "82\u00b0F, wind 5 mph",
+    "flags": [
+     {
+      "text": "Shootout",
+      "kind": "good"
+     }
+    ],
+    "injury": "",
+    "locked": false,
+    "bye": false,
+    "slot": "FLEX"
+   },
+   {
+    "player_id": "7042",
+    "name": "Tyler Bass",
+    "pos": "K",
+    "team": "BUF",
+    "opp": "@ MIN",
+    "kickoff_et": "Mon 8:15 PM ET",
+    "proj": 8.2,
+    "adj": 8.3,
+    "delta": 0.1,
+    "total": 43.5,
+    "spread": "BUF -3",
+    "implied": 23.2,
+    "implied_rank": 15,
+    "weather": "Dome, no weather",
+    "flags": [
+     {
+      "text": "Dome",
+      "kind": "good"
+     }
+    ],
+    "injury": "",
+    "locked": false,
+    "bye": false,
+    "slot": "K"
+   },
+   {
+    "player_id": "HOU",
+    "name": "HOU D/ST",
+    "pos": "DEF",
+    "team": "HOU",
+    "opp": "@ LAC",
+    "kickoff_et": "Sun 4:05 PM ET",
+    "proj": 9.1,
+    "adj": 10.8,
+    "delta": 1.7,
+    "total": 40.5,
+    "spread": "HOU -6",
+    "implied": 23.2,
+    "implied_rank": 14,
+    "weather": "Dome, no weather",
+    "flags": [
+     {
+      "text": "Low total",
+      "kind": "good"
+     }
+    ],
+    "injury": "",
+    "locked": false,
+    "bye": false,
+    "slot": "DEF"
+   }
+  ],
+  "bench": [
+   {
+    "player_id": "6804",
+    "name": "Jordan Love",
+    "pos": "QB",
+    "team": "GB",
+    "opp": "@ NE",
+    "kickoff_et": "Sun 4:25 PM ET",
+    "proj": 17.4,
+    "adj": 16.6,
+    "delta": -0.8,
+    "total": 44.5,
+    "spread": "NE -3",
+    "implied": 20.8,
+    "implied_rank": 22,
+    "weather": "48\u00b0F, wind 6 mph",
+    "flags": [],
+    "injury": "",
+    "locked": false,
+    "bye": false
+   },
+   {
+    "player_id": "8408",
+    "name": "Jordan Mason",
+    "pos": "RB",
+    "team": "MIN",
+    "opp": "vs BUF",
+    "kickoff_et": "Mon 8:15 PM ET",
+    "proj": 8.7,
+    "adj": 8.0,
+    "delta": -0.7,
+    "total": 43.5,
+    "spread": "BUF -3",
+    "implied": 20.2,
+    "implied_rank": 24,
+    "weather": "Dome, no weather",
+    "flags": [],
+    "injury": "",
+    "locked": false,
+    "bye": false
+   },
+   {
+    "player_id": "13296",
+    "name": "Caleb Douglas",
+    "pos": "WR",
+    "team": "MIA",
+    "opp": "vs DET",
+    "kickoff_et": "Sun 1:00 PM ET",
+    "proj": 7.2,
+    "adj": 7.0,
+    "delta": -0.2,
+    "total": 49.5,
+    "spread": "DET -6.5",
+    "implied": 21.5,
+    "implied_rank": 17,
+    "weather": "82\u00b0F, wind 5 mph",
+    "flags": [
+     {
+      "text": "Shootout",
+      "kind": "good"
+     }
+    ],
+    "injury": "",
+    "locked": false,
+    "bye": false
+   },
+   {
+    "player_id": "13337",
+    "name": "Emmett Johnson",
+    "pos": "RB",
+    "team": "KC",
+    "opp": "vs NYJ",
+    "kickoff_et": "Sun 1:00 PM ET",
+    "proj": 5.7,
+    "adj": 6.7,
+    "delta": 1.0,
+    "total": 47.5,
+    "spread": "KC -8.5",
+    "implied": 28.0,
+    "implied_rank": 3,
+    "weather": "60\u00b0F, wind 6 mph",
+    "flags": [
+     {
+      "text": "Big favorite",
+      "kind": "good"
+     }
+    ],
+    "injury": "",
+    "locked": false,
+    "bye": false
+   },
+   {
+    "player_id": "7525",
+    "name": "DeVonta Smith",
+    "pos": "WR",
+    "team": "PHI",
+    "opp": "vs NYG",
+    "kickoff_et": "Sun 1:00 PM ET",
+    "proj": 0.0,
+    "adj": 0.0,
+    "delta": 0.0,
+    "total": 38.5,
+    "spread": "NYG -3",
+    "implied": 17.8,
+    "implied_rank": 27,
+    "weather": "57\u00b0F, wind 10 mph",
+    "flags": [
+     {
+      "text": "Out",
+      "kind": "bad"
+     }
+    ],
+    "injury": "Out",
+    "locked": false,
+    "bye": false
+   },
+   {
+    "player_id": "8146",
+    "name": "Garrett Wilson",
+    "pos": "WR",
+    "team": "NYJ",
+    "opp": "@ KC",
+    "kickoff_et": "Sun 1:00 PM ET",
+    "proj": 0.0,
+    "adj": 0.0,
+    "delta": 0.0,
+    "total": 47.5,
+    "spread": "KC -8.5",
+    "implied": 19.5,
+    "implied_rank": 25,
+    "weather": "60\u00b0F, wind 6 mph",
+    "flags": [
+     {
+      "text": "Out",
+      "kind": "bad"
+     }
+    ],
+    "injury": "Out",
+    "locked": false,
+    "bye": false
+   }
+  ],
+  "start": [
+   "Dak Prescott"
+  ],
+  "sit": [
+   "Jordan Love"
+  ],
+  "empty_slots": 0,
+  "games": [
+   {
+    "away": "CIN",
+    "home": "ATL",
+    "kickoff_et": "Sun 9:30 AM ET",
+    "total": 52.5,
+    "spread": "CIN -3",
+    "away_implied": 27.8,
+    "home_implied": 24.8,
+    "weather": null,
+    "weather_flags": [],
+    "mine": []
+   },
+   {
+    "away": "DAL",
+    "home": "IND",
+    "kickoff_et": "Sun 1:00 PM ET",
+    "total": 51.5,
+    "spread": "DAL -4.5",
+    "away_implied": 28.0,
+    "home_implied": 23.5,
+    "weather": "54\u00b0F, wind 13 mph (retractable roof, may be closed)",
+    "weather_flags": [],
+    "mine": [
+     "Dak Prescott"
+    ]
+   },
+   {
+    "away": "LV",
+    "home": "SF",
+    "kickoff_et": "Sun 4:25 PM ET",
+    "total": 51.5,
+    "spread": "SF -9.5",
+    "away_implied": 21.0,
+    "home_implied": 30.5,
+    "weather": "67\u00b0F, wind 8 mph",
+    "weather_flags": [],
+    "mine": []
+   },
+   {
+    "away": "DET",
+    "home": "MIA",
+    "kickoff_et": "Sun 1:00 PM ET",
+    "total": 49.5,
+    "spread": "DET -6.5",
+    "away_implied": 28.0,
+    "home_implied": 21.5,
+    "weather": "82\u00b0F, wind 5 mph",
+    "weather_flags": [],
+    "mine": [
+     "Ollie Gordon II",
+     "Caleb Douglas"
+    ]
+   },
+   {
+    "away": "NYJ",
+    "home": "KC",
+    "kickoff_et": "Sun 1:00 PM ET",
+    "total": 47.5,
+    "spread": "KC -8.5",
+    "away_implied": 19.5,
+    "home_implied": 28.0,
+    "weather": "60\u00b0F, wind 6 mph",
+    "weather_flags": [],
+    "mine": [
+     "Garrett Wilson",
+     "Emmett Johnson"
+    ]
+   },
+   {
+    "away": "LAR",
+    "home": "WAS",
+    "kickoff_et": "Sun 1:00 PM ET",
+    "total": 47.5,
+    "spread": "LAR -4.5",
+    "away_implied": 26.0,
+    "home_implied": 21.5,
+    "weather": "60\u00b0F, wind 10 mph",
+    "weather_flags": [],
+    "mine": []
+   },
+   {
+    "away": "TB",
+    "home": "CHI",
+    "kickoff_et": "Sun 8:20 PM ET",
+    "total": 47.5,
+    "spread": "CHI -6",
+    "away_implied": 20.8,
+    "home_implied": 26.8,
+    "weather": "44\u00b0F, wind 8 mph (gusts 27)",
+    "weather_flags": [
+     "wind"
+    ],
+    "mine": []
+   },
+   {
+    "away": "DEN",
+    "home": "CAR",
+    "kickoff_et": "Sun 1:00 PM ET",
+    "total": 44.5,
+    "spread": "DEN -3",
+    "away_implied": 23.8,
+    "home_implied": 20.8,
+    "weather": "66\u00b0F, wind 7 mph",
+    "weather_flags": [],
+    "mine": []
+   },
+   {
+    "away": "GB",
+    "home": "NE",
+    "kickoff_et": "Sun 4:25 PM ET",
+    "total": 44.5,
+    "spread": "NE -3",
+    "away_implied": 20.8,
+    "home_implied": 23.8,
+    "weather": "48\u00b0F, wind 6 mph",
+    "weather_flags": [],
+    "mine": [
+     "Matthew Golden",
+     "Jordan Love",
+     "Tucker Kraft"
+    ]
+   },
+   {
+    "away": "BUF",
+    "home": "MIN",
+    "kickoff_et": "Mon 8:15 PM ET",
+    "total": 43.5,
+    "spread": "BUF -3",
+    "away_implied": 23.2,
+    "home_implied": 20.2,
+    "weather": "Dome, no weather",
+    "weather_flags": [],
+    "mine": [
+     "Tyler Bass",
+     "James Cook III",
+     "Jordan Mason"
+    ]
+   },
+   {
+    "away": "CLE",
+    "home": "NO",
+    "kickoff_et": "Sun 1:00 PM ET",
+    "total": 42.5,
+    "spread": "NO -3.5",
+    "away_implied": 19.5,
+    "home_implied": 23.0,
+    "weather": "Dome, no weather",
+    "weather_flags": [],
+    "mine": []
+   },
+   {
+    "away": "HOU",
+    "home": "LAC",
+    "kickoff_et": "Sun 4:05 PM ET",
+    "total": 40.5,
+    "spread": "HOU -6",
+    "away_implied": 23.2,
+    "home_implied": 17.2,
+    "weather": "Dome, no weather",
+    "weather_flags": [],
+    "mine": [
+     "HOU D/ST"
+    ]
+   },
+   {
+    "away": "JAX",
+    "home": "BAL",
+    "kickoff_et": "Thu 8:15 PM ET",
+    "total": 40.5,
+    "spread": "JAX -8.5",
+    "away_implied": 24.5,
+    "home_implied": 16.0,
+    "weather": null,
+    "weather_flags": [],
+    "mine": [
+     "Parker Washington"
+    ]
+   },
+   {
+    "away": "ARI",
+    "home": "SEA",
+    "kickoff_et": "Sun 4:25 PM ET",
+    "total": 39.5,
+    "spread": "SEA -8.5",
+    "away_implied": 15.5,
+    "home_implied": 24.0,
+    "weather": "53\u00b0F, wind 9 mph",
+    "weather_flags": [],
+    "mine": []
+   },
+   {
+    "away": "NYG",
+    "home": "PHI",
+    "kickoff_et": "Sun 1:00 PM ET",
+    "total": 38.5,
+    "spread": "NYG -3",
+    "away_implied": 20.8,
+    "home_implied": 17.8,
+    "weather": "57\u00b0F, wind 10 mph",
+    "weather_flags": [],
+    "mine": [
+     "Devin Singletary",
+     "DeVonta Smith"
+    ]
+   }
+  ],
+  "avg_implied": 22.7,
+  "lines_source": "DraftKings, nflverse",
+  "has_weather": true
+ },
  "trades": {
   "source": "FantasyPros rest-of-season ranks (2026-11-06), adjusted for half PPR + FantasyCalc",
   "notices": [],
@@ -2063,28 +2599,28 @@
    "DEF"
   ],
   "slot_elig": {
-   "K": [
-    "K"
-   ],
-   "QB": [
-    "QB"
-   ],
    "RB": [
     "RB"
+   ],
+   "WR": [
+    "WR"
    ],
    "FLEX": [
     "RB",
     "TE",
     "WR"
    ],
-   "WR": [
-    "WR"
+   "K": [
+    "K"
    ],
    "DEF": [
     "DEF"
    ],
    "TE": [
     "TE"
+   ],
+   "QB": [
+    "QB"
    ]
   },
   "bench_n": 4,
@@ -2127,7 +2663,7 @@
       "pos": "RB",
       "team": "GB",
       "inj": "",
-      "value": 3882
+      "value": 3938
      },
      {
       "id": "4217",
@@ -2159,7 +2695,7 @@
       "pos": "WR",
       "team": "TEN",
       "inj": "Out",
-      "value": 2652
+      "value": 2679
      },
      {
       "id": "13345",
@@ -2167,7 +2703,7 @@
       "pos": "RB",
       "team": "DEN",
       "inj": "",
-      "value": 2506
+      "value": 2542
      },
      {
       "id": "4046",
@@ -2175,7 +2711,7 @@
       "pos": "QB",
       "team": "KC",
       "inj": "",
-      "value": 2120
+      "value": 2150
      },
      {
       "id": "12507",
@@ -2183,7 +2719,7 @@
       "pos": "RB",
       "team": "LAC",
       "inj": "",
-      "value": 1421
+      "value": 1376
      },
      {
       "id": "13286",
@@ -2191,7 +2727,7 @@
       "pos": "RB",
       "team": "SEA",
       "inj": "",
-      "value": 808
+      "value": 792
      },
      {
       "id": "13305",
@@ -2199,7 +2735,7 @@
       "pos": "RB",
       "team": "LV",
       "inj": "",
-      "value": 600
+      "value": 590
      },
      {
       "id": "KC",
@@ -2237,7 +2773,7 @@
       "pos": "WR",
       "team": "GB",
       "inj": "",
-      "value": 5980
+      "value": 6048
      },
      {
       "id": "7569",
@@ -2245,7 +2781,7 @@
       "pos": "WR",
       "team": "HOU",
       "inj": "",
-      "value": 5287
+      "value": 5225
      },
      {
       "id": "12527",
@@ -2261,7 +2797,7 @@
       "pos": "TE",
       "team": "NYG",
       "inj": "",
-      "value": 1906
+      "value": 2000
      },
      {
       "id": "8126",
@@ -2269,15 +2805,7 @@
       "pos": "WR",
       "team": "TEN",
       "inj": "",
-      "value": 968
-     },
-     {
-      "id": "8134",
-      "name": "Khalil Shakir",
-      "pos": "WR",
-      "team": "BUF",
-      "inj": "",
-      "value": 906
+      "value": 1001
      },
      {
       "id": "12474",
@@ -2285,7 +2813,15 @@
       "pos": "RB",
       "team": "HOU",
       "inj": "",
-      "value": 878
+      "value": 904
+     },
+     {
+      "id": "8134",
+      "name": "Khalil Shakir",
+      "pos": "WR",
+      "team": "BUF",
+      "inj": "",
+      "value": 898
      },
      {
       "id": "12545",
@@ -2301,7 +2837,7 @@
       "pos": "WR",
       "team": "MIN",
       "inj": "",
-      "value": 833
+      "value": 814
      },
      {
       "id": "11628",
@@ -2309,7 +2845,7 @@
       "pos": "WR",
       "team": "HOU",
       "inj": "",
-      "value": 760
+      "value": 740
      },
      {
       "id": "7600",
@@ -2317,7 +2853,7 @@
       "pos": "TE",
       "team": "PIT",
       "inj": "",
-      "value": 272
+      "value": 269
      },
      {
       "id": "4017",
@@ -2325,7 +2861,7 @@
       "pos": "QB",
       "team": "CLE",
       "inj": "Questionable",
-      "value": 195
+      "value": 202
      },
      {
       "id": "6083",
@@ -2379,7 +2915,7 @@
       "pos": "WR",
       "team": "CHI",
       "inj": "",
-      "value": 4332
+      "value": 4485
      },
      {
       "id": "12526",
@@ -2387,7 +2923,7 @@
       "pos": "WR",
       "team": "CAR",
       "inj": "",
-      "value": 4320
+      "value": 4274
      },
      {
       "id": "10232",
@@ -2395,7 +2931,7 @@
       "pos": "WR",
       "team": "ARI",
       "inj": "",
-      "value": 2618
+      "value": 2473
      },
      {
       "id": "3163",
@@ -2403,7 +2939,7 @@
       "pos": "QB",
       "team": "DET",
       "inj": "",
-      "value": 2334
+      "value": 2389
      },
      {
       "id": "10213",
@@ -2411,7 +2947,7 @@
       "pos": "WR",
       "team": "LV",
       "inj": "",
-      "value": 1143
+      "value": 1118
      },
      {
       "id": "13276",
@@ -2419,7 +2955,7 @@
       "pos": "WR",
       "team": "NYJ",
       "inj": "",
-      "value": 1079
+      "value": 1068
      },
      {
       "id": "8136",
@@ -2435,7 +2971,7 @@
       "pos": "WR",
       "team": "LAR",
       "inj": "IR",
-      "value": 827
+      "value": 782
      },
      {
       "id": "9228",
@@ -2443,7 +2979,7 @@
       "pos": "QB",
       "team": "CAR",
       "inj": "",
-      "value": 693
+      "value": 709
      },
      {
       "id": "12529",
@@ -2451,7 +2987,7 @@
       "pos": "RB",
       "team": "NE",
       "inj": "Out",
-      "value": 391
+      "value": 350
      },
      {
       "id": "SEA",
@@ -2467,7 +3003,7 @@
       "pos": "RB",
       "team": "NO",
       "inj": "",
-      "value": 122
+      "value": 120
      },
      {
       "id": "12185",
@@ -2489,7 +3025,7 @@
       "pos": "WR",
       "team": "DAL",
       "inj": "",
-      "value": 8500
+      "value": 8604
      },
      {
       "id": "9224",
@@ -2497,7 +3033,7 @@
       "pos": "RB",
       "team": "CIN",
       "inj": "",
-      "value": 5352
+      "value": 5414
      },
      {
       "id": "11566",
@@ -2505,7 +3041,7 @@
       "pos": "QB",
       "team": "WAS",
       "inj": "",
-      "value": 1596
+      "value": 1665
      },
      {
       "id": "11576",
@@ -2513,7 +3049,7 @@
       "pos": "RB",
       "team": "NYJ",
       "inj": "",
-      "value": 1270
+      "value": 1232
      },
      {
       "id": "5872",
@@ -2537,7 +3073,7 @@
       "pos": "RB",
       "team": "ARI",
       "inj": "",
-      "value": 906
+      "value": 888
      },
      {
       "id": "7021",
@@ -2553,7 +3089,7 @@
       "pos": "TE",
       "team": "ATL",
       "inj": "",
-      "value": 742
+      "value": 752
      },
      {
       "id": "5045",
@@ -2569,7 +3105,7 @@
       "pos": "QB",
       "team": "SEA",
       "inj": "Out",
-      "value": 386
+      "value": 398
      },
      {
       "id": "3214",
@@ -2577,7 +3113,7 @@
       "pos": "TE",
       "team": "NE",
       "inj": "Questionable",
-      "value": 330
+      "value": 334
      },
      {
       "id": "7567",
@@ -2585,15 +3121,7 @@
       "pos": "RB",
       "team": "TB",
       "inj": "",
-      "value": 264
-     },
-     {
-      "id": "12533",
-      "name": "Jacory Croskey-Merritt",
-      "pos": "RB",
-      "team": "WAS",
-      "inj": "IR",
-      "value": 170
+      "value": 250
      },
      {
       "id": "MIN",
@@ -2602,6 +3130,14 @@
       "team": "MIN",
       "inj": "",
       "value": 157
+     },
+     {
+      "id": "12533",
+      "name": "Jacory Croskey-Merritt",
+      "pos": "RB",
+      "team": "WAS",
+      "inj": "IR",
+      "value": 155
      },
      {
       "id": "13968",
@@ -2623,7 +3159,7 @@
       "pos": "RB",
       "team": "SF",
       "inj": "",
-      "value": 8702
+      "value": 8599
      },
      {
       "id": "8228",
@@ -2639,7 +3175,7 @@
       "pos": "WR",
       "team": "KC",
       "inj": "",
-      "value": 3832
+      "value": 3878
      },
      {
       "id": "8183",
@@ -2647,15 +3183,7 @@
       "pos": "QB",
       "team": "SF",
       "inj": "",
-      "value": 3214
-     },
-     {
-      "id": "2449",
-      "name": "Stefon Diggs",
-      "pos": "WR",
-      "team": "WAS",
-      "inj": "",
-      "value": 2242
+      "value": 3248
      },
      {
       "id": "11635",
@@ -2663,7 +3191,15 @@
       "pos": "WR",
       "team": "LAC",
       "inj": "",
-      "value": 2192
+      "value": 2234
+     },
+     {
+      "id": "2449",
+      "name": "Stefon Diggs",
+      "pos": "WR",
+      "team": "WAS",
+      "inj": "",
+      "value": 2168
      },
      {
       "id": "11620",
@@ -2679,7 +3215,7 @@
       "pos": "RB",
       "team": "NO",
       "inj": "IR",
-      "value": 1354
+      "value": 1311
      },
      {
       "id": "13274",
@@ -2695,15 +3231,7 @@
       "pos": "RB",
       "team": "SEA",
       "inj": "",
-      "value": 774
-     },
-     {
-      "id": "9480",
-      "name": "Brenton Strange",
-      "pos": "TE",
-      "team": "JAX",
-      "inj": "",
-      "value": 598
+      "value": 789
      },
      {
       "id": "1166",
@@ -2711,7 +3239,15 @@
       "pos": "QB",
       "team": "LV",
       "inj": "",
-      "value": 564
+      "value": 598
+     },
+     {
+      "id": "9480",
+      "name": "Brenton Strange",
+      "pos": "TE",
+      "team": "JAX",
+      "inj": "",
+      "value": 592
      },
      {
       "id": "4993",
@@ -2719,7 +3255,7 @@
       "pos": "TE",
       "team": "CIN",
       "inj": "",
-      "value": 369
+      "value": 363
      },
      {
       "id": "13424",
@@ -2727,7 +3263,7 @@
       "pos": "RB",
       "team": "IND",
       "inj": "",
-      "value": 272
+      "value": 261
      },
      {
       "id": "2747",
@@ -2752,20 +3288,20 @@
     "name": "deek1725",
     "players": [
      {
-      "id": "6790",
-      "name": "D'Andre Swift",
-      "pos": "RB",
-      "team": "CHI",
-      "inj": "",
-      "value": 6570
-     },
-     {
       "id": "7594",
       "name": "Chuba Hubbard",
       "pos": "RB",
       "team": "CAR",
       "inj": "",
-      "value": 6471
+      "value": 6548
+     },
+     {
+      "id": "6790",
+      "name": "D'Andre Swift",
+      "pos": "RB",
+      "team": "CHI",
+      "inj": "",
+      "value": 6490
      },
      {
       "id": "9997",
@@ -2773,7 +3309,7 @@
       "pos": "WR",
       "team": "BAL",
       "inj": "",
-      "value": 5181
+      "value": 5124
      },
      {
       "id": "6770",
@@ -2781,7 +3317,7 @@
       "pos": "QB",
       "team": "CIN",
       "inj": "",
-      "value": 5030
+      "value": 4975
      },
      {
       "id": "8148",
@@ -2789,7 +3325,7 @@
       "pos": "WR",
       "team": "DET",
       "inj": "",
-      "value": 3301
+      "value": 3261
      },
      {
       "id": "12517",
@@ -2797,7 +3333,7 @@
       "pos": "TE",
       "team": "CHI",
       "inj": "",
-      "value": 2635
+      "value": 2675
      },
      {
       "id": "5859",
@@ -2805,7 +3341,7 @@
       "pos": "WR",
       "team": "NE",
       "inj": "Out",
-      "value": 2376
+      "value": 2227
      },
      {
       "id": "421",
@@ -2813,7 +3349,7 @@
       "pos": "QB",
       "team": "LAR",
       "inj": "",
-      "value": 1189
+      "value": 1176
      },
      {
       "id": "5947",
@@ -2821,7 +3357,7 @@
       "pos": "WR",
       "team": "JAX",
       "inj": "",
-      "value": 902
+      "value": 889
      },
      {
       "id": "11834",
@@ -2829,7 +3365,7 @@
       "pos": "WR",
       "team": "NO",
       "inj": "",
-      "value": 492
+      "value": 514
      },
      {
       "id": "13330",
@@ -2837,7 +3373,7 @@
       "pos": "TE",
       "team": "NYJ",
       "inj": "",
-      "value": 186
+      "value": 232
      },
      {
       "id": "DEN",
@@ -2891,7 +3427,7 @@
       "pos": "WR",
       "team": "NO",
       "inj": "",
-      "value": 6522
+      "value": 6454
      },
      {
       "id": "4866",
@@ -2907,7 +3443,7 @@
       "pos": "QB",
       "team": "CHI",
       "inj": "",
-      "value": 3157
+      "value": 3118
      },
      {
       "id": "12514",
@@ -2915,7 +3451,7 @@
       "pos": "WR",
       "team": "TB",
       "inj": "Questionable",
-      "value": 2240
+      "value": 2216
      },
      {
       "id": "13287",
@@ -2923,7 +3459,7 @@
       "pos": "RB",
       "team": "ARI",
       "inj": "IR",
-      "value": 2024
+      "value": 1990
      },
      {
       "id": "12518",
@@ -2931,7 +3467,7 @@
       "pos": "TE",
       "team": "IND",
       "inj": "",
-      "value": 1679
+      "value": 1800
      },
      {
       "id": "13281",
@@ -2955,7 +3491,7 @@
       "pos": "RB",
       "team": "NO",
       "inj": "",
-      "value": 512
+      "value": 492
      },
      {
       "id": "11631",
@@ -2971,7 +3507,7 @@
       "pos": "TE",
       "team": "BAL",
       "inj": "",
-      "value": 240
+      "value": 236
      },
      {
       "id": "12469",
@@ -2995,7 +3531,7 @@
       "pos": "WR",
       "team": "HOU",
       "inj": "",
-      "value": 98
+      "value": 100
      },
      {
       "id": "6650",
@@ -3033,7 +3569,7 @@
       "pos": "WR",
       "team": "SF",
       "inj": "Out",
-      "value": 3441
+      "value": 3571
      },
      {
       "id": "7611",
@@ -3041,7 +3577,7 @@
       "pos": "RB",
       "team": "NE",
       "inj": "",
-      "value": 2978
+      "value": 2940
      },
      {
       "id": "12481",
@@ -3049,7 +3585,7 @@
       "pos": "RB",
       "team": "NYG",
       "inj": "Doubtful",
-      "value": 1918
+      "value": 2018
      },
      {
       "id": "11586",
@@ -3065,7 +3601,7 @@
       "pos": "WR",
       "team": "PIT",
       "inj": "",
-      "value": 1475
+      "value": 1500
      },
      {
       "id": "11624",
@@ -3073,7 +3609,7 @@
       "pos": "WR",
       "team": "KC",
       "inj": "",
-      "value": 666
+      "value": 671
      },
      {
       "id": "8121",
@@ -3081,7 +3617,7 @@
       "pos": "WR",
       "team": "NE",
       "inj": "IR",
-      "value": 504
+      "value": 317
      },
      {
       "id": "9482",
@@ -3089,7 +3625,7 @@
       "pos": "TE",
       "team": "LV",
       "inj": "",
-      "value": 264
+      "value": 262
      },
      {
       "id": "PIT",
@@ -3183,7 +3719,7 @@
       "pos": "TE",
       "team": "BUF",
       "inj": "",
-      "value": 978
+      "value": 965
      },
      {
       "id": "4199",
@@ -3191,7 +3727,7 @@
       "pos": "RB",
       "team": "MIN",
       "inj": "",
-      "value": 866
+      "value": 964
      },
      {
       "id": "12534",
@@ -3199,7 +3735,7 @@
       "pos": "RB",
       "team": "CHI",
       "inj": "Questionable",
-      "value": 851
+      "value": 809
      },
      {
       "id": "4037",
@@ -3215,7 +3751,7 @@
       "pos": "QB",
       "team": "PIT",
       "inj": "",
-      "value": 532
+      "value": 540
      },
      {
       "id": "11637",
@@ -3231,7 +3767,7 @@
       "pos": "WR",
       "team": "SEA",
       "inj": "",
-      "value": 86
+      "value": 87
      },
      {
       "id": "5189",
@@ -3293,7 +3829,7 @@
       "pos": "RB",
       "team": "DAL",
       "inj": "",
-      "value": 6819
+      "value": 6742
      },
      {
       "id": "6801",
@@ -3301,7 +3837,7 @@
       "pos": "WR",
       "team": "CIN",
       "inj": "",
-      "value": 6236
+      "value": 6316
      },
      {
       "id": "7523",
@@ -3309,7 +3845,7 @@
       "pos": "QB",
       "team": "JAX",
       "inj": "",
-      "value": 2908
+      "value": 2836
      },
      {
       "id": "7526",
@@ -3317,7 +3853,7 @@
       "pos": "WR",
       "team": "DEN",
       "inj": "",
-      "value": 2088
+      "value": 2146
      },
      {
       "id": "10859",
@@ -3325,7 +3861,7 @@
       "pos": "TE",
       "team": "DET",
       "inj": "",
-      "value": 1665
+      "value": 1715
      },
      {
       "id": "9758",
@@ -3333,7 +3869,7 @@
       "pos": "QB",
       "team": "HOU",
       "inj": "",
-      "value": 1056
+      "value": 1005
      },
      {
       "id": "5844",
@@ -3341,7 +3877,7 @@
       "pos": "TE",
       "team": "MIN",
       "inj": "",
-      "value": 648
+      "value": 628
      },
      {
       "id": "12489",
@@ -3349,7 +3885,7 @@
       "pos": "RB",
       "team": "DEN",
       "inj": "IR",
-      "value": 244
+      "value": 236
      },
      {
       "id": "CIN",
@@ -3373,7 +3909,7 @@
       "pos": "QB",
       "team": "PHI",
       "inj": "",
-      "value": 107
+      "value": 112
      },
      {
       "id": "NYG",
@@ -3403,7 +3939,7 @@
       "pos": "WR",
       "team": "GB",
       "inj": "",
-      "value": 5335
+      "value": 5392
      },
      {
       "id": "9487",
@@ -3411,7 +3947,7 @@
       "pos": "WR",
       "team": "JAX",
       "inj": "",
-      "value": 4694
+      "value": 4590
      },
      {
       "id": "8146",
@@ -3419,7 +3955,7 @@
       "pos": "WR",
       "team": "NYJ",
       "inj": "Out",
-      "value": 4613
+      "value": 4563
      },
      {
       "id": "7525",
@@ -3427,7 +3963,7 @@
       "pos": "WR",
       "team": "PHI",
       "inj": "Out",
-      "value": 2568
+      "value": 2624
      },
      {
       "id": "12495",
@@ -3435,15 +3971,7 @@
       "pos": "RB",
       "team": "MIA",
       "inj": "",
-      "value": 2282
-     },
-     {
-      "id": "6804",
-      "name": "Jordan Love",
-      "pos": "QB",
-      "team": "GB",
-      "inj": "",
-      "value": 2070
+      "value": 2256
      },
      {
       "id": "3294",
@@ -3454,12 +3982,20 @@
       "value": 2060
      },
      {
+      "id": "6804",
+      "name": "Jordan Love",
+      "pos": "QB",
+      "team": "GB",
+      "inj": "",
+      "value": 1921
+     },
+     {
       "id": "9484",
       "name": "Tucker Kraft",
       "pos": "TE",
       "team": "GB",
       "inj": "",
-      "value": 1958
+      "value": 1894
      },
      {
       "id": "8408",
@@ -3467,7 +4003,7 @@
       "pos": "RB",
       "team": "MIN",
       "inj": "",
-      "value": 767
+      "value": 802
      },
      {
       "id": "13296",
@@ -3475,7 +4011,7 @@
       "pos": "WR",
       "team": "MIA",
       "inj": "",
-      "value": 647
+      "value": 642
      },
      {
       "id": "6130",
@@ -3483,7 +4019,7 @@
       "pos": "RB",
       "team": "NYG",
       "inj": "",
-      "value": 343
+      "value": 376
      },
      {
       "id": "13337",
@@ -3524,14 +4060,6 @@
       "value": 9034
      },
      {
-      "id": "11564",
-      "name": "Drake Maye",
-      "pos": "QB",
-      "team": "NE",
-      "inj": "",
-      "value": 4206
-     },
-     {
       "id": "8137",
       "name": "George Pickens",
       "pos": "WR",
@@ -3540,12 +4068,20 @@
       "value": 4162
      },
      {
+      "id": "11564",
+      "name": "Drake Maye",
+      "pos": "QB",
+      "team": "NE",
+      "inj": "",
+      "value": 4076
+     },
+     {
       "id": "5967",
       "name": "Tony Pollard",
       "pos": "RB",
       "team": "TEN",
       "inj": "",
-      "value": 2793
+      "value": 2906
      },
      {
       "id": "12512",
@@ -3553,7 +4089,7 @@
       "pos": "RB",
       "team": "CLE",
       "inj": "",
-      "value": 2384
+      "value": 2441
      },
      {
       "id": "11646",
@@ -3561,7 +4097,7 @@
       "pos": "WR",
       "team": "CAR",
       "inj": "",
-      "value": 2272
+      "value": 2290
      },
      {
       "id": "13294",
@@ -3569,7 +4105,7 @@
       "pos": "WR",
       "team": "PHI",
       "inj": "",
-      "value": 1130
+      "value": 1112
      },
      {
       "id": "5892",
@@ -3577,7 +4113,7 @@
       "pos": "RB",
       "team": "HOU",
       "inj": "Out",
-      "value": 884
+      "value": 900
      },
      {
       "id": "11610",
@@ -3593,7 +4129,7 @@
       "pos": "TE",
       "team": "PHI",
       "inj": "",
-      "value": 646
+      "value": 630
      },
      {
       "id": "6806",
@@ -3601,7 +4137,7 @@
       "pos": "RB",
       "team": "DEN",
       "inj": "",
-      "value": 321
+      "value": 333
      },
      {
       "id": "5001",
@@ -3609,7 +4145,7 @@
       "pos": "TE",
       "team": "HOU",
       "inj": "",
-      "value": 226
+      "value": 220
      },
      {
       "id": "LAR",
@@ -3620,20 +4156,20 @@
       "value": 189
      },
      {
-      "id": "3634",
-      "name": "Kalif Raymond",
-      "pos": "WR",
-      "team": "CHI",
-      "inj": "",
-      "value": 124
-     },
-     {
       "id": "11533",
       "name": "Brandon Aubrey",
       "pos": "K",
       "team": "DAL",
       "inj": "",
       "value": 123
+     },
+     {
+      "id": "3634",
+      "name": "Kalif Raymond",
+      "pos": "WR",
+      "team": "CHI",
+      "inj": "",
+      "value": 121
      }
     ]
    }
@@ -3658,10 +4194,10 @@
     ],
     "verdict": "Fair trade",
     "pct": -2,
-    "give_value": 6796,
+    "give_value": 6793,
     "get_value": 6662,
-    "my_delta_pct": 5.1,
-    "their_delta_pct": 0.1,
+    "my_delta_pct": 5.3,
+    "their_delta_pct": 0.2,
     "reason": "Drake London would start for you. It helps them too: Garrett Wilson + DeVonta Smith would start for them."
    },
    {
@@ -3682,11 +4218,11 @@
      "Drake London"
     ],
     "verdict": "Fair trade",
-    "pct": -3,
-    "give_value": 6877,
+    "pct": -2,
+    "give_value": 6820,
     "get_value": 6662,
-    "my_delta_pct": 4.9,
-    "their_delta_pct": 0.4,
+    "my_delta_pct": 5.2,
+    "their_delta_pct": 0.2,
     "reason": "Drake London would start for you. It helps them too: Parker Washington + DeVonta Smith would start for them."
    },
    {
@@ -3694,50 +4230,25 @@
     "team": "KingSt215",
     "give": [
      "12501",
-     "3294"
+     "6804"
     ],
     "get": [
      "11604"
     ],
     "give_names": [
      "Matthew Golden",
-     "Dak Prescott"
+     "Jordan Love"
     ],
     "get_names": [
      "Brock Bowers"
     ],
     "verdict": "Fair trade",
     "pct": -8,
-    "give_value": 7086,
+    "give_value": 7025,
     "get_value": 6486,
-    "my_delta_pct": 4.2,
-    "their_delta_pct": -0.3,
+    "my_delta_pct": 4.4,
+    "their_delta_pct": -0.7,
     "reason": "Brock Bowers would start for you, pushing Tucker Kraft to the bench. They come out ahead on value, which makes it an easy yes for them."
-   },
-   {
-    "roster_id": 8,
-    "team": "KingSt215",
-    "give": [
-     "3294",
-     "8408"
-    ],
-    "get": [
-     "7611"
-    ],
-    "give_names": [
-     "Dak Prescott",
-     "Jordan Mason"
-    ],
-    "get_names": [
-     "Rhamondre Stevenson"
-    ],
-    "verdict": "Fair trade",
-    "pct": 9,
-    "give_value": 2712,
-    "get_value": 2978,
-    "my_delta_pct": 2.1,
-    "their_delta_pct": 2.4,
-    "reason": "Rhamondre Stevenson would start for you, pushing Ollie Gordon II to the bench. It helps them too: Dak Prescott would start for them."
    },
    {
     "roster_id": 4,
@@ -3757,37 +4268,62 @@
      "CeeDee Lamb"
     ],
     "verdict": "Fair trade",
-    "pct": -8,
-    "give_value": 9256,
-    "get_value": 8500,
-    "my_delta_pct": 2.2,
-    "their_delta_pct": 3.1,
+    "pct": -7,
+    "give_value": 9271,
+    "get_value": 8604,
+    "my_delta_pct": 2.7,
+    "their_delta_pct": 2.6,
     "reason": "CeeDee Lamb would start for you. It helps them too: Matthew Golden + Garrett Wilson would start for them."
    },
    {
-    "roster_id": 12,
-    "team": "Blocked By James!",
+    "roster_id": 8,
+    "team": "KingSt215",
     "give": [
-     "12495",
+     "3294",
      "8408"
     ],
     "get": [
-     "5967"
+     "7611"
     ],
     "give_names": [
-     "Ollie Gordon II",
+     "Dak Prescott",
      "Jordan Mason"
     ],
     "get_names": [
-     "Tony Pollard"
+     "Rhamondre Stevenson"
     ],
     "verdict": "Fair trade",
-    "pct": -5,
-    "give_value": 2934,
-    "get_value": 2793,
-    "my_delta_pct": 1.4,
-    "their_delta_pct": -1.6,
-    "reason": "Tony Pollard would start for you. They come out ahead on value, which makes it an easy yes for them."
+    "pct": 7,
+    "give_value": 2742,
+    "get_value": 2940,
+    "my_delta_pct": 1.7,
+    "their_delta_pct": 2.6,
+    "reason": "Rhamondre Stevenson would start for you, pushing Ollie Gordon II to the bench. It helps them too: Dak Prescott would start for them."
+   },
+   {
+    "roster_id": 1,
+    "team": "#FreeSlime",
+    "give": [
+     "12495",
+     "6804"
+    ],
+    "get": [
+     "8155"
+    ],
+    "give_names": [
+     "Ollie Gordon II",
+     "Jordan Love"
+    ],
+    "get_names": [
+     "Breece Hall"
+    ],
+    "verdict": "You'd be overpaying",
+    "pct": -16,
+    "give_value": 3889,
+    "get_value": 3268,
+    "my_delta_pct": 2.3,
+    "their_delta_pct": -0.2,
+    "reason": "Breece Hall would start for you. They come out ahead on value, which makes it an easy yes for them."
    }
   ],
   "recent": [
@@ -3802,7 +4338,7 @@
        "Kyle Pitts Sr.",
        "Chase Brown"
       ],
-      "value": 6968
+      "value": 7005
      },
      {
       "team": "Sharpe Allegations",
@@ -3810,7 +4346,7 @@
        "Lamar Jackson",
        "DeVonta Smith"
       ],
-      "value": 2582
+      "value": 2638
      }
     ],
     "summary": "Illadelph Ravagers is ahead by today's values"
@@ -3831,7 +4367,7 @@
       "got": [
        "Rashid Shaheed"
       ],
-      "value": 295
+      "value": 211
      }
     ],
     "summary": "Illadelph Ravagers is ahead by today's values"
@@ -3846,7 +4382,7 @@
        "Jonathan Taylor",
        "Jaylen Waddle"
       ],
-      "value": 9921
+      "value": 9970
      },
      {
       "team": "Sharpe Allegations",
@@ -3854,7 +4390,7 @@
        "Ollie Gordon II",
        "James Cook III"
       ],
-      "value": 10672
+      "value": 10650
      }
     ],
     "summary": "Even so far"
@@ -3869,7 +4405,7 @@
        "CeeDee Lamb",
        "Rashid Shaheed"
       ],
-      "value": 8751
+      "value": 8783
      },
      {
       "team": "DOH",
@@ -3892,7 +4428,7 @@
        "Emeka Egbuka",
        "Justin Jefferson"
       ],
-      "value": 8512
+      "value": 8492
      },
      {
       "team": "DOH",
@@ -3900,7 +4436,7 @@
        "CeeDee Lamb",
        "Rashid Shaheed"
       ],
-      "value": 8751
+      "value": 8783
      }
     ],
     "summary": "Even so far"
@@ -3914,14 +4450,14 @@
       "got": [
        "Sam Darnold"
       ],
-      "value": 386
+      "value": 398
      },
      {
       "team": "Blocked By James!",
       "got": [
        "Tony Pollard"
       ],
-      "value": 2793
+      "value": 2906
      }
     ],
     "summary": "Blocked By James! is ahead by today's values"
@@ -3931,9 +4467,7 @@
  "site_url": "https://AgbajeF.github.io/FFRec/",
  "job": "free_agent",
  "change_reasons": [
-  "Jahan Dotson moved from #4 to #2.",
-  "Ryan Flournoy moved from #5 to #3.",
-  "Denzel Boston entered the top 5 (#4).",
-  "Josh Downs entered the top 5 (#5)."
+  "Malachi Fields entered the top 5 (#3).",
+  "Your lineup: start Dak Prescott, bench Jordan Love."
  ]
 }
