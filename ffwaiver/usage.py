@@ -96,13 +96,25 @@ def build(players, weekly, nfl_rows, ep, my_pids, other_teams, scoring):
     weekly: {week: {pid: stats}}
     from Sleeper. other_teams: [(roster_id, team name, [pids])] for the rest of the league.
     """
-    from .recommend import short_name, usage_score   # avoid a circular import
+    from .recommend import norm_name, player_name, short_name, usage_score   # avoid a circular import
 
     weeks = sorted(weekly)[-WEEKS_SHOWN:]
-    nfl = {}
+    nfl, by_name = {}, {}
     for r in nfl_rows or []:
         if r.get("gsis_id"):
             nfl[(r["gsis_id"], r["week"])] = r
+            by_name[(norm_name(r.get("name")), r.get("position"))] = r["gsis_id"]
+    ep_ids = {g for g, _ in ep}
+    nfl_ids = {g for g, _ in nfl}
+
+    def gsis_of(pid):
+        """Sleeper's gsis_id when nflverse knows it, else a name + position match
+        (Sleeper leaves gsis_id blank or stale for some players)."""
+        p = players.get(pid) or {}
+        g = (p.get("gsis_id") or "").strip()
+        if g and (g in ep_ids or g in nfl_ids):
+            return g
+        return by_name.get((norm_name(player_name(p)), p.get("position"))) or g
     team_tgt, team_car = {}, {}
     for w in weeks:
         tt, tc = {}, {}
@@ -120,7 +132,7 @@ def build(players, weekly, nfl_rows, ep, my_pids, other_teams, scoring):
         return pos if pos in SKILL else None
 
     def season_luck(pid):
-        gsis = ((players.get(pid) or {}).get("gsis_id") or "").strip()
+        gsis = gsis_of(pid)
         return luck([ep.get((gsis, w)) for w in ep_weeks], pos_of(pid)) if gsis else None
 
     rows = []
@@ -129,7 +141,7 @@ def build(players, weekly, nfl_rows, ep, my_pids, other_teams, scoring):
         if not pos:
             continue
         p = players[pid]
-        gsis = (p.get("gsis_id") or "").strip()
+        gsis = gsis_of(pid)
         wk_rows, scores = [], []
         for w in weeks:
             st = weekly[w].get(pid) or {}
