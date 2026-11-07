@@ -3,7 +3,7 @@ import json
 import os
 from datetime import datetime, timedelta, timezone
 
-from . import nflverse, schedule, sleeper_api, startsit, trades
+from . import nflverse, schedule, sleeper_api, startsit, trades, usage
 from . import unofficial_sources as uo
 from .changes import material_changes
 from .recommend import player_name, recommend, short_name
@@ -168,7 +168,8 @@ def build(config, now, job, manual=False, force_publish=False):
 
     # ---- unofficial weekly stats & projections ---------------------------
     weekly = {}
-    for w in range(max(1, stats_week - 2), stats_week + 1):
+    # Six weeks for the Trends tab; the waiver scoring itself only looks at the last three.
+    for w in range(max(1, stats_week - usage.WEEKS_SHOWN + 1), stats_week + 1):
         st, notice = uo.sleeper_weekly_stats(season, w)
         if st:
             weekly[w] = st
@@ -272,6 +273,25 @@ def build(config, now, job, manual=False, force_publish=False):
         trade_data = None
         log(f"trades unavailable: {e}")
 
+    # ---- trends: usage and expected points (optional) ---------------------
+    try:
+        scoring = league.get("scoring_settings") or {}
+        ep, notice = usage.expected_points(season, scoring.get("rec", 0))
+        if notice:
+            log(notice)
+        owner_names = {u.get("user_id"): (u.get("metadata") or {}).get("team_name") or u.get("display_name")
+                       for u in users}
+        others = [(r.get("roster_id"), owner_names.get(r.get("owner_id")) or f"Team {r.get('roster_id')}",
+                   [p for p in r.get("players") or [] if p in players])
+                  for r in rosters if r.get("roster_id") != my_roster.get("roster_id")]
+        trends = usage.build(players, weekly, nfl_rows, ep,
+                             [p for p in my_roster.get("players") or [] if p in players], others, scoring)
+        log(f"trends: {len(trends['players'])} players, {len(trends['buy_low'])} buy-low, "
+            f"{len(trends['sell_high'])} sell-high (expected points through week {trends['ep_through']})")
+    except Exception as e:
+        trends = None
+        log(f"trends unavailable: {e!r}")
+
     if mode == "waiver":
         countdown = [{"label": "Waivers run in", "iso": deadline.isoformat()}]
     else:
@@ -300,6 +320,7 @@ def build(config, now, job, manual=False, force_publish=False):
         "my_roster_status": result["my_roster_status"],
         "my_lineup": result["my_lineup"],
         "start_sit": result.get("start_sit"),
+        "trends": trends,
         "trades": trade_data,
         "site_url": (config.get("site") or {}).get("url") or "",
         "job": job,

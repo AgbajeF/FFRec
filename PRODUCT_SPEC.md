@@ -11,11 +11,12 @@ change to how the site behaves.
 
 ## What the site is for
 
-It's one phone-friendly page that answers three questions each week:
+It's one phone-friendly page that answers four questions each week:
 
 1. **Who should I pick up?** (Waivers tab)
 2. **Who should I start?** (Start/Sit tab)
-3. **What trades would help me?** (Trades tab)
+3. **Whose role is growing, and who's been lucky or unlucky?** (Trends tab)
+4. **What trades would help me?** (Trades tab)
 
 It rebuilds itself on a schedule, needs no login or server, and is free to run.
 
@@ -72,6 +73,28 @@ How the nudge works, kept small on purpose because Sleeper's projection already 
 - Wind of 15 mph or more, rain and snow hurt kickers most, then QBs, receivers and tight ends. Dome
   games are marked and skip the forecast.
 
+## Trends tab
+
+Added November 7, 2026. It shows how your players are actually being used, and whether their points
+match that usage.
+
+- **Your players:** a week-by-week table for the last 6 weeks, newest first. It shows fantasy points,
+  expected points, share of offensive snaps, targets and share of team targets, air yards (how far
+  downfield he's targeted), carries, and red-zone chances. Which columns you see depends on position.
+  A **Role growing** or **Role shrinking** tag appears when his last two weeks of usage differ clearly
+  from the weeks before.
+- **Expected points ("xPts"):** what an average player would have scored with the same targets and
+  carries from the same spots on the field. When actual points run well below expected, it's usually
+  bad touchdown luck that tends to even out. When they run well above, it usually cools off.
+  - **Due for more:** scoring at least 2.5 points a game below expected (3.5 for QBs, 2 for TEs) over
+    3 or more games. Hold him, or buy low.
+  - **Running hot:** the same gap, but above expected. A sell-high candidate.
+  - **On track:** in between.
+- **Sell high:** your own players who are running hot.
+- **Buy low around your league:** players on other teams who have a real role and are due for more.
+  Each one shows who owns him and has a **Try a trade** button that opens the trade analyzer with him
+  already selected.
+
 ## Trades tab
 
 Added October 28, 2026.
@@ -94,7 +117,8 @@ Every source is free and needs no account or API key.
 | Sleeper (official API) | Your league, rosters, lineup, transactions, players, trending adds |
 | Sleeper (unofficial) | Weekly stats and projections |
 | ESPN (unofficial) | Game status, injuries, news, betting lines (DraftKings) |
-| nflverse | Season stats, schedule, backup betting lines, roof type |
+| nflverse | Season stats, target share, air yards, schedule, backup betting lines, roof type |
+| ffverse ffopportunity | Expected fantasy points per player per week (the model behind nflverse's opportunity data) |
 | Open-Meteo | Game-time weather forecast for outdoor stadiums |
 | FantasyPros (via DynastyProcess) | Trade values |
 | FantasyCalc | Trade values, when available |
@@ -105,23 +129,26 @@ If any source is down, the page still builds and shows a short note about what's
 
 These came out of the November 7 brainstorm, in the suggested order:
 
-1. **Usage dashboard:** week-by-week snap share, target share, air yards and red-zone work for your
-   players, with arrows for who's trending up or down. (nflverse)
-2. **"Due for points" indicator:** expected points from usage versus actual points, to find buy-low
-   and sell-high players. (nflverse `ff_opportunity`)
-3. **Matchup heat map:** points each defense allows by position over the last 4 weeks, plus your
+1. **Matchup heat map:** points each defense allows by position over the last 4 weeks, plus your
    players' next 3 opponents. (nflverse)
-4. **Playoff odds:** simulate the rest of the season to show your chances and which games matter most.
+2. **Playoff odds:** simulate the rest of the season to show your chances and which games matter most.
    (Sleeper)
-5. **Weekly matchup preview:** your projected lineup against your opponent's, with win probability.
+3. **Weekly matchup preview:** your projected lineup against your opponent's, with win probability.
    (Sleeper)
-6. **Playoff-week schedule strength:** how easy each player's weeks 14 to 17 look. (nflverse)
+4. **Playoff-week schedule strength:** how easy each player's weeks 14 to 17 look. (nflverse)
 
 ---
 
 ## Change log
 
 Newest first.
+
+### November 7, 2026: Trends tab
+- New **Trends** tab with week-by-week usage for your players (snaps, targets, target share, air
+  yards, carries, red-zone chances) and tags for roles that are growing or shrinking.
+- Expected points versus actual points, which labels each player Due for more, Running hot or On track.
+- **Sell high** list for your roster, and a **Buy low around your league** list with a one-tap link
+  into the trade analyzer.
 
 ### November 7, 2026: Start/Sit tab
 - New **Start/Sit** tab with Vegas over/unders, spreads, implied team totals and game-time weather.

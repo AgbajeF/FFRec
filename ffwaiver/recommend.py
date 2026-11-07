@@ -75,6 +75,25 @@ def ago_words(dt, now):
     return schedule.to_et(dt).strftime("%A")
 
 
+def usage_score(pos, w):
+    """0-100 usage for one played week: snaps, target/carry share and red-zone looks."""
+    if not w.get("played") or pos in ("K", "DEF") or w.get("snap") is None:
+        return None
+    snap = clamp(w["snap"] * 100)
+    tgt = (w["tgt_share"] or 0) * 100
+    car = (w["car_share"] or 0) * 100
+    rz = w["rz"]
+    if pos == "RB":
+        return clamp(0.35 * snap + 0.35 * clamp(car / 60 * 100) + 0.2 * clamp(tgt / 15 * 100) + 0.1 * clamp(rz / 4 * 100))
+    if pos == "WR":
+        return clamp(0.35 * snap + 0.45 * clamp(tgt / 25 * 100) + 0.2 * clamp(rz / 3 * 100))
+    if pos == "TE":
+        return clamp(0.35 * snap + 0.45 * clamp(tgt / 20 * 100) + 0.2 * clamp(rz / 3 * 100))
+    if pos == "QB":
+        return clamp(0.8 * snap + 0.2 * clamp(car / 15 * 100))
+    return snap
+
+
 # --------------------------------------------------------------------------- engine
 
 class Engine:
@@ -309,21 +328,7 @@ class Engine:
         }
 
     def _usage_score(self, pos, w):
-        if not w.get("played") or pos in ("K", "DEF") or w.get("snap") is None:
-            return None
-        snap = clamp(w["snap"] * 100)
-        tgt = (w["tgt_share"] or 0) * 100
-        car = (w["car_share"] or 0) * 100
-        rz = w["rz"]
-        if pos == "RB":
-            return clamp(0.35 * snap + 0.35 * clamp(car / 60 * 100) + 0.2 * clamp(tgt / 15 * 100) + 0.1 * clamp(rz / 4 * 100))
-        if pos == "WR":
-            return clamp(0.35 * snap + 0.45 * clamp(tgt / 25 * 100) + 0.2 * clamp(rz / 3 * 100))
-        if pos == "TE":
-            return clamp(0.35 * snap + 0.45 * clamp(tgt / 20 * 100) + 0.2 * clamp(rz / 3 * 100))
-        if pos == "QB":
-            return clamp(0.8 * snap + 0.2 * clamp(car / 15 * 100))
-        return snap
+        return usage_score(pos, w)
 
     def composite(self, f):
         wts = dict(WEIGHTS[self.mode])

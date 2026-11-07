@@ -94,6 +94,20 @@ Sources, all free with no API key: the **ESPN scoreboard** betting line (preferr
 **Open-Meteo** hourly forecast. A suggested lineup swap, or very windy or snowy weather for one of your
 starters, counts as a material change and republishes the page.
 
+## Trends tab
+
+- **Your players**: the last 6 weeks of snap %, targets, target share, air yards, carries and red-zone
+  looks (Sleeper stats plus nflverse), with a **Role growing / shrinking** tag when the last two weeks'
+  usage score clearly differs from the weeks before.
+- **Expected vs actual points** from ffverse's `ffopportunity` model
+  (`ep_weekly_{season}.csv`, scored full PPR and moved to your league's points per reception).
+  Players 2.5+ points a game below expected over 3+ games are **Due for more**; 2.5+ above is
+  **Running hot** (3.5 for QBs, 2 for TEs).
+- **Sell high** (yours, running hot) and **Buy low around your league** (others' players with a
+  real role who are due for more, with a button that opens the trade analyzer).
+
+If the expected-points file is unavailable, the tab still shows usage.
+
 ## Trades tab
 
 The page has a second tab, **Trades**, rebuilt with every list:
