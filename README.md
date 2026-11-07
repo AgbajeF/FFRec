@@ -2,6 +2,7 @@
 
 A phone-friendly page that always shows the best waiver and free-agent pickups for **your** Sleeper team.
 It rebuilds itself on a schedule with GitHub Actions and is hosted for free on GitHub Pages.
+For a plain-language description of every feature and a log of changes, see [PRODUCT_SPEC.md](PRODUCT_SPEC.md).
 There's no server, database or login.
 
 | When (Eastern) | What the page shows |
